@@ -1,0 +1,82 @@
+name: Daily Python example
+
+on:
+  schedule:
+    - cron: '17 7 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-example
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Generate and check today's example
+        shell: python
+        run: |
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          from pathlib import Path
+          import random
+          import math
+
+          today = datetime.now(ZoneInfo('Asia/Hebron')).date()
+          rng = random.Random(today.isoformat())
+          a, b = rng.randint(20, 5000), rng.randint(20, 5000)
+          values = sorted(rng.sample(range(1000), 20))
+          target = rng.choice(values + [-1])
+          cases = [
+              ('Euclidean GCD', 'Replace (a, b) with (b, a % b) until b is zero. Time: O(log(min(a, b))).',
+               'def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return abs(a)\n',
+               f'assert gcd({a}, {b}) == {math.gcd(a,b)}\nassert gcd(0, 12) == 12\nassert gcd(-18, 24) == 6\n'),
+              ('Binary search', 'Maintain a half-open interval [lo, hi) and discard half each step. Input must be sorted. Time: O(log n).',
+               'def search(values, target):\n    lo, hi = 0, len(values)\n    while lo < hi:\n        mid = (lo + hi) // 2\n        if values[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid\n    return lo if lo < len(values) and values[lo] == target else -1\n',
+               f'assert search({values!r}, {target}) == {values.index(target) if target in values else -1}\nassert search([], 5) == -1\nassert search([2, 2, 2], 2) == 0\n'),
+              ('Prime factorization', 'Try divisors up to the square root of the remaining number. Divide out every matching factor. Input must be at least 2. Time: O(sqrt(n)) worst case.',
+               'def factors(n):\n    result = []\n    divisor = 2\n    while divisor * divisor <= n:\n        while n % divisor == 0:\n            result.append(divisor)\n            n //= divisor\n        divisor += 1\n    if n > 1:\n        result.append(n)\n    return result\n',
+               f'import math\nresult = factors({a})\nassert math.prod(result) == {a}\nassert all(p >= 2 and all(p % d for d in range(2, math.isqrt(p) + 1)) for p in result)\nassert factors(13) == [13]\nassert factors(36) == [2, 2, 3, 3]\n'),
+          ]
+          title, explanation, solution, checks = cases[today.toordinal() % len(cases)]
+          folder = Path('examples') / str(today.year)
+          folder.mkdir(parents=True, exist_ok=True)
+          destination = folder / (today.isoformat() + '.py')
+          if destination.exists():
+              print('Already published today; nothing to change.')
+              raise SystemExit(0)
+          content = f'# {today}: {title}\n# Automatically generated practice example.\n# {explanation}\n\n{solution}\n{checks}'
+          compile(content, str(destination), 'exec')
+          exec(content, {})
+          destination.write_text(content, encoding='utf-8')
+          Path('README.md').write_text(
+              '# Daily Code\n\nAutomatically generated Python practice examples, published once daily by GitHub Actions.\n'
+              'These are automated examples, not a record of manual daily work.\n\n'
+              f'## Latest example\n\n**{today} - {title}**\n\n{explanation}\n\n'
+              f'[View and run the example]({destination.as_posix()})\n\n'
+              'Run any example with Python 3; its assertions check the worked solution.\n\n'
+              '## Schedule\n\nDaily at 07:17 UTC (09:17 in Hebron during standard time, 10:17 during daylight time). '
+              'GitHub may delay scheduled jobs. Re-running on the same date does not create another commit.\n\n'
+              'To stop: open Actions, select Daily Python example, and disable the workflow.\n',
+              encoding='utf-8')
+      - name: Commit daily example
+        shell: bash
+        run: |
+          set -euo pipefail
+          root_commit=$(git rev-list --max-parents=0 HEAD | head -1)
+          git config user.name "$(git show -s --format=%an "$root_commit")"
+          git config user.email "$(git show -s --format=%ae "$root_commit")"
+          git add examples README.md
+          if git diff --cached --quiet; then
+            echo 'No new example to commit.'
+            exit 0
+          fi
+          git commit -m "Add automated Python practice for $(TZ=Asia/Hebron date +%F)"
+          git push origin HEAD:main
