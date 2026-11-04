@@ -5,11 +5,11 @@ These are automated examples, not a record of manual daily work.
 
 ## Latest example
 
-**2026-11-03 - Euclidean GCD**
+**2026-11-04 - Binary search**
 
-Replace (a, b) with (b, a % b) until b is zero. Time: O(log(min(a, b))).
+Maintain a half-open interval [lo, hi) and discard half each step. Input must be sorted. Time: O(log n).
 
-[View and run the example](examples/2026/2026-11-03.py)
+[View and run the example](examples/2026/2026-11-04.py)
 
 Run any example with Python 3; its assertions check the worked solution.
 
