@@ -121,7 +121,9 @@ def build(root=ROOT, now=None, refresh=False):
     if not any(s['status'] == 'live' for s in sources.values()):
         raise RuntimeError('No live sources: preserving the previous dashboard. Retry later.')
     previous_issues = sorted((root / 'digests').rglob('????-??-??.md'), reverse=True) if (root / 'digests').exists() else []
-    files = render(day, sources, [p.relative_to(root).as_posix() for p in previous_issues])
+    plan_file = root / 'plans/latest.json'
+    plan = json.loads(plan_file.read_text(encoding='utf-8')) if plan_file.exists() else None
+    files = render(day, sources, [p.relative_to(root).as_posix() for p in previous_issues], plan=plan)
     files['data/latest.json'] = json.dumps({'date': day, 'sources': sources}, ensure_ascii=False, indent=2) + '\n'
     # Write the archive last: it acts as the completed-issue marker on retries.
     archive_path = archive.relative_to(root).as_posix()

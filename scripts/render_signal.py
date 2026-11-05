@@ -63,11 +63,25 @@ def banner(day, count):
 '''
 
 
-def render(day, sources, previous_issues):
+def render_plan(plan):
+    lines = ['## AI next move', '', f'**Reviewed {md(plan["date"])} by local Codex · Proposed, not implemented**', '',
+             f'### {md(plan["title"])}', '', f'**Project:** [{md(plan["project"])}]({repo_url(plan["project"])}) · **Estimated effort:** {md(plan["effort"])}', '',
+             md(plan['value']), '', '**Why this next:** ' + md(plan['why_now']), '']
+    if plan['carry_forward']:
+        lines += ['*Carried forward after reviewing the previous recommendation.*', '']
+    lines += ['**Implementation outline**', ''] + [f'{i}. {md(step)}' for i, step in enumerate(plan['steps'], 1)]
+    lines += ['', '**Acceptance checks**', ''] + [f'- [ ] {md(check)}' for check in plan['acceptance_checks']]
+    lines += ['', '**Evidence inspected**', ''] + [f'- [Source {i}]({safe_url(e["url"])}): {md(e["observation"])}' for i, e in enumerate(plan['evidence'], 1)]
+    lines += ['', '**Other ideas considered**', ''] + [f'- **{md(a["project"])} — {md(a["title"])}:** {md(a["reason_not_selected"])}' for a in plan['alternatives']]
+    return '\n'.join(lines) + '\n'
+
+
+def render(day, sources, previous_issues, plan=None):
     repos = sources['github']['data']
     projects = [r for r in repos if r['name'].lower() not in ('daily-code', OWNER.lower())]
     ordinal = date.fromisoformat(day).toordinal()
-    body = ['## Project spotlight', '']
+    body = [render_plan(plan), ''] if plan else []
+    body += ['## Project spotlight', '']
     if projects:
         p = projects[ordinal % len(projects)]
         body += [f'### [{md(p["name"])}]({repo_url(p["name"])})', '',
@@ -100,7 +114,7 @@ def render(day, sources, previous_issues):
     readme = f'''<p align="center"><img src="assets/banner.svg" alt="Daily Signal — Amir Al-Rashayda" width="960"></p>
 
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
-<p align="center"><a href="digests/README.md">Browse past issues</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/{OWNER}">My GitHub</a></p>
+<p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/{OWNER}">My GitHub</a></p>
 
 [Open today's full issue →]({archive_path})
 
@@ -126,6 +140,12 @@ python3 -m unittest discover -s tests -v
 ```
 
 Python 3.10+ and an IANA timezone database are required (included on GitHub's Ubuntu runner). Windows users may need `pip install tzdata`. No paid APIs or external API keys are required. The workflow uses its built-in token only for GitHub requests and pushing to this repository.
+
+### Local AI planner
+
+Local Codex reviews real project documentation and code, compares three possible tasks, and publishes one evidence-backed recommendation with an implementation outline and acceptance checks. It reads the planning journal before deciding, so an unfinished useful task can be carried forward instead of inventing a new one every day. Proposals are dated and never presented as completed work.
+
+The AI review runs daily at **10:00 Asia/Hebron** through a local Codex scheduled task. **This computer must be awake and Codex running.** It uses the existing Codex session, with no separate model API key. The GitHub-hosted daily brief continues independently. If the local planner misses a run, the last proposal keeps its original review date. See [PLANNER.md](PLANNER.md) for the procedure and publication format.
 
 **API references:** [GitHub](https://docs.github.com/en/rest/repos/repos), [Hacker News](https://github.com/HackerNews/API), [DEV / Forem](https://developers.forem.com/api).
 
