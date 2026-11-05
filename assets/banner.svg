@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+<title id="title">Daily Signal — Amir Al-Rashayda</title><desc id="desc">An automated daily developer briefing and project observatory.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0c1629"/><stop offset="1" stop-color="#102b36"/></linearGradient></defs>
+<rect width="960" height="280" rx="22" fill="url(#bg)"/>
+<path d="M600 200h40l20-60 28 90 30-135 28 105h100" fill="none" stroke="#5eead4" stroke-width="3" opacity=".65"/>
+<circle cx="900" cy="44" r="5" fill="#5eead4"/>
+<text x="40" y="48" fill="#5eead4" font-family="monospace" font-size="13" letter-spacing="3">AMIR AL-RASHAYDA / DEVELOPER OBSERVATORY</text>
+<text x="37" y="122" fill="#f1f5f9" font-family="sans-serif" font-size="62" font-weight="800">Daily Signal</text>
+<text x="40" y="161" fill="#94a3b8" font-family="sans-serif" font-size="18">Build. Learn. Find the next idea.</text>
+<text x="40" y="231" fill="#cbd5e1" font-family="monospace" font-size="15">2026-11-05   /   21 PUBLIC PROJECTS   /   3 API SOURCES</text>
+</svg>

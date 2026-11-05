@@ -1,75 +1,136 @@
-"""Publish a deterministic random daily batch of automated Python exercises."""
-from datetime import datetime
-from zoneinfo import ZoneInfo
+"""Collect public APIs and build Daily Signal; Python standard library only."""
+from concurrent.futures import ThreadPoolExecutor
+from datetime import datetime, timezone
+import json
+import os
 from pathlib import Path
-import random
-import math
-import subprocess
+import time
+from urllib.parse import urlsplit
+from urllib.request import Request, urlopen
+from render_signal import OWNER, safe_url, render
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
-def daily_count(today):
-    # Stable across retries, with a new random target each calendar day.
-    return random.Random('daily-count:' + today.isoformat()).randint(1, 12)
+def get_json(url):
+    headers = {'User-Agent': f'Daily-Signal/1.0 (https://github.com/{OWNER}/daily-code)', 'Accept': 'application/json'}
+    if urlsplit(url).hostname == 'api.github.com':
+        headers['Accept'] = 'application/vnd.github+json'
+        if os.environ.get('GITHUB_TOKEN'):
+            headers['Authorization'] = 'Bearer ' + os.environ['GITHUB_TOKEN']
+    if urlsplit(url).hostname == 'dev.to':
+        headers['Accept'] = 'application/vnd.forem.api-v1+json'
+    for attempt in range(3):
+        try:
+            with urlopen(Request(url, headers=headers), timeout=15) as response:
+                return json.load(response)
+        except Exception:
+            if attempt == 2:
+                raise
+            time.sleep(attempt + 1)
 
 
-def generate(today, index):
-    rng = random.Random(f'{today}:{index}')
-    a, b = rng.randint(20, 5000), rng.randint(20, 5000)
-    values = sorted(rng.sample(range(1000), 20))
-    target = rng.choice(values + [-1])
-    cases = [
-        ('Euclidean GCD', 'Replace (a, b) with (b, a % b) until b is zero. Time: O(log(min(a, b))).',
-         'def gcd(a, b):\n    while b:\n        a, b = b, a % b\n    return abs(a)\n',
-         f'assert gcd({a}, {b}) == {math.gcd(a,b)}\nassert gcd(0, 12) == 12\nassert gcd(-18, 24) == 6\n'),
-        ('Binary search', 'Maintain a half-open interval [lo, hi) and discard half each step. Input must be sorted. Time: O(log n).',
-         'def search(values, target):\n    lo, hi = 0, len(values)\n    while lo < hi:\n        mid = (lo + hi) // 2\n        if values[mid] < target:\n            lo = mid + 1\n        else:\n            hi = mid\n    return lo if lo < len(values) and values[lo] == target else -1\n',
-         f'assert search({values!r}, {target}) == {values.index(target) if target in values else -1}\nassert search([], 5) == -1\nassert search([2, 2, 2], 2) == 0\n'),
-        ('Prime factorization', 'Try divisors up to the square root of the remaining number. Divide out every matching factor. Input must be at least 2. Time: O(sqrt(n)) worst case.',
-         'def factors(n):\n    result = []\n    divisor = 2\n    while divisor * divisor <= n:\n        while n % divisor == 0:\n            result.append(divisor)\n            n //= divisor\n        divisor += 1\n    if n > 1:\n        result.append(n)\n    return result\n',
-         f'import math\nresult = factors({a})\nassert math.prod(result) == {a}\nassert all(p >= 2 and all(p % d for d in range(2, math.isqrt(p) + 1)) for p in result)\nassert factors(13) == [13]\nassert factors(36) == [2, 2, 3, 3]\n'),
-    ]
-    title, explanation, solution, checks = cases[(today.toordinal() + index - 1) % len(cases)]
-    folder = Path('examples') / str(today.year)
-    folder.mkdir(parents=True, exist_ok=True)
-    suffix = '' if index == 1 else f'-{index:02d}'
-    destination = folder / (today.isoformat() + suffix + '.py')
-    if destination.exists():
-        print('Already published today; nothing to change.')
-        return None
-    content = f'# {today}: {title}\n# Automatically generated practice example.\n# {explanation}\n\n{solution}\n{checks}'
-    compile(content, str(destination), 'exec')
-    exec(content, {})
-    destination.write_text(content, encoding='utf-8')
-    return destination, title, explanation
+def repositories():
+    items = []
+    for page in range(1, 11):
+        batch = get_json(f'https://api.github.com/users/{OWNER}/repos?per_page=100&type=owner&page={page}')
+        if not isinstance(batch, list):
+            raise ValueError('Unexpected GitHub list')
+        for item in batch:
+            if not isinstance(item, dict) or not item.get('name') or 'stargazers_count' not in item:
+                raise ValueError('Unexpected repository schema')
+            if item.get('private') or item.get('fork') or item.get('archived'):
+                continue
+            items.append({k: item.get(k) for k in ('name', 'description', 'language', 'stargazers_count', 'pushed_at')})
+        if len(batch) < 100:
+            break
+    if not items:
+        raise ValueError('No public source repositories')
+    return sorted(items, key=lambda x: x['name'].lower())
 
 
-def publish(today):
-    target = daily_count(today)
-    print(f'{today}: target is {target} example commits')
-    for index in range(1, target + 1):
-        result = generate(today, index)
-        if result is None:
-            continue
-        destination, title, explanation = result
-        Path('README.md').write_text(
-            '# Daily Code\n\n'
-            'Automatically generated Python practice examples. These are automated examples, '
-            'not a record of manual daily work.\n\n'
-            f'## Latest example\n\n**{today} - {title} ({index}/{target})**\n\n'
-            f'{explanation}\n\n[View and run the example]({destination.as_posix()})\n\n'
-            'Run any example with Python 3; its assertions check the worked solution.\n\n'
-            '## Schedule\n\nGitHub Actions runs daily at 07:17 UTC '
-            '(09:17 in Hebron during standard time, 10:17 during daylight time). '
-            'Each day has a random target of 1-12 example commits. '
-            'The target and examples stay the same on retries, preventing duplicates. '
-            'GitHub determines contribution-calendar colors and may delay scheduled jobs.\n\n'
-            'To stop: open Actions, select Daily Python example, and disable the workflow.\n',
-            encoding='utf-8')
-        subprocess.run(['git', 'add', str(destination), 'README.md'], check=True)
-        subprocess.run(['git', 'commit', '-m',
-                        f'Add automated Python practice for {today} ({index}/{target}): {title}'],
-                       check=True)
+def hacker_news():
+    ids = get_json('https://hacker-news.firebaseio.com/v0/topstories.json')
+    if not isinstance(ids, list) or not ids or not all(isinstance(i, int) for i in ids[:12]):
+        raise ValueError('Unexpected Hacker News index')
+    def load(item_id):
+        try:
+            item = get_json(f'https://hacker-news.firebaseio.com/v0/item/{item_id}.json')
+            if not isinstance(item, dict) or item.get('type') != 'story' or item.get('deleted') or item.get('dead'):
+                return None
+            if not item.get('title') or not isinstance(item.get('score'), int):
+                return None
+            discussion = f'https://news.ycombinator.com/item?id={item_id}'
+            return {'title': item['title'], 'url': safe_url(item.get('url')) or discussion,
+                    'discussion': discussion, 'score': item['score'], 'comments': item.get('descendants', 0)}
+        except Exception:
+            return None
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        stories = [item for item in pool.map(load, ids[:12]) if item][:5]
+    if not stories:
+        raise ValueError('No readable stories')
+    return stories
+
+
+def dev_articles():
+    items = get_json('https://dev.to/api/articles?tag=programming&top=1&per_page=5')
+    if not isinstance(items, list):
+        raise ValueError('Unexpected DEV list')
+    result = []
+    for item in items:
+        if isinstance(item, dict) and item.get('title') and safe_url(item.get('url')):
+            result.append({'title': item['title'], 'url': safe_url(item['url']), 'minutes': item.get('reading_time_minutes')})
+    if not result:
+        raise ValueError('No readable DEV articles')
+    return result
+
+
+def source_result(loader, previous, stamp):
+    try:
+        return {'status': 'live', 'fetched_at': stamp, 'data': loader()}
+    except Exception as error:
+        # Exception messages may contain request details; persist no raw errors.
+        print(f'Source unavailable ({type(error).__name__}); checking cache.')
+        if isinstance(previous, dict) and previous.get('data'):
+            return {'status': 'cached', 'fetched_at': previous.get('fetched_at', 'unknown'), 'data': previous['data']}
+        return {'status': 'unavailable', 'fetched_at': None, 'data': []}
+
+
+def write_text(path, content):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + '.tmp')
+    temporary.write_text(content, encoding='utf-8', newline='\n')
+    temporary.replace(path)
+
+
+def build(root=ROOT, now=None, refresh=False):
+    from zoneinfo import ZoneInfo
+    now = now or datetime.now(timezone.utc)
+    day = now.astimezone(ZoneInfo('Asia/Hebron')).date().isoformat()
+    archive = root / 'digests' / day[:4] / day[5:7] / f'{day}.md'
+    if archive.exists() and not refresh:
+        print(f'{day}: issue already exists; no duplicate refresh.')
+        return
+    cache = root / 'data/latest.json'
+    previous = json.loads(cache.read_text(encoding='utf-8')).get('sources', {}) if cache.exists() else {}
+    stamp = now.strftime('%Y-%m-%d %H:%M UTC')
+    loaders = {'github': repositories, 'hacker_news': hacker_news, 'dev': dev_articles}
+    with ThreadPoolExecutor(max_workers=3) as pool:
+        tasks = {name: pool.submit(source_result, loader, previous.get(name), stamp) for name, loader in loaders.items()}
+        sources = {name: task.result() for name, task in tasks.items()}
+    if not any(s['status'] == 'live' for s in sources.values()):
+        raise RuntimeError('No live sources: preserving the previous dashboard. Retry later.')
+    previous_issues = sorted((root / 'digests').rglob('????-??-??.md'), reverse=True) if (root / 'digests').exists() else []
+    files = render(day, sources, [p.relative_to(root).as_posix() for p in previous_issues])
+    files['data/latest.json'] = json.dumps({'date': day, 'sources': sources}, ensure_ascii=False, indent=2) + '\n'
+    # Write the archive last: it acts as the completed-issue marker on retries.
+    archive_path = archive.relative_to(root).as_posix()
+    for name, content in files.items():
+        if name != archive_path:
+            write_text(root / name, content)
+    write_text(archive, files[archive_path])
+    print(f'Built Daily Signal for {day}: ' + ', '.join(f'{k}={s["status"]}' for k, s in sources.items()))
 
 
 if __name__ == '__main__':
-    publish(datetime.now(ZoneInfo('Asia/Hebron')).date())
+    build(refresh=os.environ.get('DAILY_SIGNAL_REFRESH', 'false').lower() == 'true')

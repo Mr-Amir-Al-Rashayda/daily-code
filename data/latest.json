@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-05",
+  "sources": {
+    "github": {
+      "status": "live",
+      "fetched_at": "2026-11-05 00:00 UTC",
+      "data": [
+        {
+          "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
+          "description": null,
+          "language": null,
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T17:52:29Z"
+        },
+        {
+          "name": "accelerated-blahut-arimoto",
+          "description": "Discrete memoryless channel capacity estimation with Blahut–Arimoto, Python code, numerical validation, and the accompanying research paper.",
+          "language": "Python",
+          "stargazers_count": 0,
+          "pushed_at": "2026-10-02T19:56:00Z"
+        },
+        {
+          "name": "Asal-Backend-Tasks",
+          "description": null,
+          "language": "Python",
+          "stargazers_count": 0,
+          "pushed_at": "2025-11-23T14:54:18Z"
+        },
+        {
+          "name": "AVL-Tree-and-Hash-Table",
+          "description": null,
+          "language": "C",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T16:41:55Z"
+        },
+        {
+          "name": "cloud-backup-system",
+          "description": null,
+          "language": "C",
+          "stargazers_count": 0,
+          "pushed_at": "2026-09-06T19:30:11Z"
+        },
+        {
+          "name": "Course-Prerequisite-Planner-and-Campus-Route-Finder",
+          "description": null,
+          "language": "C",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T17:01:47Z"
+        },
+        {
+          "name": "CPU-Scheduler-Simulation",
+          "description": null,
+          "language": "Python",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T18:15:34Z"
+        },
+        {
+          "name": "daily-code",
+          "description": "Automatically generated daily Python exercises and worked examples.",
+          "language": "Python",
+          "stargazers_count": 0,
+          "pushed_at": "2026-11-04T23:52:34Z"
+        },
+        {
+          "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
+          "description": null,
+          "language": "Jupyter Notebook",
+          "stargazers_count": 0,
+          "pushed_at": "2025-08-13T20:41:06Z"
+        },
+        {
+          "name": "gsg_level_3_codes",
+          "description": null,
+          "language": "C",
+          "stargazers_count": 0,
+          "pushed_at": "2025-08-19T14:47:04Z"
+        },
+        {
+          "name": "hikayat-alquds",
+          "description": null,
+          "language": "TypeScript",
+          "stargazers_count": 0,
+          "pushed_at": "2026-09-22T16:36:38Z"
+        },
+        {
+          "name": "jass-nabd-emergency-orchestration",
+          "description": "MENA Ignite Phase 2 prototype: policy-checked, human-approved emergency responder connectivity using Nokia Network as Code / CAMARA APIs.",
+          "language": null,
+          "stargazers_count": 0,
+          "pushed_at": "2026-09-13T17:35:07Z"
+        },
+        {
+          "name": "Medical-Test-Management-System",
+          "description": null,
+          "language": "Python",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T17:20:21Z"
+        },
+        {
+          "name": "MIPS-Assembly-Project-Linear-Equations-Solver",
+          "description": null,
+          "language": "Assembly",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T18:18:44Z"
+        },
+        {
+          "name": "NoteSpace",
+          "description": "A secure multi-user Android note-taking app built with Java, Material 3, AndroidX, and SQLite.",
+          "language": "Java",
+          "stargazers_count": 0,
+          "pushed_at": "2026-09-30T19:23:06Z"
+        },
+        {
+          "name": "P2",
+          "description": null,
+          "language": null,
+          "stargazers_count": 0,
+          "pushed_at": "2026-03-10T14:14:12Z"
+        },
+        {
+          "name": "Palestinian-District-Data-Management",
+          "description": null,
+          "language": "C",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T16:16:32Z"
+        },
+        {
+          "name": "Parallel-Word-Frequency-Analysis",
+          "description": null,
+          "language": null,
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T17:45:29Z"
+        },
+        {
+          "name": "pruebaRep",
+          "description": null,
+          "language": "Java",
+          "stargazers_count": 1,
+          "pushed_at": "2026-03-18T15:29:17Z"
+        },
+        {
+          "name": "Shell-Medical-Test-Management-System",
+          "description": null,
+          "language": "Shell",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T17:13:16Z"
+        },
+        {
+          "name": "Text-Editor-with-Undo-Redo",
+          "description": null,
+          "language": "C",
+          "stargazers_count": 0,
+          "pushed_at": "2025-04-26T16:26:39Z"
+        }
+      ]
+    },
+    "hacker_news": {
+      "status": "live",
+      "fetched_at": "2026-11-05 00:00 UTC",
+      "data": [
+        {
+          "title": "Residential proxies detected on White House network",
+          "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
+          "discussion": "https://news.ycombinator.com/item?id=50371246",
+          "score": 505,
+          "comments": 148
+        },
+        {
+          "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+          "url": "https://www.ricursive.com/ripple",
+          "discussion": "https://news.ycombinator.com/item?id=50369925",
+          "score": 197,
+          "comments": 67
+        },
+        {
+          "title": "AI is forcing us to pay off 40 years of technical debt",
+          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+          "discussion": "https://news.ycombinator.com/item?id=50364336",
+          "score": 1014,
+          "comments": 612
+        },
+        {
+          "title": "Insects don't swarm at LED lights",
+          "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
+          "discussion": "https://news.ycombinator.com/item?id=50370610",
+          "score": 144,
+          "comments": 86
+        },
+        {
+          "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+          "url": "https://icode4.coffee/?p=1746",
+          "discussion": "https://news.ycombinator.com/item?id=50372164",
+          "score": 38,
+          "comments": 2
+        }
+      ]
+    },
+    "dev": {
+      "status": "live",
+      "fetched_at": "2026-11-05 00:00 UTC",
+      "data": [
+        {
+          "title": "After 5 years, Wasp 1.0 is coming: a 6-month plan for our full-stack JS framework",
+          "url": "https://dev.to/wasp/after-5-years-wasp-10-is-coming-a-6-month-plan-for-our-full-stack-js-framework-4hlf",
+          "minutes": 6
+        },
+        {
+          "title": "Your AI's code is \"almost right\". Here are 7 ways it fools you, and the 30-second check for each",
+          "url": "https://dev.to/wst2002rk/your-ais-code-is-almost-right-here-are-7-ways-it-fools-you-and-the-30-second-check-for-each-4i93",
+          "minutes": 5
+        },
+        {
+          "title": "AWS Interconnect - Last Mile Preview with Equinix: Simplifying and Securing Hybrid Cloud Connectivity",
+          "url": "https://dev.to/pklavc/aws-interconnect-last-mile-preview-with-equinix-simplifying-and-securing-hybrid-cloud-5bbj",
+          "minutes": 3
+        },
+        {
+          "title": "Part 4: The Alert That Could Never Fire",
+          "url": "https://dev.to/ndcodes/part-4-the-alert-that-could-never-fire-3434",
+          "minutes": 12
+        },
+        {
+          "title": "Why Predicting Winner Models Breaks AI Routers",
+          "url": "https://dev.to/reidmarlow/why-predicting-winner-models-breaks-ai-routers-23pg",
+          "minutes": 5
+        }
+      ]
+    }
+  }
+}

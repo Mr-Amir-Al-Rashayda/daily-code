@@ -1,31 +1,48 @@
-name: Daily Python example
+name: Daily Signal
 
 on:
   schedule:
     - cron: '17 7 * * *'
   workflow_dispatch:
+    inputs:
+      refresh:
+        description: Rebuild today's issue with fresh API data
+        type: boolean
+        default: false
 
 permissions:
   contents: write
 
 concurrency:
-  group: daily-example
+  group: daily-signal
   cancel-in-progress: false
 
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Publish daily batch
+      - name: Check data handling and rendering
+        run: python3 -m unittest discover -s tests -v
+      - name: Collect APIs and build daily briefing
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAILY_SIGNAL_REFRESH: ${{ inputs.refresh || 'false' }}
+        run: python3 scripts/publish_daily.py
+      - name: Publish changed dashboard
         shell: bash
         run: |
           set -euo pipefail
           root_commit=$(git rev-list --max-parents=0 HEAD | head -1)
           git config user.name "$(git show -s --format=%an "$root_commit")"
           git config user.email "$(git show -s --format=%ae "$root_commit")"
-          python3 scripts/publish_daily.py
+          git add README.md assets data digests
+          if git diff --cached --quiet; then
+            echo 'No new daily issue to publish.'
+            exit 0
+          fi
+          git commit -m "Publish Daily Signal for $(TZ=Asia/Hebron date +%F)"
           git push origin HEAD:main
