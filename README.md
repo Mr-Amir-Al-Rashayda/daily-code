@@ -21,11 +21,11 @@ Add a one-line description to [-6-bit-Signed-Unsigned-Comparator-in-Verilog](htt
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Residential proxies detected on White House network](https://layer3intel.com/blog/residential-proxies-white-house-network) — 505 points · [148 comments](https://news.ycombinator.com/item?id=50371246)
-- [Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding](https://www.ricursive.com/ripple) — 197 points · [67 comments](https://news.ycombinator.com/item?id=50369925)
-- [AI is forcing us to pay off 40 years of technical debt](https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability) — 1014 points · [612 comments](https://news.ycombinator.com/item?id=50364336)
+- [Residential proxies detected on White House network](https://layer3intel.com/blog/residential-proxies-white-house-network) — 507 points · [148 comments](https://news.ycombinator.com/item?id=50371246)
+- [Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding](https://www.ricursive.com/ripple) — 199 points · [67 comments](https://news.ycombinator.com/item?id=50369925)
+- [AI is forcing us to pay off 40 years of technical debt](https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability) — 1015 points · [612 comments](https://news.ycombinator.com/item?id=50364336)
 - [Insects don't swarm at LED lights](https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/) — 144 points · [86 comments](https://news.ycombinator.com/item?id=50370610)
-- [Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements](https://icode4.coffee/?p=1746) — 38 points · [2 comments](https://news.ycombinator.com/item?id=50372164)
+- [Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements](https://icode4.coffee/?p=1746) — 39 points · [2 comments](https://news.ycombinator.com/item?id=50372164)
 
 ## Read & learn
 
@@ -45,9 +45,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-05 00:00 UTC |
-| hacker_news | live | 2026-11-05 00:00 UTC |
-| dev | live | 2026-11-05 00:00 UTC |
+| github | live | 2026-11-05 00:02 UTC |
+| hacker_news | live | 2026-11-05 00:02 UTC |
+| dev | live | 2026-11-05 00:02 UTC |
 
 ## How it works
 
