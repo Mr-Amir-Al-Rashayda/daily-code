@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-05 00:02 UTC",
+      "fetched_at": "2026-11-06 15:02 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: an API-powered developer briefing, project spotlight, language dashboard, and daily reading archive.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-05T00:01:49Z"
+          "pushed_at": "2026-11-05T00:16:37Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -156,73 +156,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-05 00:02 UTC",
+      "fetched_at": "2026-11-06 15:02 UTC",
       "data": [
         {
-          "title": "Residential proxies detected on White House network",
-          "url": "https://layer3intel.com/blog/residential-proxies-white-house-network",
-          "discussion": "https://news.ycombinator.com/item?id=50371246",
-          "score": 507,
-          "comments": 148
+          "title": "Gemini Omni 1.2 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "discussion": "https://news.ycombinator.com/item?id=50392118",
+          "score": 92,
+          "comments": 57
         },
         {
-          "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
-          "url": "https://www.ricursive.com/ripple",
-          "discussion": "https://news.ycombinator.com/item?id=50369925",
-          "score": 199,
-          "comments": 67
+          "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
+          "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
+          "discussion": "https://news.ycombinator.com/item?id=50390124",
+          "score": 407,
+          "comments": 240
         },
         {
-          "title": "AI is forcing us to pay off 40 years of technical debt",
-          "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
-          "discussion": "https://news.ycombinator.com/item?id=50364336",
-          "score": 1015,
-          "comments": 612
+          "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+          "url": "https://github.com/ppmpreetham/BUI",
+          "discussion": "https://news.ycombinator.com/item?id=50389333",
+          "score": 427,
+          "comments": 178
         },
         {
-          "title": "Insects don't swarm at LED lights",
-          "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/",
-          "discussion": "https://news.ycombinator.com/item?id=50370610",
-          "score": 144,
-          "comments": 86
+          "title": "Claude Code sends your email address to websites",
+          "url": "https://github.com/anthropics/claude-code/issues/107757",
+          "discussion": "https://news.ycombinator.com/item?id=50385272",
+          "score": 1372,
+          "comments": 433
         },
         {
-          "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
-          "url": "https://icode4.coffee/?p=1746",
-          "discussion": "https://news.ycombinator.com/item?id=50372164",
-          "score": 39,
-          "comments": 2
+          "title": "sshole",
+          "url": "https://sshhole.com",
+          "discussion": "https://news.ycombinator.com/item?id=50378228",
+          "score": 2827,
+          "comments": 688
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-05 00:02 UTC",
+      "fetched_at": "2026-11-06 15:02 UTC",
       "data": [
         {
-          "title": "After 5 years, Wasp 1.0 is coming: a 6-month plan for our full-stack JS framework",
-          "url": "https://dev.to/wasp/after-5-years-wasp-10-is-coming-a-6-month-plan-for-our-full-stack-js-framework-4hlf",
-          "minutes": 6
+          "title": "An AI Testing Presentation Became the Final Push for Organizational Change at My Company",
+          "url": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+          "minutes": 13
         },
         {
-          "title": "Your AI's code is \"almost right\". Here are 7 ways it fools you, and the 30-second check for each",
-          "url": "https://dev.to/wst2002rk/your-ais-code-is-almost-right-here-are-7-ways-it-fools-you-and-the-30-second-check-for-each-4i93",
-          "minutes": 5
+          "title": "Plan Stamping, for Software",
+          "url": "https://dev.to/kenwalger/plan-stamping-for-software-4ein",
+          "minutes": 7
         },
         {
-          "title": "AWS Interconnect - Last Mile Preview with Equinix: Simplifying and Securing Hybrid Cloud Connectivity",
-          "url": "https://dev.to/pklavc/aws-interconnect-last-mile-preview-with-equinix-simplifying-and-securing-hybrid-cloud-5bbj",
+          "title": "One Markdown File Can Hijack Your AI Coding Agent: The Hidden Cost of Blindly Trusting AGENTS.md",
+          "url": "https://dev.to/johnnylemonny/one-markdown-file-can-hijack-your-ai-coding-agent-the-hidden-cost-of-blindly-trusting-agentsmd-167n",
+          "minutes": 8
+        },
+        {
+          "title": "Trocar de provedor não deveria ser uma dor de cabeça",
+          "url": "https://dev.to/he4rt/trocar-de-provedor-nao-deveria-ser-uma-dor-de-cabeca-50ee",
+          "minutes": 7
+        },
+        {
+          "title": "When an AI Agent Says 'Done,' What Exactly Has Finished?",
+          "url": "https://dev.to/suirindo/when-an-ai-agent-says-done-what-exactly-has-finished-5h3p",
           "minutes": 3
-        },
-        {
-          "title": "Part 4: The Alert That Could Never Fire",
-          "url": "https://dev.to/ndcodes/part-4-the-alert-that-could-never-fire-3434",
-          "minutes": 12
-        },
-        {
-          "title": "Why Predicting Winner Models Breaks AI Routers",
-          "url": "https://dev.to/reidmarlow/why-predicting-winner-models-breaks-ai-routers-23pg",
-          "minutes": 5
         }
       ]
     }
