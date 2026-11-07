@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-06.md)
+[Open today's full issue →](digests/2026/11/2026-11-07.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Let students and researchers supply a channel matrix and receive a reproducible 
 
 ## Project spotlight
 
-### [CPU-Scheduler-Simulation](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation)
+### [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-)
 
 Explore the source and documentation for this project.
 
-**Stack:** Python · **Stars:** 0
+**Stack:** Jupyter Notebook · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Asal-Backend-Tasks](https://github.com/Mr-Amir-Al-Rashayda/Asal-Backend-Tasks). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [AVL-Tree-and-Hash-Table](https://github.com/Mr-Amir-Al-Rashayda/AVL-Tree-and-Hash-Table). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Gemini Omni 1.2 Flash](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/) — 92 points · [57 comments](https://news.ycombinator.com/item?id=50392118)
-- [Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105) — 407 points · [240 comments](https://news.ycombinator.com/item?id=50390124)
-- [Blender's UI and Runtime: Much Faster Than GPUI](https://github.com/ppmpreetham/BUI) — 427 points · [178 comments](https://news.ycombinator.com/item?id=50389333)
-- [Claude Code sends your email address to websites](https://github.com/anthropics/claude-code/issues/107757) — 1372 points · [433 comments](https://news.ycombinator.com/item?id=50385272)
-- [sshole](https://sshhole.com) — 2827 points · [688 comments](https://news.ycombinator.com/item?id=50378228)
+- [Need for Speed Underground 2 online in the browser](https://nfsu2.xyz/) — 198 points · [56 comments](https://news.ycombinator.com/item?id=50403052)
+- [Libghostty 1.0](https://mitchellh.com/writing/libghostty-1-0) — 790 points · [125 comments](https://news.ycombinator.com/item?id=50399933)
+- [Running a law firm on Free software](https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/) — 38 points · [4 comments](https://news.ycombinator.com/item?id=50403066)
+- [Upload Your RAM](https://uploadyourram.org) — 190 points · [143 comments](https://news.ycombinator.com/item?id=50403214)
+- [Every Mac comes with an (undocumented) family member classifier](https://8rank.ai/game/apple-intelligence-personal-knowledge-graph) — 237 points · [118 comments](https://news.ycombinator.com/item?id=50403097)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [An AI Testing Presentation Became the Final Push for Organizational Change at My Company](https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag) · 13 min read
-- [Plan Stamping, for Software](https://dev.to/kenwalger/plan-stamping-for-software-4ein) · 7 min read
-- [One Markdown File Can Hijack Your AI Coding Agent: The Hidden Cost of Blindly Trusting AGENTS.md](https://dev.to/johnnylemonny/one-markdown-file-can-hijack-your-ai-coding-agent-the-hidden-cost-of-blindly-trusting-agentsmd-167n) · 8 min read
-- [Trocar de provedor não deveria ser uma dor de cabeça](https://dev.to/he4rt/trocar-de-provedor-nao-deveria-ser-uma-dor-de-cabeca-50ee) · 7 min read
-- [When an AI Agent Says 'Done,' What Exactly Has Finished?](https://dev.to/suirindo/when-an-ai-agent-says-done-what-exactly-has-finished-5h3p) · 3 min read
+- [Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code](https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl) · 29 min read
+- [Your Code Can Be Perfect. Your Product Can Still Fail.](https://dev.to/holasoymalva/your-code-can-be-perfect-your-product-can-still-fail-gag) · 6 min read
+- [Claude Code Diff Verification in 2026: How to Make Your Agent Assert Its Own Edits Did Not Break the Build](https://dev.to/jsmanifest/claude-code-diff-verification-in-2026-how-to-make-your-agent-assert-its-own-edits-did-not-break-bci) · 18 min read
+- [Stop Swapping Models: Optimizing the Agent Environment Cuts 70% More Cost](https://dev.to/reidmarlow/stop-swapping-models-optimizing-the-agent-environment-cuts-70-more-cost-36cf) · 5 min read
+- [Floating Versions Are an Open Door: Pin Your Actions and Dependencies](https://dev.to/gioboa/floating-versions-are-an-open-door-pin-your-actions-and-dependencies-4jlh) · 5 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-06 15:02 UTC |
-| hacker_news | live | 2026-11-06 15:02 UTC |
-| dev | live | 2026-11-06 15:02 UTC |
+| github | live | 2026-11-07 14:00 UTC |
+| hacker_news | live | 2026-11-07 14:00 UTC |
+| dev | live | 2026-11-07 14:00 UTC |
 
 ## How it works
 

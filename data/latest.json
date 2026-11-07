@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-06 15:02 UTC",
+      "fetched_at": "2026-11-07 14:00 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: an API-powered developer briefing, project spotlight, language dashboard, and daily reading archive.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-05T00:16:37Z"
+          "pushed_at": "2026-11-06T21:04:43Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -156,73 +156,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-06 15:02 UTC",
+      "fetched_at": "2026-11-07 14:00 UTC",
       "data": [
         {
-          "title": "Gemini Omni 1.2 Flash",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-          "discussion": "https://news.ycombinator.com/item?id=50392118",
-          "score": 92,
-          "comments": 57
+          "title": "Need for Speed Underground 2 online in the browser",
+          "url": "https://nfsu2.xyz/",
+          "discussion": "https://news.ycombinator.com/item?id=50403052",
+          "score": 198,
+          "comments": 56
         },
         {
-          "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
-          "url": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-          "discussion": "https://news.ycombinator.com/item?id=50390124",
-          "score": 407,
-          "comments": 240
+          "title": "Libghostty 1.0",
+          "url": "https://mitchellh.com/writing/libghostty-1-0",
+          "discussion": "https://news.ycombinator.com/item?id=50399933",
+          "score": 790,
+          "comments": 125
         },
         {
-          "title": "Blender's UI and Runtime: Much Faster Than GPUI",
-          "url": "https://github.com/ppmpreetham/BUI",
-          "discussion": "https://news.ycombinator.com/item?id=50389333",
-          "score": 427,
-          "comments": 178
+          "title": "Running a law firm on Free software",
+          "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
+          "discussion": "https://news.ycombinator.com/item?id=50403066",
+          "score": 38,
+          "comments": 4
         },
         {
-          "title": "Claude Code sends your email address to websites",
-          "url": "https://github.com/anthropics/claude-code/issues/107757",
-          "discussion": "https://news.ycombinator.com/item?id=50385272",
-          "score": 1372,
-          "comments": 433
+          "title": "Upload Your RAM",
+          "url": "https://uploadyourram.org",
+          "discussion": "https://news.ycombinator.com/item?id=50403214",
+          "score": 190,
+          "comments": 143
         },
         {
-          "title": "sshole",
-          "url": "https://sshhole.com",
-          "discussion": "https://news.ycombinator.com/item?id=50378228",
-          "score": 2827,
-          "comments": 688
+          "title": "Every Mac comes with an (undocumented) family member classifier",
+          "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+          "discussion": "https://news.ycombinator.com/item?id=50403097",
+          "score": 237,
+          "comments": 118
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-06 15:02 UTC",
+      "fetched_at": "2026-11-07 14:00 UTC",
       "data": [
         {
-          "title": "An AI Testing Presentation Became the Final Push for Organizational Change at My Company",
-          "url": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
-          "minutes": 13
+          "title": "Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code",
+          "url": "https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl",
+          "minutes": 29
         },
         {
-          "title": "Plan Stamping, for Software",
-          "url": "https://dev.to/kenwalger/plan-stamping-for-software-4ein",
-          "minutes": 7
+          "title": "Your Code Can Be Perfect. Your Product Can Still Fail.",
+          "url": "https://dev.to/holasoymalva/your-code-can-be-perfect-your-product-can-still-fail-gag",
+          "minutes": 6
         },
         {
-          "title": "One Markdown File Can Hijack Your AI Coding Agent: The Hidden Cost of Blindly Trusting AGENTS.md",
-          "url": "https://dev.to/johnnylemonny/one-markdown-file-can-hijack-your-ai-coding-agent-the-hidden-cost-of-blindly-trusting-agentsmd-167n",
-          "minutes": 8
+          "title": "Claude Code Diff Verification in 2026: How to Make Your Agent Assert Its Own Edits Did Not Break the Build",
+          "url": "https://dev.to/jsmanifest/claude-code-diff-verification-in-2026-how-to-make-your-agent-assert-its-own-edits-did-not-break-bci",
+          "minutes": 18
         },
         {
-          "title": "Trocar de provedor não deveria ser uma dor de cabeça",
-          "url": "https://dev.to/he4rt/trocar-de-provedor-nao-deveria-ser-uma-dor-de-cabeca-50ee",
-          "minutes": 7
+          "title": "Stop Swapping Models: Optimizing the Agent Environment Cuts 70% More Cost",
+          "url": "https://dev.to/reidmarlow/stop-swapping-models-optimizing-the-agent-environment-cuts-70-more-cost-36cf",
+          "minutes": 5
         },
         {
-          "title": "When an AI Agent Says 'Done,' What Exactly Has Finished?",
-          "url": "https://dev.to/suirindo/when-an-ai-agent-says-done-what-exactly-has-finished-5h3p",
-          "minutes": 3
+          "title": "Floating Versions Are an Open Door: Pin Your Actions and Dependencies",
+          "url": "https://dev.to/gioboa/floating-versions-are-an-open-door-pin-your-actions-and-dependencies-4jlh",
+          "minutes": 5
         }
       ]
     }
