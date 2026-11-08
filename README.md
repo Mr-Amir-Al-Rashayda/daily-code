@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-07.md)
+[Open today's full issue →](digests/2026/11/2026-11-08.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Let students and researchers supply a channel matrix and receive a reproducible 
 
 ## Project spotlight
 
-### [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-)
+### [gsg\_level\_3\_codes](https://github.com/Mr-Amir-Al-Rashayda/gsg_level_3_codes)
 
 Explore the source and documentation for this project.
 
-**Stack:** Jupyter Notebook · **Stars:** 0
+**Stack:** C · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [AVL-Tree-and-Hash-Table](https://github.com/Mr-Amir-Al-Rashayda/AVL-Tree-and-Hash-Table). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [cloud-backup-system](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Need for Speed Underground 2 online in the browser](https://nfsu2.xyz/) — 198 points · [56 comments](https://news.ycombinator.com/item?id=50403052)
-- [Libghostty 1.0](https://mitchellh.com/writing/libghostty-1-0) — 790 points · [125 comments](https://news.ycombinator.com/item?id=50399933)
-- [Running a law firm on Free software](https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/) — 38 points · [4 comments](https://news.ycombinator.com/item?id=50403066)
-- [Upload Your RAM](https://uploadyourram.org) — 190 points · [143 comments](https://news.ycombinator.com/item?id=50403214)
-- [Every Mac comes with an (undocumented) family member classifier](https://8rank.ai/game/apple-intelligence-personal-knowledge-graph) — 237 points · [118 comments](https://news.ycombinator.com/item?id=50403097)
+- [Person of Interest](https://krthr.co/person-of-interest/) — 149 points · [90 comments](https://news.ycombinator.com/item?id=50412318)
+- [Petered (what happens after the Peter Principle)](https://aworkinglibrary.com/writing/petered) — 83 points · [40 comments](https://news.ycombinator.com/item?id=50412152)
+- [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip) — 63 points · [27 comments](https://news.ycombinator.com/item?id=50411961)
+- [JIT bitmap text rendering for microcontrollers](https://linebender.org/blog/jit-bitmap-text/) — 40 points · [6 comments](https://news.ycombinator.com/item?id=50412072)
+- [Goodbye Claude, Hello Pi](https://caleb.software/posts/claude-to-pi.html) — 443 points · [282 comments](https://news.ycombinator.com/item?id=50410107)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code](https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl) · 29 min read
+- [Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)](https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1) · 5 min read
 - [Your Code Can Be Perfect. Your Product Can Still Fail.](https://dev.to/holasoymalva/your-code-can-be-perfect-your-product-can-still-fail-gag) · 6 min read
 - [Claude Code Diff Verification in 2026: How to Make Your Agent Assert Its Own Edits Did Not Break the Build](https://dev.to/jsmanifest/claude-code-diff-verification-in-2026-how-to-make-your-agent-assert-its-own-edits-did-not-break-bci) · 18 min read
-- [Stop Swapping Models: Optimizing the Agent Environment Cuts 70% More Cost](https://dev.to/reidmarlow/stop-swapping-models-optimizing-the-agent-environment-cuts-70-more-cost-36cf) · 5 min read
-- [Floating Versions Are an Open Door: Pin Your Actions and Dependencies](https://dev.to/gioboa/floating-versions-are-an-open-door-pin-your-actions-and-dependencies-4jlh) · 5 min read
+- [Stop Shipping Search Boxes With a Race Condition](https://dev.to/parsajiravand/stop-shipping-search-boxes-with-a-race-condition-169g) · 6 min read
+- [Running an NVIDIA DLSS Neural-Rendering Pipeline on Apple Silicon](https://dev.to/devops_sudo/running-an-nvidia-dlss-neural-rendering-pipeline-on-apple-silicon-23fi) · 5 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-07 14:00 UTC |
-| hacker_news | live | 2026-11-07 14:00 UTC |
-| dev | live | 2026-11-07 14:00 UTC |
+| github | live | 2026-11-08 14:17 UTC |
+| hacker_news | live | 2026-11-08 14:17 UTC |
+| dev | live | 2026-11-08 14:17 UTC |
 
 ## How it works
 

@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-07 14:00 UTC",
+      "fetched_at": "2026-11-08 14:17 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: an API-powered developer briefing, project spotlight, language dashboard, and daily reading archive.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-06T21:04:43Z"
+          "pushed_at": "2026-11-08T12:41:56Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -156,53 +156,53 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-07 14:00 UTC",
+      "fetched_at": "2026-11-08 14:17 UTC",
       "data": [
         {
-          "title": "Need for Speed Underground 2 online in the browser",
-          "url": "https://nfsu2.xyz/",
-          "discussion": "https://news.ycombinator.com/item?id=50403052",
-          "score": 198,
-          "comments": 56
+          "title": "Person of Interest",
+          "url": "https://krthr.co/person-of-interest/",
+          "discussion": "https://news.ycombinator.com/item?id=50412318",
+          "score": 149,
+          "comments": 90
         },
         {
-          "title": "Libghostty 1.0",
-          "url": "https://mitchellh.com/writing/libghostty-1-0",
-          "discussion": "https://news.ycombinator.com/item?id=50399933",
-          "score": 790,
-          "comments": 125
+          "title": "Petered (what happens after the Peter Principle)",
+          "url": "https://aworkinglibrary.com/writing/petered",
+          "discussion": "https://news.ycombinator.com/item?id=50412152",
+          "score": 83,
+          "comments": 40
         },
         {
-          "title": "Running a law firm on Free software",
-          "url": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
-          "discussion": "https://news.ycombinator.com/item?id=50403066",
-          "score": 38,
-          "comments": 4
+          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+          "url": "https://github.com/synchopate/llama-modchip",
+          "discussion": "https://news.ycombinator.com/item?id=50411961",
+          "score": 63,
+          "comments": 27
         },
         {
-          "title": "Upload Your RAM",
-          "url": "https://uploadyourram.org",
-          "discussion": "https://news.ycombinator.com/item?id=50403214",
-          "score": 190,
-          "comments": 143
+          "title": "JIT bitmap text rendering for microcontrollers",
+          "url": "https://linebender.org/blog/jit-bitmap-text/",
+          "discussion": "https://news.ycombinator.com/item?id=50412072",
+          "score": 40,
+          "comments": 6
         },
         {
-          "title": "Every Mac comes with an (undocumented) family member classifier",
-          "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-          "discussion": "https://news.ycombinator.com/item?id=50403097",
-          "score": 237,
-          "comments": 118
+          "title": "Goodbye Claude, Hello Pi",
+          "url": "https://caleb.software/posts/claude-to-pi.html",
+          "discussion": "https://news.ycombinator.com/item?id=50410107",
+          "score": 443,
+          "comments": 282
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-07 14:00 UTC",
+      "fetched_at": "2026-11-08 14:17 UTC",
       "data": [
         {
-          "title": "Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code",
-          "url": "https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl",
-          "minutes": 29
+          "title": "Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)",
+          "url": "https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1",
+          "minutes": 5
         },
         {
           "title": "Your Code Can Be Perfect. Your Product Can Still Fail.",
@@ -215,13 +215,13 @@
           "minutes": 18
         },
         {
-          "title": "Stop Swapping Models: Optimizing the Agent Environment Cuts 70% More Cost",
-          "url": "https://dev.to/reidmarlow/stop-swapping-models-optimizing-the-agent-environment-cuts-70-more-cost-36cf",
-          "minutes": 5
+          "title": "Stop Shipping Search Boxes With a Race Condition",
+          "url": "https://dev.to/parsajiravand/stop-shipping-search-boxes-with-a-race-condition-169g",
+          "minutes": 6
         },
         {
-          "title": "Floating Versions Are an Open Door: Pin Your Actions and Dependencies",
-          "url": "https://dev.to/gioboa/floating-versions-are-an-open-door-pin-your-actions-and-dependencies-4jlh",
+          "title": "Running an NVIDIA DLSS Neural-Rendering Pipeline on Apple Silicon",
+          "url": "https://dev.to/devops_sudo/running-an-nvidia-dlss-neural-rendering-pipeline-on-apple-silicon-23fi",
           "minutes": 5
         }
       ]
