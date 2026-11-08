@@ -7,7 +7,7 @@
 
 ## AI next move
 
-**Reviewed 2026-11-06 by local Codex · Proposed, not implemented**
+**Reviewed 2026-11-08 by local Codex · Proposed, not implemented**
 
 ### Build a safe custom-channel capacity runner
 
@@ -15,7 +15,7 @@
 
 Let students and researchers supply a channel matrix and receive a reproducible capacity report instead of editing experiment source. This creates a useful foundation for a future visual Channel Lab while keeping the first change small.
 
-**Why this next:** Carried forward after reviewing three candidates again today. The channel-capacity repository is still at revision 7de3a92172110be2615dc561abd009f13610f7de, and a fresh read of ba\_core.py confirms matrix shape is unpacked without explicit validity checks. The proposed wrapper is not shown as implemented in that inspected revision. NoteSpace sharing code was also inspected today: NoteShareUtils builds an email intent, making portable export a plausible alternative, but adding it requires broader Android integration review and device verification. Daily Signal still collects unranked top stories, yet no evidence of preferred reading topics or ranking effectiveness has emerged. The validated runner remains the most concrete small improvement; fresh source inspection supports keeping it rather than inventing another task. No solver or Android tests were run during this proposal review.
+**Why this next:** Carried forward after another source review of three candidates on November 8. The channel-capacity project remains at revision 7de3a92172110be2615dc561abd009f13610f7de; its current README still warns about assumed-valid inputs, and ba\_core.py still unpacks matrix shape and starts probability calculations without explicit validity checks. There is no implementation of the proposed wrapper in that inspected solver code or documented entry points. NoteSpace remains at its previous revision and its inspected sharing helper still builds email intents; export needs broader Android integration review. Daily Signal still selects unranked community links. The validated runner remains the best bounded, evidence-backed next task. Retaining it avoids pretending earlier proposals were completed or producing filler for novelty. This run reviewed sources only; numerical and Android suites were not executed.
 
 *Carried forward after reviewing the previous recommendation.*
 
@@ -35,11 +35,11 @@ Let students and researchers supply a channel matrix and receive a reproducible 
 
 **Evidence inspected**
 
-- [Source 1](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py): Re-read on November 6: blahut\_arimoto converts W to a NumPy array, unpacks W.shape, and computes distributions without explicit matrix validity checks. The repository head remains unchanged since the prior review.
-- [Source 2](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md): The current README still documents valid-channel assumptions, natural-log gap units, analytic examples, and the need to inspect gap when the iteration limit is reached.
-- [Source 3](https://github.com/Mr-Amir-Al-Rashayda/NoteSpace/blob/93fd4608182e68168c514ea42c8d7f8510a17287/app/src/main/java/edu/birzeit/project/utils/NoteShareUtils.java): The inspected sendByEmail method formats content, optional tags, and date into an ACTION\_SENDTO mailto intent. This helper does not itself write an export file; this is not an audit of every app feature.
+- [Source 1](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py): Re-read on November 8: blahut\_arimoto converts W to a NumPy array, unpacks W.shape, and computes distributions without explicit matrix validity checks. The project head is unchanged since the previous planning reviews.
+- [Source 2](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md): Re-read on November 8: the README still documents assumed-valid channel matrices, gap units in nats, analytic examples, and the iteration-limit caveat. Its documented runnable examples require Python source entry points rather than a custom-matrix CLI.
+- [Source 3](https://github.com/Mr-Amir-Al-Rashayda/NoteSpace/blob/93fd4608182e68168c514ea42c8d7f8510a17287/app/src/main/java/edu/birzeit/project/utils/NoteShareUtils.java): Re-read on November 8 at the unchanged NoteSpace revision: sendByEmail formats the note and builds an ACTION\_SENDTO mailto intent. This helper itself does not write an export file; the rest of the app was not audited for all export paths.
 - [Source 4](https://github.com/Mr-Amir-Al-Rashayda/NoteSpace/blob/93fd4608182e68168c514ea42c8d7f8510a17287/README.md): The README describes Android notes, owner-scoped SQLite storage, and email sharing, with unit, lint, and instrumentation verification commands.
-- [Source 5](https://github.com/Mr-Amir-Al-Rashayda/daily-code/blob/59f6efbae0d0a55981a7a475f82014bb94aa9fa0/scripts/publish_daily.py): The current inspected collector still takes the first readable top Hacker News stories and DEV programming articles without project-language or interest scoring.
+- [Source 5](https://github.com/Mr-Amir-Al-Rashayda/daily-code/blob/9f1451edd4c3af187159ff784f56bfa7748f1bf0/scripts/publish_daily.py): Re-read on November 8: hacker\_news still takes the first five readable stories from the top-story list, and dev\_articles takes programming-tag articles. Neither collector ranks by the owner's project languages or reading preferences.
 
 **Other ideas considered**
 

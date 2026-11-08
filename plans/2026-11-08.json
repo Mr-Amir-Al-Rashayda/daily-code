@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-08",
+  "generated_by": "Codex local",
+  "status": "proposed",
+  "project": "accelerated-blahut-arimoto",
+  "title": "Build a safe custom-channel capacity runner",
+  "value": "Let students and researchers supply a channel matrix and receive a reproducible capacity report instead of editing experiment source. This creates a useful foundation for a future visual Channel Lab while keeping the first change small.",
+  "why_now": "Carried forward after another source review of three candidates on November 8. The channel-capacity project remains at revision 7de3a92172110be2615dc561abd009f13610f7de; its current README still warns about assumed-valid inputs, and ba_core.py still unpacks matrix shape and starts probability calculations without explicit validity checks. There is no implementation of the proposed wrapper in that inspected solver code or documented entry points. NoteSpace remains at its previous revision and its inspected sharing helper still builds email intents; export needs broader Android integration review. Daily Signal still selects unranked community links. The validated runner remains the best bounded, evidence-backed next task. Retaining it avoids pretending earlier proposals were completed or producing filler for novelty. This run reviewed sources only; numerical and Android suites were not executed.",
+  "effort": "About 2-4 hours, depending on the existing test setup",
+  "carry_forward": true,
+  "steps": [
+    "Add a small wrapper that accepts a JSON matrix and validates nonempty two-dimensional shape, finite nonnegative entries, and row sums close to one. Reject invalid matrices with clear messages instead of silently normalizing them.",
+    "Expose standard and relaxed solver modes through one command, with explicit tolerance and iteration limits. Label tolerance and gap in nats and capacity in bits per channel use.",
+    "Write a machine-readable result containing the selected method, capacity, final gap, iterations, and a convergence flag based on the requested tolerance. Do not claim acceleration from symmetric examples or a successful run when the final gap exceeds tolerance.",
+    "Add documented BSC and asymmetric-channel JSON examples and focused tests. Preserve the existing research code and clearly identify the new wrapper as a usability extension."
+  ],
+  "acceptance_checks": [
+    "Malformed, empty, ragged, negative, nonfinite, and nonnormalized matrices fail with a concise actionable message.",
+    "A BSC with crossover probability 0.1 reports approximately 0.531004 bits per channel use within a documented numerical tolerance.",
+    "A deliberately small iteration limit produces an explicit unconverged result when its final gap exceeds the requested tolerance.",
+    "The existing numerical validation suite still passes, and README commands reproduce a result without editing Python source."
+  ],
+  "evidence": [
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py",
+      "observation": "Re-read on November 8: blahut_arimoto converts W to a NumPy array, unpacks W.shape, and computes distributions without explicit matrix validity checks. The project head is unchanged since the previous planning reviews."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md",
+      "observation": "Re-read on November 8: the README still documents assumed-valid channel matrices, gap units in nats, analytic examples, and the iteration-limit caveat. Its documented runnable examples require Python source entry points rather than a custom-matrix CLI."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/NoteSpace/blob/93fd4608182e68168c514ea42c8d7f8510a17287/app/src/main/java/edu/birzeit/project/utils/NoteShareUtils.java",
+      "observation": "Re-read on November 8 at the unchanged NoteSpace revision: sendByEmail formats the note and builds an ACTION_SENDTO mailto intent. This helper itself does not write an export file; the rest of the app was not audited for all export paths."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/NoteSpace/blob/93fd4608182e68168c514ea42c8d7f8510a17287/README.md",
+      "observation": "The README describes Android notes, owner-scoped SQLite storage, and email sharing, with unit, lint, and instrumentation verification commands."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/daily-code/blob/9f1451edd4c3af187159ff784f56bfa7748f1bf0/scripts/publish_daily.py",
+      "observation": "Re-read on November 8: hacker_news still takes the first five readable stories from the top-story list, and dev_articles takes programming-tag articles. Neither collector ranks by the owner's project languages or reading preferences."
+    }
+  ],
+  "alternatives": [
+    {
+      "project": "NoteSpace",
+      "title": "Add portable note export after an Android integration review",
+      "reason_not_selected": "The email-sharing helper is now verified, but an export feature still requires checking note ownership, storage integration, and the rest of the app before implementation, followed by Android verification. The numerical wrapper has a smaller confirmed scope today."
+    },
+    {
+      "project": "daily-code",
+      "title": "Rank reading links by project languages and interests",
+      "reason_not_selected": "Fresh source inspection confirms that stories are not ranked by personal interests. This remains useful, but topic preferences and a way to assess ranking quality are still unspecified; the capacity-runner gap is better evidenced and directly testable."
+    }
+  ]
+}
