@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-08.md)
+[Open today's full issue →](digests/2026/11/2026-11-09.md)
 
 ## AI next move
 
@@ -49,25 +49,25 @@ Let students and researchers supply a channel matrix and receive a reproducible 
 
 ## Project spotlight
 
-### [gsg\_level\_3\_codes](https://github.com/Mr-Amir-Al-Rashayda/gsg_level_3_codes)
+### [hikayat-alquds](https://github.com/Mr-Amir-Al-Rashayda/hikayat-alquds)
 
 Explore the source and documentation for this project.
 
-**Stack:** C · **Stars:** 0
+**Stack:** TypeScript · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [cloud-backup-system](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Course-Prerequisite-Planner-and-Campus-Route-Finder](https://github.com/Mr-Amir-Al-Rashayda/Course-Prerequisite-Planner-and-Campus-Route-Finder). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Person of Interest](https://krthr.co/person-of-interest/) — 149 points · [90 comments](https://news.ycombinator.com/item?id=50412318)
-- [Petered (what happens after the Peter Principle)](https://aworkinglibrary.com/writing/petered) — 83 points · [40 comments](https://news.ycombinator.com/item?id=50412152)
-- [Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU](https://github.com/synchopate/llama-modchip) — 63 points · [27 comments](https://news.ycombinator.com/item?id=50411961)
-- [JIT bitmap text rendering for microcontrollers](https://linebender.org/blog/jit-bitmap-text/) — 40 points · [6 comments](https://news.ycombinator.com/item?id=50412072)
-- [Goodbye Claude, Hello Pi](https://caleb.software/posts/claude-to-pi.html) — 443 points · [282 comments](https://news.ycombinator.com/item?id=50410107)
+- [Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system](https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy) — 110 points · [74 comments](https://news.ycombinator.com/item?id=50427362)
+- [Fold Epic Paper Airplanes](https://www.foldableflight.com) — 497 points · [84 comments](https://news.ycombinator.com/item?id=50424581)
+- [The same H100 costs $2.69 or $12.29 an hour depending where you rent it](https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing) — 75 points · [42 comments](https://news.ycombinator.com/item?id=50427085)
+- [Magenta solar panels may be agrivoltaics' cleverest trick yet](https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/) — 69 points · [15 comments](https://news.ycombinator.com/item?id=50426175)
+- [I Saw Your HN Comment](https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/) — 264 points · [193 comments](https://news.ycombinator.com/item?id=50426582)
 
 ## Read & learn
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-08 14:17 UTC |
-| hacker_news | live | 2026-11-08 14:17 UTC |
-| dev | live | 2026-11-08 14:17 UTC |
+| github | live | 2026-11-09 17:28 UTC |
+| hacker_news | live | 2026-11-09 17:28 UTC |
+| dev | live | 2026-11-09 17:28 UTC |
 
 ## How it works
 

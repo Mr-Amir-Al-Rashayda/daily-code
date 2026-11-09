@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-08 14:17 UTC",
+      "fetched_at": "2026-11-09 17:28 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: an API-powered developer briefing, project spotlight, language dashboard, and daily reading archive.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-08T12:41:56Z"
+          "pushed_at": "2026-11-08T14:17:40Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -156,48 +156,48 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-08 14:17 UTC",
+      "fetched_at": "2026-11-09 17:28 UTC",
       "data": [
         {
-          "title": "Person of Interest",
-          "url": "https://krthr.co/person-of-interest/",
-          "discussion": "https://news.ycombinator.com/item?id=50412318",
-          "score": 149,
-          "comments": 90
+          "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+          "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+          "discussion": "https://news.ycombinator.com/item?id=50427362",
+          "score": 110,
+          "comments": 74
         },
         {
-          "title": "Petered (what happens after the Peter Principle)",
-          "url": "https://aworkinglibrary.com/writing/petered",
-          "discussion": "https://news.ycombinator.com/item?id=50412152",
-          "score": 83,
-          "comments": 40
+          "title": "Fold Epic Paper Airplanes",
+          "url": "https://www.foldableflight.com",
+          "discussion": "https://news.ycombinator.com/item?id=50424581",
+          "score": 497,
+          "comments": 84
         },
         {
-          "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
-          "url": "https://github.com/synchopate/llama-modchip",
-          "discussion": "https://news.ycombinator.com/item?id=50411961",
-          "score": 63,
-          "comments": 27
+          "title": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
+          "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+          "discussion": "https://news.ycombinator.com/item?id=50427085",
+          "score": 75,
+          "comments": 42
         },
         {
-          "title": "JIT bitmap text rendering for microcontrollers",
-          "url": "https://linebender.org/blog/jit-bitmap-text/",
-          "discussion": "https://news.ycombinator.com/item?id=50412072",
-          "score": 40,
-          "comments": 6
+          "title": "Magenta solar panels may be agrivoltaics' cleverest trick yet",
+          "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
+          "discussion": "https://news.ycombinator.com/item?id=50426175",
+          "score": 69,
+          "comments": 15
         },
         {
-          "title": "Goodbye Claude, Hello Pi",
-          "url": "https://caleb.software/posts/claude-to-pi.html",
-          "discussion": "https://news.ycombinator.com/item?id=50410107",
-          "score": 443,
-          "comments": 282
+          "title": "I Saw Your HN Comment",
+          "url": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
+          "discussion": "https://news.ycombinator.com/item?id=50426582",
+          "score": 264,
+          "comments": 193
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-08 14:17 UTC",
+      "fetched_at": "2026-11-09 17:28 UTC",
       "data": [
         {
           "title": "Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)",
