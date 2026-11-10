@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-09 17:28 UTC",
+      "fetched_at": "2026-11-10 15:35 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: an API-powered developer briefing, project spotlight, language dashboard, and daily reading archive.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-08T14:17:40Z"
+          "pushed_at": "2026-11-09T21:01:21Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -156,73 +156,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-09 17:28 UTC",
+      "fetched_at": "2026-11-10 15:35 UTC",
       "data": [
         {
-          "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
-          "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
-          "discussion": "https://news.ycombinator.com/item?id=50427362",
-          "score": 110,
-          "comments": 74
+          "title": "AlphaProof Code",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "discussion": "https://news.ycombinator.com/item?id=50439193",
+          "score": 316,
+          "comments": 113
         },
         {
-          "title": "Fold Epic Paper Airplanes",
-          "url": "https://www.foldableflight.com",
-          "discussion": "https://news.ycombinator.com/item?id=50424581",
-          "score": 497,
-          "comments": 84
+          "title": "NetBSD 11 desktop on a Raspberry Pi 4",
+          "url": "https://neongd.com/articles/netbsd11-rpi4.gmi",
+          "discussion": "https://news.ycombinator.com/item?id=50412554",
+          "score": 56,
+          "comments": 11
         },
         {
-          "title": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
-          "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
-          "discussion": "https://news.ycombinator.com/item?id=50427085",
-          "score": 75,
-          "comments": 42
+          "title": "Amazon saves millions by replacing Sonnet 4.6 with Strands Decider",
+          "url": "https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/",
+          "discussion": "https://news.ycombinator.com/item?id=50436640",
+          "score": 515,
+          "comments": 185
         },
         {
-          "title": "Magenta solar panels may be agrivoltaics' cleverest trick yet",
-          "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/",
-          "discussion": "https://news.ycombinator.com/item?id=50426175",
-          "score": 69,
-          "comments": 15
+          "title": "The Hardest Tarball?",
+          "url": "https://stoppels.ch/2026/11/07/the-hardest-tarball.html",
+          "discussion": "https://news.ycombinator.com/item?id=50441338",
+          "score": 20,
+          "comments": 1
         },
         {
-          "title": "I Saw Your HN Comment",
-          "url": "https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/",
-          "discussion": "https://news.ycombinator.com/item?id=50426582",
-          "score": 264,
-          "comments": 193
+          "title": "Claude Fable 5.2 and Mythos 5.2",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+          "discussion": "https://news.ycombinator.com/item?id=50429068",
+          "score": 770,
+          "comments": 909
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-09 17:28 UTC",
+      "fetched_at": "2026-11-10 15:35 UTC",
       "data": [
         {
-          "title": "Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)",
-          "url": "https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1",
-          "minutes": 5
-        },
-        {
-          "title": "Your Code Can Be Perfect. Your Product Can Still Fail.",
-          "url": "https://dev.to/holasoymalva/your-code-can-be-perfect-your-product-can-still-fail-gag",
+          "title": "The C Trilogy: How Dennis Ritchie, Bjarne Stroustrup, and Anders Hejlsberg Built the Modern World 🏛️",
+          "url": "https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp",
           "minutes": 6
         },
         {
-          "title": "Claude Code Diff Verification in 2026: How to Make Your Agent Assert Its Own Edits Did Not Break the Build",
-          "url": "https://dev.to/jsmanifest/claude-code-diff-verification-in-2026-how-to-make-your-agent-assert-its-own-edits-did-not-break-bci",
-          "minutes": 18
+          "title": "I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features",
+          "url": "https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22",
+          "minutes": 16
         },
         {
-          "title": "Stop Shipping Search Boxes With a Race Condition",
-          "url": "https://dev.to/parsajiravand/stop-shipping-search-boxes-with-a-race-condition-169g",
-          "minutes": 6
+          "title": "Developers Swear AI Makes Them Faster. A Stopwatch Says They're 19% Slower",
+          "url": "https://dev.to/rudratosh/developers-swear-ai-makes-them-faster-a-stopwatch-says-theyre-19-slower-45cm",
+          "minutes": 10
         },
         {
-          "title": "Running an NVIDIA DLSS Neural-Rendering Pipeline on Apple Silicon",
-          "url": "https://dev.to/devops_sudo/running-an-nvidia-dlss-neural-rendering-pipeline-on-apple-silicon-23fi",
-          "minutes": 5
+          "title": "Your Agent's Config Is a Dependency With No Lockfile",
+          "url": "https://dev.to/debashish_ghosal/your-agents-config-is-a-dependency-with-no-lockfile-4j6l",
+          "minutes": 3
+        },
+        {
+          "title": "Dev log # 30 Plumbing the depths of libp2p: A multi-language maintenance week",
+          "url": "https://dev.to/yashksaini/dev-log-30-plumbing-the-depths-of-libp2p-a-multi-language-maintenance-week-356b",
+          "minutes": 4
         }
       ]
     }

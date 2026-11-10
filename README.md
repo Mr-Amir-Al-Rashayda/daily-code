@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-09.md)
+[Open today's full issue →](digests/2026/11/2026-11-10.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Let students and researchers supply a channel matrix and receive a reproducible 
 
 ## Project spotlight
 
-### [hikayat-alquds](https://github.com/Mr-Amir-Al-Rashayda/hikayat-alquds)
+### [jass-nabd-emergency-orchestration](https://github.com/Mr-Amir-Al-Rashayda/jass-nabd-emergency-orchestration)
 
-Explore the source and documentation for this project.
+MENA Ignite Phase 2 prototype: policy-checked, human-approved emergency responder connectivity using Nokia Network as Code / CAMARA APIs.
 
-**Stack:** TypeScript · **Stars:** 0
+**Stack:** Not reported · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Course-Prerequisite-Planner-and-Campus-Route-Finder](https://github.com/Mr-Amir-Al-Rashayda/Course-Prerequisite-Planner-and-Campus-Route-Finder). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [CPU-Scheduler-Simulation](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system](https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy) — 110 points · [74 comments](https://news.ycombinator.com/item?id=50427362)
-- [Fold Epic Paper Airplanes](https://www.foldableflight.com) — 497 points · [84 comments](https://news.ycombinator.com/item?id=50424581)
-- [The same H100 costs $2.69 or $12.29 an hour depending where you rent it](https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing) — 75 points · [42 comments](https://news.ycombinator.com/item?id=50427085)
-- [Magenta solar panels may be agrivoltaics' cleverest trick yet](https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/) — 69 points · [15 comments](https://news.ycombinator.com/item?id=50426175)
-- [I Saw Your HN Comment](https://joshstrange.com/2026/11/09/i-saw-your-hn-comment/) — 264 points · [193 comments](https://news.ycombinator.com/item?id=50426582)
+- [AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/) — 316 points · [113 comments](https://news.ycombinator.com/item?id=50439193)
+- [NetBSD 11 desktop on a Raspberry Pi 4](https://neongd.com/articles/netbsd11-rpi4.gmi) — 56 points · [11 comments](https://news.ycombinator.com/item?id=50412554)
+- [Amazon saves millions by replacing Sonnet 4.6 with Strands Decider](https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/) — 515 points · [185 comments](https://news.ycombinator.com/item?id=50436640)
+- [The Hardest Tarball?](https://stoppels.ch/2026/11/07/the-hardest-tarball.html) — 20 points · [1 comments](https://news.ycombinator.com/item?id=50441338)
+- [Claude Fable 5.2 and Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) — 770 points · [909 comments](https://news.ycombinator.com/item?id=50429068)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Ubuntu Core Desktop Is Coming in 27.04 - And It Kills sudo apt (But Maybe That Is the Point?)](https://dev.to/taqui/ubuntu-core-desktop-is-coming-in-2704-and-it-kills-sudo-apt-but-maybe-that-is-the-point-3dp1) · 5 min read
-- [Your Code Can Be Perfect. Your Product Can Still Fail.](https://dev.to/holasoymalva/your-code-can-be-perfect-your-product-can-still-fail-gag) · 6 min read
-- [Claude Code Diff Verification in 2026: How to Make Your Agent Assert Its Own Edits Did Not Break the Build](https://dev.to/jsmanifest/claude-code-diff-verification-in-2026-how-to-make-your-agent-assert-its-own-edits-did-not-break-bci) · 18 min read
-- [Stop Shipping Search Boxes With a Race Condition](https://dev.to/parsajiravand/stop-shipping-search-boxes-with-a-race-condition-169g) · 6 min read
-- [Running an NVIDIA DLSS Neural-Rendering Pipeline on Apple Silicon](https://dev.to/devops_sudo/running-an-nvidia-dlss-neural-rendering-pipeline-on-apple-silicon-23fi) · 5 min read
+- [The C Trilogy: How Dennis Ritchie, Bjarne Stroustrup, and Anders Hejlsberg Built the Modern World 🏛️](https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp) · 6 min read
+- [I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features](https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22) · 16 min read
+- [Developers Swear AI Makes Them Faster. A Stopwatch Says They're 19% Slower](https://dev.to/rudratosh/developers-swear-ai-makes-them-faster-a-stopwatch-says-theyre-19-slower-45cm) · 10 min read
+- [Your Agent's Config Is a Dependency With No Lockfile](https://dev.to/debashish_ghosal/your-agents-config-is-a-dependency-with-no-lockfile-4j6l) · 3 min read
+- [Dev log # 30 Plumbing the depths of libp2p: A multi-language maintenance week](https://dev.to/yashksaini/dev-log-30-plumbing-the-depths-of-libp2p-a-multi-language-maintenance-week-356b) · 4 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-09 17:28 UTC |
-| hacker_news | live | 2026-11-09 17:28 UTC |
-| dev | live | 2026-11-09 17:28 UTC |
+| github | live | 2026-11-10 15:35 UTC |
+| hacker_news | live | 2026-11-10 15:35 UTC |
+| dev | live | 2026-11-10 15:35 UTC |
 
 ## How it works
 
