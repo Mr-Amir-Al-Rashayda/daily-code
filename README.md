@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-10.md)
+[Open today's full issue →](digests/2026/11/2026-11-11.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Let students and researchers supply a channel matrix and receive a reproducible 
 
 ## Project spotlight
 
-### [jass-nabd-emergency-orchestration](https://github.com/Mr-Amir-Al-Rashayda/jass-nabd-emergency-orchestration)
+### [Medical-Test-Management-System](https://github.com/Mr-Amir-Al-Rashayda/Medical-Test-Management-System)
 
-MENA Ignite Phase 2 prototype: policy-checked, human-approved emergency responder connectivity using Nokia Network as Code / CAMARA APIs.
+Explore the source and documentation for this project.
 
-**Stack:** Not reported · **Stars:** 0
+**Stack:** Python · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [CPU-Scheduler-Simulation](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [AlphaProof Code](https://deepmind.google/blog/introducing-alphaproof-code/) — 316 points · [113 comments](https://news.ycombinator.com/item?id=50439193)
-- [NetBSD 11 desktop on a Raspberry Pi 4](https://neongd.com/articles/netbsd11-rpi4.gmi) — 56 points · [11 comments](https://news.ycombinator.com/item?id=50412554)
-- [Amazon saves millions by replacing Sonnet 4.6 with Strands Decider](https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/) — 515 points · [185 comments](https://news.ycombinator.com/item?id=50436640)
-- [The Hardest Tarball?](https://stoppels.ch/2026/11/07/the-hardest-tarball.html) — 20 points · [1 comments](https://news.ycombinator.com/item?id=50441338)
-- [Claude Fable 5.2 and Mythos 5.2](https://www.anthropic.com/claude-fable-and-mythos-5-2) — 770 points · [909 comments](https://news.ycombinator.com/item?id=50429068)
+- [Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h](https://pietromiotti.com/latest/maya-site/?maya) — 442 points · [159 comments](https://news.ycombinator.com/item?id=50452455)
+- [Can a Linear Program Do Weight-Space Programming?](https://nathan.rs/posts/weight-space-lp/) — 98 points · [15 comments](https://news.ycombinator.com/item?id=50452655)
+- [Pharo in the Browser with WebAssembly](https://massimo-nocentini.github.io/pharo-vm/world.html) — 26 points · [5 comments](https://news.ycombinator.com/item?id=50453763)
+- [Atuin Threads: All your agent sessions on every machine](https://blog.atuin.sh/threads-agent-sessions/) — 17 points · [10 comments](https://news.ycombinator.com/item?id=50453637)
+- [Using voltage glitching to unleash the A100 in my mining card](https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/) — 104 points · [43 comments](https://news.ycombinator.com/item?id=50451903)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [The C Trilogy: How Dennis Ritchie, Bjarne Stroustrup, and Anders Hejlsberg Built the Modern World 🏛️](https://dev.to/devengers/the-c-trilogy-how-dennis-ritchie-bjarne-stroustrup-and-anders-hejlsberg-built-the-modern-world-1onp) · 6 min read
-- [I Used gp-grid to Build a React Food Festival App with Advanced Data Grid Features](https://dev.to/hadil/i-used-gp-grid-to-build-a-react-food-festival-app-with-advanced-data-grid-features-3l22) · 16 min read
-- [Developers Swear AI Makes Them Faster. A Stopwatch Says They're 19% Slower](https://dev.to/rudratosh/developers-swear-ai-makes-them-faster-a-stopwatch-says-theyre-19-slower-45cm) · 10 min read
-- [Your Agent's Config Is a Dependency With No Lockfile](https://dev.to/debashish_ghosal/your-agents-config-is-a-dependency-with-no-lockfile-4j6l) · 3 min read
-- [Dev log # 30 Plumbing the depths of libp2p: A multi-language maintenance week](https://dev.to/yashksaini/dev-log-30-plumbing-the-depths-of-libp2p-a-multi-language-maintenance-week-356b) · 4 min read
+- [We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.](https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma) · 12 min read
+- [AI can write code, but the magic of a first project is unmatched! 🗽](https://dev.to/necoz/ai-can-write-code-but-the-magic-of-a-first-project-is-unmatched-30c4) · 1 min read
+- [You're Spawning Goroutines Wrong: The Visual Architecture Guide That Fixes Go Concurrency Forever](https://dev.to/smtahosin/youre-spawning-goroutines-wrong-the-visual-architecture-guide-that-fixes-go-concurrency-forever-1he0) · 12 min read
+- [Part 5: The Control That Protected an Empty Bucket](https://dev.to/ndcodes/part-5-the-control-that-protected-an-empty-bucket-e1j) · 12 min read
+- [DuckDB 2.0's quack server lets ten writers share one file for under 2ms a query](https://dev.to/alexgeorgiev17/duckdb-20s-quack-server-lets-ten-writers-share-one-file-for-under-2ms-a-query-1ged) · 7 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-10 15:35 UTC |
-| hacker_news | live | 2026-11-10 15:35 UTC |
-| dev | live | 2026-11-10 15:35 UTC |
+| github | live | 2026-11-11 15:10 UTC |
+| hacker_news | live | 2026-11-11 15:10 UTC |
+| dev | live | 2026-11-11 15:10 UTC |
 
 ## How it works
 
