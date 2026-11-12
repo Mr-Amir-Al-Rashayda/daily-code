@@ -64,9 +64,14 @@ def banner(day, count):
 
 
 def render_plan(plan):
-    lines = ['## AI next move', '', f'**Reviewed {md(plan["date"])} by local Codex · Proposed, not implemented**', '',
+    review = f'Reviewed {md(plan["date"])} by local Codex'
+    if 'reviewed_on' in plan:
+        review = f'Catch-up for {md(plan["date"])} · Reviewed {md(plan["reviewed_on"])} by local Codex'
+    lines = ['## AI next move', '', f'**{review} · Proposed, not implemented**', '',
              f'### {md(plan["title"])}', '', f'**Project:** [{md(plan["project"])}]({repo_url(plan["project"])}) · **Estimated effort:** {md(plan["effort"])}', '',
              md(plan['value']), '', '**Why this next:** ' + md(plan['why_now']), '']
+    if 'reviewed_on' in plan:
+        lines += ['*Written retrospectively using evidence inspected on the review date; this is not a record of a review performed on the missed date.*', '']
     if plan['carry_forward']:
         lines += ['*Carried forward after reviewing the previous recommendation.*', '']
     lines += ['**Implementation outline**', ''] + [f'{i}. {md(step)}' for i, step in enumerate(plan['steps'], 1)]

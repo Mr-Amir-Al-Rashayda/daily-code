@@ -37,3 +37,7 @@ All fields are required. `project` and alternative projects must occur in `data/
 ```
 
 The local schedule needs this computer awake and Codex running. The GitHub Actions brief still runs when the computer is off. To stop AI planning, disable the local scheduled task in Codex; to stop the daily API digest, disable Daily Signal in GitHub Actions.
+
+## Catching up missed dates
+
+When the user requests a catch-up, use the missed date as `date` and add `reviewed_on` containing the actual current review date. Inspect sources now and explicitly distinguish present-day observations from historical facts. Publish with `python scripts/publish_plan.py --input PATH --catch-up`. This mode accepts only past dates with today's review date, preserves existing entries, and writes only the dated plan and journal index. It leaves the latest recommendation, dashboard, and API digests unchanged. Commits use the actual publication time; no Git timestamps are rewritten. Ordinary scheduled runs keep using current-date publication without this flag.

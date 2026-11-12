@@ -3,7 +3,7 @@
 This script never calls a model or executes suggested steps. Codex supplies JSON.
 """
 import argparse
-from datetime import datetime
+from datetime import date, datetime
 import json
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -15,11 +15,19 @@ FIELDS = {'date', 'generated_by', 'status', 'project', 'title', 'value', 'why_no
           'effort', 'carry_forward', 'steps', 'acceptance_checks', 'evidence', 'alternatives'}
 
 
-def validate(plan, projects, today=None):
+def validate(plan, projects, today=None, catch_up=False):
     today = today or datetime.now(ZoneInfo('Asia/Hebron')).date().isoformat()
-    if not isinstance(plan, dict) or set(plan) != FIELDS:
+    fields = FIELDS | {'reviewed_on'} if catch_up else FIELDS
+    if not isinstance(plan, dict) or set(plan) != fields:
         raise ValueError('Plan fields must match the documented schema exactly')
-    if plan['date'] != today or plan['generated_by'] != 'Codex local' or plan['status'] != 'proposed':
+    planned_date = date.fromisoformat(plan['date'])
+    current_date = date.fromisoformat(today)
+    if catch_up:
+        if planned_date >= current_date or plan['reviewed_on'] != today:
+            raise ValueError('Catch-up entries need a past date and the actual current review date')
+    elif planned_date != current_date:
+        raise ValueError('Normal publication requires the current date')
+    if plan['generated_by'] != 'Codex local' or plan['status'] != 'proposed':
         raise ValueError('Expected a current, proposed plan produced by local Codex')
     if plan['project'] not in projects or not isinstance(plan['carry_forward'], bool):
         raise ValueError('Unknown project or invalid carry_forward flag')
@@ -59,24 +67,32 @@ def validate(plan, projects, today=None):
     return plan
 
 
-def publish(plan, root=ROOT, today=None):
+def publish(plan, root=ROOT, today=None, catch_up=False):
     snapshot = json.loads((root / 'data/latest.json').read_text(encoding='utf-8'))
     projects = {r['name'] for r in snapshot['sources']['github']['data']}
-    validate(plan, projects, today)
+    validate(plan, projects, today, catch_up=catch_up)
     target = root / 'plans' / (plan['date'] + '.json')
     if target.exists():
         if json.loads(target.read_text(encoding='utf-8')) != plan:
             raise ValueError('A plan is already published for this date; preserve its history')
         print('This plan is already published; no duplicate changes.')
         return
-    issues = [p.relative_to(root).as_posix() for p in (root / 'digests').rglob('????-??-??.md')]
-    files = render(snapshot['date'], snapshot['sources'], issues, plan=plan)
+    files = {}
+    if not catch_up:
+        issues = [p.relative_to(root).as_posix() for p in (root / 'digests').rglob('????-??-??.md')]
+        files = render(snapshot['date'], snapshot['sources'], issues, plan=plan)
     text = json.dumps(plan, ensure_ascii=False, indent=2) + '\n'
     files[f'plans/{plan["date"]}.json'] = text
     files[f'plans/{plan["date"]}.md'] = render_plan(plan)
-    files['plans/latest.json'] = text
+    if not catch_up:
+        files['plans/latest.json'] = text
     dates = sorted({p.stem for p in (root / 'plans').glob('????-??-??.json')} | {plan['date']}, reverse=True)
-    files['plans/README.md'] = '# AI planning journal\n\nPlans are proposals, not records of completed work.\n\n' + '\n'.join(f'- [{day}]({day}.md)' for day in dates) + '\n'
+    entries = []
+    for day in dates:
+        entry = plan if day == plan['date'] else json.loads((root / 'plans' / (day + '.json')).read_text(encoding='utf-8'))
+        suffix = f' — catch-up reviewed {entry["reviewed_on"]}' if 'reviewed_on' in entry else ''
+        entries.append(f'- [{day}]({day}.md){suffix}')
+    files['plans/README.md'] = '# AI planning journal\n\nPlans are proposals, not records of completed work. Catch-up entries show their actual review date.\n\n' + '\n'.join(entries) + '\n'
     for path, content in files.items():
         write_text(root / path, content)
     print(f'Published AI proposal: {plan["title"]}')
@@ -85,5 +101,6 @@ def publish(plan, root=ROOT, today=None):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--input', type=Path, required=True, help='JSON plan drafted by local Codex')
+    parser.add_argument('--catch-up', action='store_true', help='Archive a missed past date, requiring reviewed_on=today; keep the current dashboard unchanged')
     args = parser.parse_args()
-    publish(json.loads(args.input.read_text(encoding='utf-8-sig')))
+    publish(json.loads(args.input.read_text(encoding='utf-8-sig')), catch_up=args.catch_up)

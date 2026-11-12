@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-11",
+  "generated_by": "Codex local",
+  "status": "proposed",
+  "project": "accelerated-blahut-arimoto",
+  "title": "Channel runner reporting: expose reproducible convergence results",
+  "value": "A second work packet for the same unimplemented runner: let a user supply a JSON matrix and obtain a machine-readable, unit-labelled result with an honest convergence status.",
+  "why_now": "Catch-up entry requested and written on November 12 for the missed 2026-11-11 review. This develops a bounded part of the channel-runner proposal that was already outstanding on November 9; it does not assert that a review or implementation occurred on the missed date. The evidence was inspected on November 12, including the documented input assumptions and iteration-limit caveat. Both work packets are proposals, with reporting dependent on validation. The current November 12 backup-transport recommendation remains the latest priority; these retrospective entries do not replace it. No numerical solver or scheduler tests were executed for this retrospective source review.",
+  "effort": "About 1-2 hours after input validation is available",
+  "carry_forward": true,
+  "steps": [
+    "Build a small CLI accepting a JSON matrix, solver mode, explicit tolerance and iteration limit. Reuse the proposed validation helper; treat that helper as a prerequisite, not completed work.",
+    "Emit a documented JSON result with capacity in bits/channel use, final gap in nats, iteration count, selected settings and a convergence flag calculated from the requested tolerance.",
+    "Define an explicit unconverged outcome when the iteration budget is exhausted. Do not pair a last-updated distribution with bounds calculated for the previous distribution: reevaluate consistently or omit that distribution from the report.",
+    "Document one BSC and one asymmetric input and add CLI checks for JSON parsing, reproducible numerical output and an intentionally exhausted iteration limit."
+  ],
+  "acceptance_checks": [
+    "A documented command produces parseable JSON without editing Python source or opening a plotting window.",
+    "BSC crossover 0.1 reports capacity near 0.531004 bits/channel use within a stated numerical tolerance.",
+    "A deliberately insufficient iteration budget reports unconverged instead of an unconditional success.",
+    "Reported distributions and bounds describe the same evaluated state, or the output explicitly excludes the distribution."
+  ],
+  "evidence": [
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py",
+      "observation": "Source inspected on November 12: the solver converts and unpacks the matrix without explicit validation, returns the final bound gap and iteration count, and can update p after the last evaluated bounds."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md",
+      "observation": "Documentation inspected on November 12 states valid-matrix assumptions, capacity in bits, tolerance in nats, and the iteration-limit consistency caveat."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py",
+      "observation": "Entry point inspected on November 12 hardcodes Processes.txt and calls generate_gantt_chart after calculating metrics. A configurable headless runner is an alternative usability task."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c",
+      "observation": "Source inspected on November 12 contains an explicitly marked network_send_all stub that ignores its arguments and returns success; this supports the current November 12 priority."
+    }
+  ],
+  "alternatives": [
+    {
+      "project": "CPU-Scheduler-Simulation",
+      "title": "Add configurable input and headless scheduler output",
+      "reason_not_selected": "A credible alternative, but these catch-up packets develop the previously outstanding channel-runner proposal rather than retroactively claiming a new historical decision."
+    },
+    {
+      "project": "cloud-backup-system",
+      "title": "Implement and test the backup send-all primitive",
+      "reason_not_selected": "This is the current November 12 recommendation and remains the live priority. It is referenced here for context, not displaced by an archived catch-up packet."
+    }
+  ],
+  "reviewed_on": "2026-11-12"
+}
