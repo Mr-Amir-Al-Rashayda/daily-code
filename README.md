@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-11.md)
+[Open today's full issue →](digests/2026/11/2026-11-12.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [Medical-Test-Management-System](https://github.com/Mr-Amir-Al-Rashayda/Medical-Test-Management-System)
+### [MIPS-Assembly-Project-Linear-Equations-Solver](https://github.com/Mr-Amir-Al-Rashayda/MIPS-Assembly-Project-Linear-Equations-Solver)
 
 Explore the source and documentation for this project.
 
-**Stack:** Python · **Stars:** 0
+**Stack:** Assembly · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Parallel-Word-Frequency-Analysis](https://github.com/Mr-Amir-Al-Rashayda/Parallel-Word-Frequency-Analysis). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h](https://pietromiotti.com/latest/maya-site/?maya) — 442 points · [159 comments](https://news.ycombinator.com/item?id=50452455)
-- [Can a Linear Program Do Weight-Space Programming?](https://nathan.rs/posts/weight-space-lp/) — 98 points · [15 comments](https://news.ycombinator.com/item?id=50452655)
-- [Pharo in the Browser with WebAssembly](https://massimo-nocentini.github.io/pharo-vm/world.html) — 26 points · [5 comments](https://news.ycombinator.com/item?id=50453763)
-- [Atuin Threads: All your agent sessions on every machine](https://blog.atuin.sh/threads-agent-sessions/) — 17 points · [10 comments](https://news.ycombinator.com/item?id=50453637)
-- [Using voltage glitching to unleash the A100 in my mining card](https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/) — 104 points · [43 comments](https://news.ycombinator.com/item?id=50451903)
+- [NVIDIA Announces CEO Transition](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) — 1046 points · [884 comments](https://news.ycombinator.com/item?id=50467087)
+- [Anthropic IPO](https://ipo.anthropic.com/us/) — 341 points · [360 comments](https://news.ycombinator.com/item?id=50465829)
+- [Abandoned Quake 4 expansion finished by modders and now playable](https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64) — 66 points · [23 comments](https://news.ycombinator.com/item?id=50467618)
+- [Talking Zen 6 with Mike Clark at AMD In-Depth](https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at) — 66 points · [0 comments](https://news.ycombinator.com/item?id=50467460)
+- [Why Writing Correct Software Is Hard](https://pron.github.io/posts/correctness-and-complexity) — 231 points · [96 comments](https://news.ycombinator.com/item?id=50465352)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.](https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma) · 12 min read
-- [AI can write code, but the magic of a first project is unmatched! 🗽](https://dev.to/necoz/ai-can-write-code-but-the-magic-of-a-first-project-is-unmatched-30c4) · 1 min read
-- [You're Spawning Goroutines Wrong: The Visual Architecture Guide That Fixes Go Concurrency Forever](https://dev.to/smtahosin/youre-spawning-goroutines-wrong-the-visual-architecture-guide-that-fixes-go-concurrency-forever-1he0) · 12 min read
-- [Part 5: The Control That Protected an Empty Bucket](https://dev.to/ndcodes/part-5-the-control-that-protected-an-empty-bucket-e1j) · 12 min read
-- [DuckDB 2.0's quack server lets ten writers share one file for under 2ms a query](https://dev.to/alexgeorgiev17/duckdb-20s-quack-server-lets-ten-writers-share-one-file-for-under-2ms-a-query-1ged) · 7 min read
+- [AI Code Is Unmaintainable? So Is Ours.](https://dev.to/dannwaneri/ai-code-is-unmaintainable-so-is-ours-3mek) · 2 min read
+- [AI is getting better. Here is my plan to stay ahead.](https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822) · 8 min read
+- [A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)](https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb) · 2 min read
+- [I asked for one more way AI code is "almost right". You gave me seven.](https://dev.to/wst2002rk/i-asked-for-one-more-way-ai-code-is-almost-right-you-gave-me-seven-3ien) · 8 min read
+- ["Don't reveal it" is not an access control. RAG permissions belong in retrieval.](https://dev.to/cyclopt_dimitrisk/dont-reveal-it-is-not-an-access-control-rag-permissions-belong-in-retrieval-3475) · 3 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-11 15:10 UTC |
-| hacker_news | live | 2026-11-11 15:10 UTC |
-| dev | live | 2026-11-11 15:10 UTC |
+| github | live | 2026-11-12 15:58 UTC |
+| hacker_news | live | 2026-11-12 15:58 UTC |
+| dev | live | 2026-11-12 15:58 UTC |
 
 ## How it works
 
