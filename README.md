@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-12.md)
+[Open today's full issue →](digests/2026/11/2026-11-13.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [MIPS-Assembly-Project-Linear-Equations-Solver](https://github.com/Mr-Amir-Al-Rashayda/MIPS-Assembly-Project-Linear-Equations-Solver)
+### [NoteSpace](https://github.com/Mr-Amir-Al-Rashayda/NoteSpace)
 
-Explore the source and documentation for this project.
+Android notes app with user-scoped SQLite storage, search, tags, favorites and email sharing. Java, AndroidX and Material 3.
 
-**Stack:** Assembly · **Stars:** 0
+**Stack:** Java · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Parallel-Word-Frequency-Analysis](https://github.com/Mr-Amir-Al-Rashayda/Parallel-Word-Frequency-Analysis). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [pruebaRep](https://github.com/Mr-Amir-Al-Rashayda/pruebaRep). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [NVIDIA Announces CEO Transition](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) — 1046 points · [884 comments](https://news.ycombinator.com/item?id=50467087)
-- [Anthropic IPO](https://ipo.anthropic.com/us/) — 341 points · [360 comments](https://news.ycombinator.com/item?id=50465829)
-- [Abandoned Quake 4 expansion finished by modders and now playable](https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64) — 66 points · [23 comments](https://news.ycombinator.com/item?id=50467618)
-- [Talking Zen 6 with Mike Clark at AMD In-Depth](https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at) — 66 points · [0 comments](https://news.ycombinator.com/item?id=50467460)
-- [Why Writing Correct Software Is Hard](https://pron.github.io/posts/correctness-and-complexity) — 231 points · [96 comments](https://news.ycombinator.com/item?id=50465352)
+- [Doomsday: Friday, 13 November, A.D. 2026 (1960)](https://www.science.org/doi/10.1126/science.132.3436.1291) — 264 points · [169 comments](https://news.ycombinator.com/item?id=50482379)
+- [Reverse Engineering My Coway Air Purifier to Ditch the Cloud](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/) — 111 points · [24 comments](https://news.ycombinator.com/item?id=50474959)
+- [Why Zig over C for Systems Programming](https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/) — 50 points · [8 comments](https://news.ycombinator.com/item?id=50483611)
+- [Jensen Huang resigns](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) — 3799 points · [3278 comments](https://news.ycombinator.com/item?id=50467087)
+- [Elevated errors on claude.ai, Claude Code, and platform.claude.com](https://status.claude.com/incidents/nn11wk485zfn) — 378 points · [322 comments](https://news.ycombinator.com/item?id=50481187)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [AI Code Is Unmaintainable? So Is Ours.](https://dev.to/dannwaneri/ai-code-is-unmaintainable-so-is-ours-3mek) · 2 min read
 - [AI is getting better. Here is my plan to stay ahead.](https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822) · 8 min read
-- [A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)](https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb) · 2 min read
-- [I asked for one more way AI code is "almost right". You gave me seven.](https://dev.to/wst2002rk/i-asked-for-one-more-way-ai-code-is-almost-right-you-gave-me-seven-3ien) · 8 min read
-- ["Don't reveal it" is not an access control. RAG permissions belong in retrieval.](https://dev.to/cyclopt_dimitrisk/dont-reveal-it-is-not-an-access-control-rag-permissions-belong-in-retrieval-3475) · 3 min read
+- [🛸 Necoz: The UFO Kingdom Python Loops 🐱](https://dev.to/necoz/necoz-the-ufo-kingdom-python-loops-hd1) · 6 min read
+- [Composio vs Nango vs Scalekit: What Changes When Your Agent Goes to Production](https://dev.to/therealmrmumba/composio-vs-nango-vs-scalekit-what-changes-when-your-agent-goes-to-production-4fl2) · 8 min read
+- [Codex Never Crashed. It Just Quietly Did Nothing.](https://dev.to/debashish_ghosal/codex-never-crashed-it-just-quietly-did-nothing-1p5c) · 5 min read
+- [Are you truly a programmer or coder? Here are 20+ signs...](https://dev.to/canro91/are-you-truly-a-programmer-or-coder-d94) · 1 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-12 15:58 UTC |
-| hacker_news | live | 2026-11-12 15:58 UTC |
-| dev | live | 2026-11-12 15:58 UTC |
+| github | live | 2026-11-13 15:23 UTC |
+| hacker_news | live | 2026-11-13 15:23 UTC |
+| dev | live | 2026-11-13 15:23 UTC |
 
 ## How it works
 

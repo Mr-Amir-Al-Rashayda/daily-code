@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-12 15:58 UTC",
+      "fetched_at": "2026-11-13 15:23 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-12T14:40:45Z"
+          "pushed_at": "2026-11-12T15:58:09Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -108,7 +108,7 @@
           "description": "Backend, systems and applied AI — Amir Al-Rashayda's projects, research and engineering journey.",
           "language": null,
           "stargazers_count": 0,
-          "pushed_at": "2026-11-12T15:36:17Z"
+          "pushed_at": "2026-11-12T21:28:34Z"
         },
         {
           "name": "NoteSpace",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-12 15:58 UTC",
+      "fetched_at": "2026-11-13 15:23 UTC",
       "data": [
         {
-          "title": "NVIDIA Announces CEO Transition",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "title": "Doomsday: Friday, 13 November, A.D. 2026 (1960)",
+          "url": "https://www.science.org/doi/10.1126/science.132.3436.1291",
+          "discussion": "https://news.ycombinator.com/item?id=50482379",
+          "score": 264,
+          "comments": 169
+        },
+        {
+          "title": "Reverse Engineering My Coway Air Purifier to Ditch the Cloud",
+          "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+          "discussion": "https://news.ycombinator.com/item?id=50474959",
+          "score": 111,
+          "comments": 24
+        },
+        {
+          "title": "Why Zig over C for Systems Programming",
+          "url": "https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/",
+          "discussion": "https://news.ycombinator.com/item?id=50483611",
+          "score": 50,
+          "comments": 8
+        },
+        {
+          "title": "Jensen Huang resigns",
+          "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
           "discussion": "https://news.ycombinator.com/item?id=50467087",
-          "score": 1046,
-          "comments": 884
+          "score": 3799,
+          "comments": 3278
         },
         {
-          "title": "Anthropic IPO",
-          "url": "https://ipo.anthropic.com/us/",
-          "discussion": "https://news.ycombinator.com/item?id=50465829",
-          "score": 341,
-          "comments": 360
-        },
-        {
-          "title": "Abandoned Quake 4 expansion finished by modders and now playable",
-          "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64",
-          "discussion": "https://news.ycombinator.com/item?id=50467618",
-          "score": 66,
-          "comments": 23
-        },
-        {
-          "title": "Talking Zen 6 with Mike Clark at AMD In-Depth",
-          "url": "https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at",
-          "discussion": "https://news.ycombinator.com/item?id=50467460",
-          "score": 66,
-          "comments": 0
-        },
-        {
-          "title": "Why Writing Correct Software Is Hard",
-          "url": "https://pron.github.io/posts/correctness-and-complexity",
-          "discussion": "https://news.ycombinator.com/item?id=50465352",
-          "score": 231,
-          "comments": 96
+          "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+          "url": "https://status.claude.com/incidents/nn11wk485zfn",
+          "discussion": "https://news.ycombinator.com/item?id=50481187",
+          "score": 378,
+          "comments": 322
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-12 15:58 UTC",
+      "fetched_at": "2026-11-13 15:23 UTC",
       "data": [
-        {
-          "title": "AI Code Is Unmaintainable? So Is Ours.",
-          "url": "https://dev.to/dannwaneri/ai-code-is-unmaintainable-so-is-ours-3mek",
-          "minutes": 2
-        },
         {
           "title": "AI is getting better. Here is my plan to stay ahead.",
           "url": "https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822",
           "minutes": 8
         },
         {
-          "title": "A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)",
-          "url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1jfb",
-          "minutes": 2
+          "title": "🛸 Necoz: The UFO Kingdom Python Loops 🐱",
+          "url": "https://dev.to/necoz/necoz-the-ufo-kingdom-python-loops-hd1",
+          "minutes": 6
         },
         {
-          "title": "I asked for one more way AI code is \"almost right\". You gave me seven.",
-          "url": "https://dev.to/wst2002rk/i-asked-for-one-more-way-ai-code-is-almost-right-you-gave-me-seven-3ien",
+          "title": "Composio vs Nango vs Scalekit: What Changes When Your Agent Goes to Production",
+          "url": "https://dev.to/therealmrmumba/composio-vs-nango-vs-scalekit-what-changes-when-your-agent-goes-to-production-4fl2",
           "minutes": 8
         },
         {
-          "title": "\"Don't reveal it\" is not an access control. RAG permissions belong in retrieval.",
-          "url": "https://dev.to/cyclopt_dimitrisk/dont-reveal-it-is-not-an-access-control-rag-permissions-belong-in-retrieval-3475",
-          "minutes": 3
+          "title": "Codex Never Crashed. It Just Quietly Did Nothing.",
+          "url": "https://dev.to/debashish_ghosal/codex-never-crashed-it-just-quietly-did-nothing-1p5c",
+          "minutes": 5
+        },
+        {
+          "title": "Are you truly a programmer or coder? Here are 20+ signs...",
+          "url": "https://dev.to/canro91/are-you-truly-a-programmer-or-coder-d94",
+          "minutes": 1
         }
       ]
     }
