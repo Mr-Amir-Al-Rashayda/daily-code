@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-13.md)
+[Open today's full issue →](digests/2026/11/2026-11-14.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [NoteSpace](https://github.com/Mr-Amir-Al-Rashayda/NoteSpace)
+### [P2](https://github.com/Mr-Amir-Al-Rashayda/P2)
 
-Android notes app with user-scoped SQLite storage, search, tags, favorites and email sharing. Java, AndroidX and Material 3.
+Explore the source and documentation for this project.
 
-**Stack:** Java · **Stars:** 0
+**Stack:** Not reported · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [pruebaRep](https://github.com/Mr-Amir-Al-Rashayda/pruebaRep). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [-6-bit-Signed-Unsigned-Comparator-in-Verilog](https://github.com/Mr-Amir-Al-Rashayda/-6-bit-Signed-Unsigned-Comparator-in-Verilog). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Doomsday: Friday, 13 November, A.D. 2026 (1960)](https://www.science.org/doi/10.1126/science.132.3436.1291) — 264 points · [169 comments](https://news.ycombinator.com/item?id=50482379)
-- [Reverse Engineering My Coway Air Purifier to Ditch the Cloud](https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/) — 111 points · [24 comments](https://news.ycombinator.com/item?id=50474959)
-- [Why Zig over C for Systems Programming](https://www.mtsoukalos.eu/2026/11/why-zig-over-c-for-systems-programming/) — 50 points · [8 comments](https://news.ycombinator.com/item?id=50483611)
-- [Jensen Huang resigns](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) — 3799 points · [3278 comments](https://news.ycombinator.com/item?id=50467087)
-- [Elevated errors on claude.ai, Claude Code, and platform.claude.com](https://status.claude.com/incidents/nn11wk485zfn) — 378 points · [322 comments](https://news.ycombinator.com/item?id=50481187)
+- [Why get an expensive Pi when I have an old phone?](https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/) — 217 points · [143 comments](https://news.ycombinator.com/item?id=50440709)
+- [Generative AI uses more energy on non-English text](https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/) — 22 points · [11 comments](https://news.ycombinator.com/item?id=50441444)
+- [Ggml v1.0.0](https://github.com/ggml-org/ggml/releases/tag/v1.0.0) — 324 points · [50 comments](https://news.ycombinator.com/item?id=50493062)
+- [Monkey Island: all 13 versions side by side](https://monkeyisland.pages.dev/) — 265 points · [83 comments](https://news.ycombinator.com/item?id=50493904)
+- [Tech Companies Are Trying to Shift the Concept of Privacy (Again)](https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again) — 61 points · [7 comments](https://news.ycombinator.com/item?id=50496602)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [AI is getting better. Here is my plan to stay ahead.](https://dev.to/javz/ai-is-getting-better-here-is-my-plan-to-stay-ahead-2822) · 8 min read
-- [🛸 Necoz: The UFO Kingdom Python Loops 🐱](https://dev.to/necoz/necoz-the-ufo-kingdom-python-loops-hd1) · 6 min read
-- [Composio vs Nango vs Scalekit: What Changes When Your Agent Goes to Production](https://dev.to/therealmrmumba/composio-vs-nango-vs-scalekit-what-changes-when-your-agent-goes-to-production-4fl2) · 8 min read
-- [Codex Never Crashed. It Just Quietly Did Nothing.](https://dev.to/debashish_ghosal/codex-never-crashed-it-just-quietly-did-nothing-1p5c) · 5 min read
-- [Are you truly a programmer or coder? Here are 20+ signs...](https://dev.to/canro91/are-you-truly-a-programmer-or-coder-d94) · 1 min read
+- [Biology's Best Algorithms Aren't Just for Scientists Anymore](https://dev.to/copyleftdev/biologys-best-algorithms-arent-just-for-scientists-anymore-50al) · 4 min read
+- [🕯️…and then I extracted JSONL from Gemini ...create the tools, and then what next?...](https://dev.to/ggle_in/and-then-i-extracted-jsonl-from-gemini-create-the-tools-and-then-what-next-2h05) · 6 min read
+- [A Million v7 GUIDs and Half Were Still Out of Order](https://dev.to/ssukhpinder/a-million-v7-guids-and-half-were-still-out-of-order-20k6) · 6 min read
+- [I Sorted Two Million Rows to Keep Ten](https://dev.to/ssukhpinder/i-sorted-two-million-rows-to-keep-ten-20np) · 4 min read
+- [Git 2.56's history-drop Is 40-77x Faster Than Rebase — I Built It and Got 6x](https://dev.to/aheadkit/git-256s-history-drop-is-40-77x-faster-than-rebase-i-built-it-and-got-6x-gai) · 6 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-13 15:23 UTC |
-| hacker_news | live | 2026-11-13 15:23 UTC |
-| dev | live | 2026-11-13 15:23 UTC |
+| github | live | 2026-11-14 14:08 UTC |
+| hacker_news | live | 2026-11-14 14:08 UTC |
+| dev | live | 2026-11-14 14:08 UTC |
 
 ## How it works
 
