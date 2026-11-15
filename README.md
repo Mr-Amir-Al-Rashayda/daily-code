@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-14.md)
+[Open today's full issue →](digests/2026/11/2026-11-15.md)
 
 ## AI next move
 
@@ -49,25 +49,25 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [P2](https://github.com/Mr-Amir-Al-Rashayda/P2)
+### [Palestinian-District-Data-Management](https://github.com/Mr-Amir-Al-Rashayda/Palestinian-District-Data-Management)
 
 Explore the source and documentation for this project.
 
-**Stack:** Not reported · **Stars:** 0
+**Stack:** C · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [-6-bit-Signed-Unsigned-Comparator-in-Verilog](https://github.com/Mr-Amir-Al-Rashayda/-6-bit-Signed-Unsigned-Comparator-in-Verilog). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Asal-Backend-Tasks](https://github.com/Mr-Amir-Al-Rashayda/Asal-Backend-Tasks). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Why get an expensive Pi when I have an old phone?](https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/) — 217 points · [143 comments](https://news.ycombinator.com/item?id=50440709)
-- [Generative AI uses more energy on non-English text](https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/) — 22 points · [11 comments](https://news.ycombinator.com/item?id=50441444)
-- [Ggml v1.0.0](https://github.com/ggml-org/ggml/releases/tag/v1.0.0) — 324 points · [50 comments](https://news.ycombinator.com/item?id=50493062)
-- [Monkey Island: all 13 versions side by side](https://monkeyisland.pages.dev/) — 265 points · [83 comments](https://news.ycombinator.com/item?id=50493904)
-- [Tech Companies Are Trying to Shift the Concept of Privacy (Again)](https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again) — 61 points · [7 comments](https://news.ycombinator.com/item?id=50496602)
+- [The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use](https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/) — 70 points · [38 comments](https://news.ycombinator.com/item?id=50506719)
+- [SpaceX catches the Starship to end Flight 15](https://www.spacex.com/launches/starship-flight-15) — 1405 points · [934 comments](https://news.ycombinator.com/item?id=50500963)
+- [Why did some Apollo missions carry a grenade launcher?](https://space.stackexchange.com/questions/37775) — 111 points · [68 comments](https://news.ycombinator.com/item?id=50505271)
+- [Understanding Positional Embeddings in Modern LLMs](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings) — 39 points · [0 comments](https://news.ycombinator.com/item?id=50506376)
+- [Things That Turbo Pascal Is Smaller Than (2011)](https://prog21.dadgum.com/116.html) — 20 points · [2 comments](https://news.ycombinator.com/item?id=50506894)
 
 ## Read & learn
 
@@ -75,8 +75,8 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 - [Biology's Best Algorithms Aren't Just for Scientists Anymore](https://dev.to/copyleftdev/biologys-best-algorithms-arent-just-for-scientists-anymore-50al) · 4 min read
 - [🕯️…and then I extracted JSONL from Gemini ...create the tools, and then what next?...](https://dev.to/ggle_in/and-then-i-extracted-jsonl-from-gemini-create-the-tools-and-then-what-next-2h05) · 6 min read
-- [A Million v7 GUIDs and Half Were Still Out of Order](https://dev.to/ssukhpinder/a-million-v7-guids-and-half-were-still-out-of-order-20k6) · 6 min read
 - [I Sorted Two Million Rows to Keep Ten](https://dev.to/ssukhpinder/i-sorted-two-million-rows-to-keep-ten-20np) · 4 min read
+- [A Million v7 GUIDs and Half Were Still Out of Order](https://dev.to/ssukhpinder/a-million-v7-guids-and-half-were-still-out-of-order-20k6) · 6 min read
 - [Git 2.56's history-drop Is 40-77x Faster Than Rebase — I Built It and Got 6x](https://dev.to/aheadkit/git-256s-history-drop-is-40-77x-faster-than-rebase-i-built-it-and-got-6x-gai) · 6 min read
 
 ## My public project mix
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-14 14:08 UTC |
-| hacker_news | live | 2026-11-14 14:08 UTC |
-| dev | live | 2026-11-14 14:08 UTC |
+| github | live | 2026-11-15 14:44 UTC |
+| hacker_news | live | 2026-11-15 14:44 UTC |
+| dev | live | 2026-11-15 14:44 UTC |
 
 ## How it works
 
