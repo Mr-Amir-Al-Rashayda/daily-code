@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-15",
+  "generated_by": "Codex local",
+  "status": "proposed",
+  "project": "cloud-backup-system",
+  "title": "Backup protocol follow-up: format and transmit complete newline-terminated headers",
+  "value": "Provide a working formatted-line helper for text protocol headers, reusing the verified send-all primitive rather than duplicating a second byte-transfer loop.",
+  "why_now": "Catch-up for November 15, actually reviewed and published on November 16. Sources describe their current commits, not a review performed on the missed date. A deeper review found an adjacent, explicitly stubbed contract: network_send_line must format a line and append a newline, but currently returns success without using its format or arguments. Queue this after the send-all implementation and verification packets; do not treat either as completed. Its scope is smaller and more directly connected to the existing transport priority than the numerical CLI or scheduler presentation work. It is a dependent follow-up, not a replacement for the published November 16 priority. Only source/configuration review was performed.",
+  "effort": "About 1-2 hours after send-all is implemented and verified, including boundary and failure tests.",
+  "carry_forward": false,
+  "steps": [
+    "Document the format-helper contract: append exactly the helper-owned newline to formatted content, define whether existing line terminators are rejected, and define null-format and formatting-failure behavior without silently modifying protocol data.",
+    "Use a measured formatting approach with vsnprintf and correct va_copy/va_end handling when traversing arguments more than once. Allocate enough space for content, newline and terminator, and check size arithmetic and allocation failure.",
+    "Send the formatted bytes and newline through network_send_all, excluding the terminating NUL. Propagate transport failures and release temporary storage on every path.",
+    "Add independent socketpair receiver tests for empty content, normal numeric/string substitution and content longer than a small stack buffer. Add controlled formatting/allocation or transport failure checks where practical; document other protocol/receive stubs as unfinished."
+  ],
+  "acceptance_checks": [
+    "Receiver bytes exactly equal the formatted content followed by the documented newline, without an embedded trailing NUL or silent truncation.",
+    "Empty, ordinary and long formatted lines obey the same contract, including the documented policy for input already containing line terminators.",
+    "A peer failure returns an error through the helper, temporary storage is released on success and failure, and no second incomplete send loop is introduced.",
+    "Run focused tests and make test on a supported POSIX platform after predecessor work; do not claim the entire backup system or wire-protocol parser is complete."
+  ],
+  "evidence": [
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md",
+      "observation": "Reviewed November 16: src is explicitly described as implementation skeletons and stubs; the README documents reliable byte framing, Linux/macOS builds, and make test."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/include/network.h",
+      "observation": "Reviewed November 16: network_send_all must loop until count bytes are transferred; network_send_line must format a text line and append a newline. Both return zero on success and minus one on error."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c",
+      "observation": "Reviewed November 16: both send functions ignore their arguments and unconditionally return zero. The file includes stdarg.h but network_send_line does not format or send anything."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c",
+      "observation": "Reviewed November 16: the only checks initialize recv_buf_t and assert zero length/start. No socket is created and neither send function is exercised."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/Makefile",
+      "observation": "Reviewed November 16: tests/test_% links common sources and lock_table.c with pthread flags; make test discovers test_*.c binaries and stops when a test returns failure."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/.github/workflows/ci.yml",
+      "observation": "Reviewed November 16: Ubuntu CI installs build dependencies, runs a canary check, builds with make all, then invokes make test. This is workflow configuration, not evidence that CI passed in this review."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py",
+      "observation": "Current source inspected November 16 converts W and unpacks its shape without explicit channel validation. Its README documents assumed-valid matrices; the separately inspected tests cover valid analytic channels, not a custom-input CLI."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py",
+      "observation": "Current main inspected November 16 uses Processes.txt, a fixed quantum of 10, and unconditional chart generation. The README confirms a file-driven interactive workflow, so a configurable headless runner remains useful."
+    }
+  ],
+  "alternatives": [
+    {
+      "project": "accelerated-blahut-arimoto",
+      "title": "Build the outstanding validated custom-channel runner",
+      "reason_not_selected": "Impact: lets numerical users supply safe custom inputs. Effort: roughly 2-4 hours. Evidence is strong from the README, solver and numerical tests; however, this repeats the existing channel-runner backlog while the backup transport currently reports success without transferring data. No completion of that earlier proposal is assumed."
+    },
+    {
+      "project": "CPU-Scheduler-Simulation",
+      "title": "Expose input selection and a headless metrics mode",
+      "reason_not_selected": "Impact: easier reproducible classroom runs. Effort: roughly 2-4 hours plus checking expected scheduling outputs. The entry-point limitation is confirmed, but output correctness needs further behavioral verification. The backup networking contracts give a smaller, more direct implementation and test boundary."
+    }
+  ],
+  "reviewed_on": "2026-11-16"
+}

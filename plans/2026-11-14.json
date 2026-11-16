@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-14",
+  "generated_by": "Codex local",
+  "status": "proposed",
+  "project": "cloud-backup-system",
+  "title": "Backup transport verification: deterministic partial-write and interruption tests",
+  "value": "Make the send-all promise demonstrable under short writes, interrupted system calls and peer failure, so a green network test actually validates transport behavior.",
+  "why_now": "Catch-up for November 14, actually reviewed and published on November 16. Sources describe their current commits, not a review performed on the missed date. This is the verification portion of the existing November 12/13 send-all proposal, dependent on the primitive being implemented. The unchanged test only checks buffer initialization. The Makefile already discovers test binaries and Ubuntu CI invokes make test, providing a concrete integration path. This has stronger immediate failure-detection value than the two alternative usability projects. Source inspection does not prove CI passes; no C suite was run and no predecessor packet is marked complete.",
+  "effort": "About 1-2 hours after the send-all implementation, with POSIX socket and test-seam work.",
+  "carry_forward": true,
+  "steps": [
+    "Keep an actual socketpair integration test with a receiver running concurrently. Include a payload larger than normal socket buffers and a bounded timeout so a regression fails instead of hanging.",
+    "Introduce a narrowly scoped test seam for the send call, leaving the production default as the real syscall. Script a short write, EINTR, and further short writes, capturing requested offsets and byte counts.",
+    "Add deterministic zero-progress and permanent-error sequences, with an error after partial progress. Assert termination and documented error propagation; do not rely on network timing to provoke these cases.",
+    "Keep receiver observations independent of sender return values and compare binary bytes exactly. Add peer-disconnect and zero-length checks, clean up descriptors/threads on failure, and run through existing make test and CI without weakening checks."
+  ],
+  "acceptance_checks": [
+    "The scripted sequence proves that offsets advance exactly once for accepted bytes and remain unchanged across EINTR; no bytes are dropped or duplicated.",
+    "The real receiver obtains a large binary payload exactly, with no socket-buffer deadlock and with a bounded overall test duration.",
+    "Zero progress, permanent error and disconnected-peer cases fail predictably; a deliberately broken one-send implementation or the current success-only stub fails the relevant tests.",
+    "The tests are included by the current Makefile discovery, existing checks remain enabled, and actual supported-platform test results are recorded during implementation."
+  ],
+  "evidence": [
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md",
+      "observation": "Reviewed November 16: src is explicitly described as implementation skeletons and stubs; the README documents reliable byte framing, Linux/macOS builds, and make test."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/include/network.h",
+      "observation": "Reviewed November 16: network_send_all must loop until count bytes are transferred; network_send_line must format a text line and append a newline. Both return zero on success and minus one on error."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c",
+      "observation": "Reviewed November 16: both send functions ignore their arguments and unconditionally return zero. The file includes stdarg.h but network_send_line does not format or send anything."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c",
+      "observation": "Reviewed November 16: the only checks initialize recv_buf_t and assert zero length/start. No socket is created and neither send function is exercised."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/Makefile",
+      "observation": "Reviewed November 16: tests/test_% links common sources and lock_table.c with pthread flags; make test discovers test_*.c binaries and stops when a test returns failure."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/.github/workflows/ci.yml",
+      "observation": "Reviewed November 16: Ubuntu CI installs build dependencies, runs a canary check, builds with make all, then invokes make test. This is workflow configuration, not evidence that CI passed in this review."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py",
+      "observation": "Current source inspected November 16 converts W and unpacks its shape without explicit channel validation. Its README documents assumed-valid matrices; the separately inspected tests cover valid analytic channels, not a custom-input CLI."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py",
+      "observation": "Current main inspected November 16 uses Processes.txt, a fixed quantum of 10, and unconditional chart generation. The README confirms a file-driven interactive workflow, so a configurable headless runner remains useful."
+    }
+  ],
+  "alternatives": [
+    {
+      "project": "accelerated-blahut-arimoto",
+      "title": "Build the outstanding validated custom-channel runner",
+      "reason_not_selected": "Impact: lets numerical users supply safe custom inputs. Effort: roughly 2-4 hours. Evidence is strong from the README, solver and numerical tests; however, this repeats the existing channel-runner backlog while the backup transport currently reports success without transferring data. No completion of that earlier proposal is assumed."
+    },
+    {
+      "project": "CPU-Scheduler-Simulation",
+      "title": "Expose input selection and a headless metrics mode",
+      "reason_not_selected": "Impact: easier reproducible classroom runs. Effort: roughly 2-4 hours plus checking expected scheduling outputs. The entry-point limitation is confirmed, but output correctness needs further behavioral verification. The backup networking contracts give a smaller, more direct implementation and test boundary."
+    }
+  ],
+  "reviewed_on": "2026-11-16"
+}
