@@ -1,13 +1,13 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-16",
   "generated_by": "Codex local",
   "status": "proposed",
   "project": "cloud-backup-system",
   "title": "Make the backup transport send bytes, with a real socket test",
   "value": "Turn one foundational networking stub into a working, verifiable transport primitive. A reliable send-all function is reusable by both file transfers and protocol headers, and gives the backup project an honest first end-to-end byte-transfer demonstration.",
-  "why_now": "This review expanded beyond the previous candidates and found a stronger, tightly scoped opportunity. At backup-project revision adf40a00b1c806972c8dbd28acc7284f3ba19749, network.h promises that network_send_all sends every byte, but network.c ignores all its arguments and returns success. The existing network test only checks receive-buffer initialization, so it does not verify the send contract. These are explicitly marked implementation stubs, not an undisclosed production regression. Implementing and testing this single primitive has more immediate functional value than another presentation improvement and is smaller than completing the whole backup service. The earlier channel runner is still useful and unimplemented in its unchanged inspected revision, but a no-op transport that reports success now takes priority. Source and test files were reviewed; no C or scheduler tests were executed in this planning review.",
+  "why_now": "Carried forward after inspecting current READMEs and code for three candidates on November 16. The backup repository still resolves to adf40a00b1c806972c8dbd28acc7284f3ba19749: network_send_all discards its inputs and returns success, while test_network only checks buffer initialization. The README explicitly labels src as skeletons and stubs, so this is unfinished coursework rather than an alleged production regression. The channel solver remains at 7de3a92172110be2615dc561abd009f13610f7de with assumed-valid matrices, and scheduler main at e2f991f07db966acf75ec861efc617d0478a7327 still hardcodes input and always plots. A real send-all primitive remains the most foundational, bounded task. Earlier proposals are not completed; no implementation is performed by this review. No backup, numerical or scheduler tests were run during source inspection.",
   "effort": "About 2-3 hours on Linux or WSL, including focused socket tests",
-  "carry_forward": false,
+  "carry_forward": true,
   "steps": [
     "Implement only network_send_all against its existing header contract: advance through short writes, retry interrupted sends, and return an error on actual failure or a zero-progress send instead of looping forever or reporting success.",
     "Define and document edge cases for zero-length input and invalid arguments. Choose a platform-appropriate SIGPIPE policy so sending to a disconnected peer returns an error instead of unexpectedly terminating the process; retain the project's stated Linux/macOS portability where supported.",
@@ -23,31 +23,31 @@
   "evidence": [
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/include/network.h",
-      "observation": "The network_send_all contract explicitly requires looping around send until all bytes are transferred, returning zero on success and minus one on error."
+      "observation": "Re-read on November 16 at the unchanged commit: The network_send_all contract explicitly requires looping around send until all bytes are transferred, returning zero on success and minus one on error."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c",
-      "observation": "The inspected network_send_all is marked as a stub, casts sockfd, data, and count to void, and unconditionally returns zero. Other networking functions are also marked as stubs."
+      "observation": "Re-read on November 16 at the unchanged commit: The inspected network_send_all is marked as a stub, casts sockfd, data, and count to void, and unconditionally returns zero. Other networking functions are also marked as stubs."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c",
-      "observation": "The current test initializes recv_buf_t and asserts that len and start are zero. It does not create sockets or call network_send_all."
-    },
-    {
-      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/.github/workflows/ci.yml",
-      "observation": "The existing Ubuntu CI installs build dependencies and runs make all and make test, providing an existing place for a real transport regression test."
+      "observation": "Re-read on November 16 at the unchanged commit: The current test initializes recv_buf_t and asserts that len and start are zero. It does not create sockets or call network_send_all."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py",
-      "observation": "Fresh inspection confirms the solver still converts W and unpacks W.shape without explicit channel-matrix validation. The previously proposed custom-channel runner remains a worthwhile alternative."
+      "observation": "Re-read on November 16 at the unchanged commit: Fresh inspection confirms the solver still converts W and unpacks W.shape without explicit channel-matrix validation. The previously proposed custom-channel runner remains a worthwhile alternative."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py",
-      "observation": "The inspected main function hardcodes Processes.txt, runs the simulation, prints metrics, and unconditionally calls generate_gantt_chart; it exposes no command-line input or no-plot option in this entry point."
+      "observation": "Re-read on November 16 at the unchanged commit: The inspected main function hardcodes Processes.txt, runs the simulation, prints metrics, and unconditionally calls generate_gantt_chart; it exposes no command-line input or no-plot option in this entry point."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/README.md",
-      "observation": "The README describes a file-driven scheduler with waiting and turnaround metrics, logs, and a Matplotlib window, making repeatable headless execution a plausible usability improvement."
+      "observation": "Re-read on November 16 at the unchanged commit: The README describes a file-driven scheduler with waiting and turnaround metrics, logs, and a Matplotlib window, making repeatable headless execution a plausible usability improvement."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md",
+      "observation": "The current README labels src as implementation skeletons and stubs, describes reliable byte framing as a project goal, and documents make all and make test."
     }
   ],
   "alternatives": [
