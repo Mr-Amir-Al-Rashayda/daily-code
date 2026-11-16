@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-15.md)
+[Open today's full issue →](digests/2026/11/2026-11-16.md)
 
 ## AI next move
 
@@ -49,35 +49,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [Palestinian-District-Data-Management](https://github.com/Mr-Amir-Al-Rashayda/Palestinian-District-Data-Management)
+### [Parallel-Word-Frequency-Analysis](https://github.com/Mr-Amir-Al-Rashayda/Parallel-Word-Frequency-Analysis)
 
 Explore the source and documentation for this project.
 
-**Stack:** C · **Stars:** 0
+**Stack:** Not reported · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Asal-Backend-Tasks](https://github.com/Mr-Amir-Al-Rashayda/Asal-Backend-Tasks). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [AVL-Tree-and-Hash-Table](https://github.com/Mr-Amir-Al-Rashayda/AVL-Tree-and-Hash-Table). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use](https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/) — 70 points · [38 comments](https://news.ycombinator.com/item?id=50506719)
-- [SpaceX catches the Starship to end Flight 15](https://www.spacex.com/launches/starship-flight-15) — 1405 points · [934 comments](https://news.ycombinator.com/item?id=50500963)
-- [Why did some Apollo missions carry a grenade launcher?](https://space.stackexchange.com/questions/37775) — 111 points · [68 comments](https://news.ycombinator.com/item?id=50505271)
-- [Understanding Positional Embeddings in Modern LLMs](https://magazine.sebastianraschka.com/p/understanding-positional-embeddings) — 39 points · [0 comments](https://news.ycombinator.com/item?id=50506376)
-- [Things That Turbo Pascal Is Smaller Than (2011)](https://prog21.dadgum.com/116.html) — 20 points · [2 comments](https://news.ycombinator.com/item?id=50506894)
+- [The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)](https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/) — 196 points · [79 comments](https://news.ycombinator.com/item?id=50516473)
+- [Many of Amazon’s Black Friday and Cyber Monday “Deals” Offered No Savings](https://news.ycombinator.com/item?id=50517488) — 377 points · [208 comments](https://news.ycombinator.com/item?id=50517488)
+- [How to make almost anything](https://pub.cba.mit.edu/863.26/site/) — 656 points · [107 comments](https://news.ycombinator.com/item?id=50514470)
+- [Nvidia Was in Trouble Before the Jensen Huang Mess](https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/) — 66 points · [39 comments](https://news.ycombinator.com/item?id=50518567)
+- [The Active Directory Era Is Finally Over](https://infisical.com/blog/active-directory-machine-identity) — 21 points · [0 comments](https://news.ycombinator.com/item?id=50517815)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Biology's Best Algorithms Aren't Just for Scientists Anymore](https://dev.to/copyleftdev/biologys-best-algorithms-arent-just-for-scientists-anymore-50al) · 4 min read
-- [🕯️…and then I extracted JSONL from Gemini ...create the tools, and then what next?...](https://dev.to/ggle_in/and-then-i-extracted-jsonl-from-gemini-create-the-tools-and-then-what-next-2h05) · 6 min read
-- [I Sorted Two Million Rows to Keep Ten](https://dev.to/ssukhpinder/i-sorted-two-million-rows-to-keep-ten-20np) · 4 min read
-- [A Million v7 GUIDs and Half Were Still Out of Order](https://dev.to/ssukhpinder/a-million-v7-guids-and-half-were-still-out-of-order-20k6) · 6 min read
-- [Git 2.56's history-drop Is 40-77x Faster Than Rebase — I Built It and Got 6x](https://dev.to/aheadkit/git-256s-history-drop-is-40-77x-faster-than-rebase-i-built-it-and-got-6x-gai) · 6 min read
+- [Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.](https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8) · 16 min read
+- [Introducing Sawala Mono: An Ergonomic Coding Font Built for Code Reviews and Terminal Workflows](https://dev.to/gulajavaministudio/introducing-sawala-mono-an-ergonomic-coding-font-built-for-code-reviews-and-terminal-workflows-2ie4) · 8 min read
+- [How I Made a Markov Chain Model from Scratch in C++ During a Global Online Teen Hackathon](https://dev.to/necoz/how-i-made-a-markov-chain-model-from-scratch-in-c-during-a-global-online-teen-hackathon-3gd7) · 15 min read
+- [Your AI Agent Retried the Tool Call. The First One Had Already Succeeded.](https://dev.to/rudratosh/your-ai-agent-retried-the-tool-call-the-first-one-had-already-succeeded-3pke) · 21 min read
+- [The Agentic Loop Explained: Step Through the Plan, Build, Judge and Repeat Loop Behind AI Coding Agents](https://dev.to/devopsdaily/the-agentic-loop-explained-step-through-the-plan-build-judge-and-repeat-loop-behind-ai-coding-36g2) · 6 min read
 
 ## My public project mix
 
@@ -87,9 +87,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-15 14:44 UTC |
-| hacker_news | live | 2026-11-15 14:44 UTC |
-| dev | live | 2026-11-15 14:44 UTC |
+| github | live | 2026-11-16 16:59 UTC |
+| hacker_news | live | 2026-11-16 16:59 UTC |
+| dev | live | 2026-11-16 16:59 UTC |
 
 ## How it works
 

@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-15 14:44 UTC",
+      "fetched_at": "2026-11-16 16:59 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-14T14:08:19Z"
+          "pushed_at": "2026-11-15T14:44:43Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,72 +163,72 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-15 14:44 UTC",
+      "fetched_at": "2026-11-16 16:59 UTC",
       "data": [
         {
-          "title": "The MacBook Pro's OLED PWM Problem: When a 'Better' Display Becomes Worse to Use",
-          "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/",
-          "discussion": "https://news.ycombinator.com/item?id=50506719",
-          "score": 70,
-          "comments": 38
+          "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
+          "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
+          "discussion": "https://news.ycombinator.com/item?id=50516473",
+          "score": 196,
+          "comments": 79
         },
         {
-          "title": "SpaceX catches the Starship to end Flight 15",
-          "url": "https://www.spacex.com/launches/starship-flight-15",
-          "discussion": "https://news.ycombinator.com/item?id=50500963",
-          "score": 1405,
-          "comments": 934
+          "title": "Many of Amazon’s Black Friday and Cyber Monday “Deals” Offered No Savings",
+          "url": "https://news.ycombinator.com/item?id=50517488",
+          "discussion": "https://news.ycombinator.com/item?id=50517488",
+          "score": 377,
+          "comments": 208
         },
         {
-          "title": "Why did some Apollo missions carry a grenade launcher?",
-          "url": "https://space.stackexchange.com/questions/37775",
-          "discussion": "https://news.ycombinator.com/item?id=50505271",
-          "score": 111,
-          "comments": 68
+          "title": "How to make almost anything",
+          "url": "https://pub.cba.mit.edu/863.26/site/",
+          "discussion": "https://news.ycombinator.com/item?id=50514470",
+          "score": 656,
+          "comments": 107
         },
         {
-          "title": "Understanding Positional Embeddings in Modern LLMs",
-          "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
-          "discussion": "https://news.ycombinator.com/item?id=50506376",
-          "score": 39,
+          "title": "Nvidia Was in Trouble Before the Jensen Huang Mess",
+          "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
+          "discussion": "https://news.ycombinator.com/item?id=50518567",
+          "score": 66,
+          "comments": 39
+        },
+        {
+          "title": "The Active Directory Era Is Finally Over",
+          "url": "https://infisical.com/blog/active-directory-machine-identity",
+          "discussion": "https://news.ycombinator.com/item?id=50517815",
+          "score": 21,
           "comments": 0
-        },
-        {
-          "title": "Things That Turbo Pascal Is Smaller Than (2011)",
-          "url": "https://prog21.dadgum.com/116.html",
-          "discussion": "https://news.ycombinator.com/item?id=50506894",
-          "score": 20,
-          "comments": 2
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-15 14:44 UTC",
+      "fetched_at": "2026-11-16 16:59 UTC",
       "data": [
         {
-          "title": "Biology's Best Algorithms Aren't Just for Scientists Anymore",
-          "url": "https://dev.to/copyleftdev/biologys-best-algorithms-arent-just-for-scientists-anymore-50al",
-          "minutes": 4
+          "title": "Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.",
+          "url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
+          "minutes": 16
         },
         {
-          "title": "🕯️…and then I extracted JSONL from Gemini ...create the tools, and then what next?...",
-          "url": "https://dev.to/ggle_in/and-then-i-extracted-jsonl-from-gemini-create-the-tools-and-then-what-next-2h05",
-          "minutes": 6
+          "title": "Introducing Sawala Mono: An Ergonomic Coding Font Built for Code Reviews and Terminal Workflows",
+          "url": "https://dev.to/gulajavaministudio/introducing-sawala-mono-an-ergonomic-coding-font-built-for-code-reviews-and-terminal-workflows-2ie4",
+          "minutes": 8
         },
         {
-          "title": "I Sorted Two Million Rows to Keep Ten",
-          "url": "https://dev.to/ssukhpinder/i-sorted-two-million-rows-to-keep-ten-20np",
-          "minutes": 4
+          "title": "How I Made a Markov Chain Model from Scratch in C++ During a Global Online Teen Hackathon",
+          "url": "https://dev.to/necoz/how-i-made-a-markov-chain-model-from-scratch-in-c-during-a-global-online-teen-hackathon-3gd7",
+          "minutes": 15
         },
         {
-          "title": "A Million v7 GUIDs and Half Were Still Out of Order",
-          "url": "https://dev.to/ssukhpinder/a-million-v7-guids-and-half-were-still-out-of-order-20k6",
-          "minutes": 6
+          "title": "Your AI Agent Retried the Tool Call. The First One Had Already Succeeded.",
+          "url": "https://dev.to/rudratosh/your-ai-agent-retried-the-tool-call-the-first-one-had-already-succeeded-3pke",
+          "minutes": 21
         },
         {
-          "title": "Git 2.56's history-drop Is 40-77x Faster Than Rebase — I Built It and Got 6x",
-          "url": "https://dev.to/aheadkit/git-256s-history-drop-is-40-77x-faster-than-rebase-i-built-it-and-got-6x-gai",
+          "title": "The Agentic Loop Explained: Step Through the Plan, Build, Judge and Repeat Loop Behind AI Coding Agents",
+          "url": "https://dev.to/devopsdaily/the-agentic-loop-explained-step-through-the-plan-build-judge-and-repeat-loop-behind-ai-coding-36g2",
           "minutes": 6
         }
       ]
