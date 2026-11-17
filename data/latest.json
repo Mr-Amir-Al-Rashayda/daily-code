@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-16 16:59 UTC",
+      "fetched_at": "2026-11-17 16:52 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-15T14:44:43Z"
+          "pushed_at": "2026-11-16T21:57:07Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-16 16:59 UTC",
+      "fetched_at": "2026-11-17 16:52 UTC",
       "data": [
         {
-          "title": "The Secret ThinkPad Powerbutton Code to Bring Dead Laptops Back to Life (2007)",
-          "url": "https://masnick.com/posts/the-secret-thinkpad-powerbutton-code-to-bring-dead-laptops-back-to-life/",
-          "discussion": "https://news.ycombinator.com/item?id=50516473",
-          "score": 196,
-          "comments": 79
+          "title": "In 27,280 coding agent runs, 64% of inference spend went to runs that failed",
+          "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
+          "discussion": "https://news.ycombinator.com/item?id=50532191",
+          "score": 93,
+          "comments": 33
         },
         {
-          "title": "Many of Amazon’s Black Friday and Cyber Monday “Deals” Offered No Savings",
-          "url": "https://news.ycombinator.com/item?id=50517488",
-          "discussion": "https://news.ycombinator.com/item?id=50517488",
-          "score": 377,
-          "comments": 208
+          "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
+          "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
+          "discussion": "https://news.ycombinator.com/item?id=50530163",
+          "score": 723,
+          "comments": 371
         },
         {
-          "title": "How to make almost anything",
-          "url": "https://pub.cba.mit.edu/863.26/site/",
-          "discussion": "https://news.ycombinator.com/item?id=50514470",
-          "score": 656,
-          "comments": 107
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "discussion": "https://news.ycombinator.com/item?id=50532385",
+          "score": 56,
+          "comments": 11
         },
         {
-          "title": "Nvidia Was in Trouble Before the Jensen Huang Mess",
-          "url": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-          "discussion": "https://news.ycombinator.com/item?id=50518567",
-          "score": 66,
-          "comments": 39
+          "title": "First Photos of the Poles of a Rod-Shaped Bacterium",
+          "url": "https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664",
+          "discussion": "https://news.ycombinator.com/item?id=50518328",
+          "score": 63,
+          "comments": 15
         },
         {
-          "title": "The Active Directory Era Is Finally Over",
-          "url": "https://infisical.com/blog/active-directory-machine-identity",
-          "discussion": "https://news.ycombinator.com/item?id=50517815",
-          "score": 21,
-          "comments": 0
+          "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
+          "url": "https://www.cs.cmu.edu/learn/",
+          "discussion": "https://news.ycombinator.com/item?id=50522980",
+          "score": 2058,
+          "comments": 276
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-16 16:59 UTC",
+      "fetched_at": "2026-11-17 16:52 UTC",
       "data": [
         {
-          "title": "Stratagem #34: Derek Gave Up Acceptance Sign-Off. The AI Still Can't Tell Who Won.",
-          "url": "https://dev.to/xulingfeng/stratagem-34-derek-gave-up-acceptance-sign-off-the-ai-still-cant-tell-who-won-25f8",
-          "minutes": 16
+          "title": "Could I Still Do This From Scratch?",
+          "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
+          "minutes": 3
         },
         {
-          "title": "Introducing Sawala Mono: An Ergonomic Coding Font Built for Code Reviews and Terminal Workflows",
-          "url": "https://dev.to/gulajavaministudio/introducing-sawala-mono-an-ergonomic-coding-font-built-for-code-reviews-and-terminal-workflows-2ie4",
-          "minutes": 8
-        },
-        {
-          "title": "How I Made a Markov Chain Model from Scratch in C++ During a Global Online Teen Hackathon",
-          "url": "https://dev.to/necoz/how-i-made-a-markov-chain-model-from-scratch-in-c-during-a-global-online-teen-hackathon-3gd7",
-          "minutes": 15
-        },
-        {
-          "title": "Your AI Agent Retried the Tool Call. The First One Had Already Succeeded.",
-          "url": "https://dev.to/rudratosh/your-ai-agent-retried-the-tool-call-the-first-one-had-already-succeeded-3pke",
-          "minutes": 21
-        },
-        {
-          "title": "The Agentic Loop Explained: Step Through the Plan, Build, Judge and Repeat Loop Behind AI Coding Agents",
-          "url": "https://dev.to/devopsdaily/the-agentic-loop-explained-step-through-the-plan-build-judge-and-repeat-loop-behind-ai-coding-36g2",
+          "title": "Git 2.56's git add --resolved only checks conflict markers while git still calls a file unmerged",
+          "url": "https://dev.to/alexgeorgiev17/git-256s-git-add-resolved-only-checks-conflict-markers-while-git-still-calls-a-file-unmerged-jgm",
           "minutes": 6
+        },
+        {
+          "title": "Which one have you blamed too?",
+          "url": "https://dev.to/canro91/which-one-have-you-blamed-too-5156",
+          "minutes": 1
+        },
+        {
+          "title": "The Manager Who Doesn't Use AI Has Already Lost: Soft Skills",
+          "url": "https://dev.to/mcsee/the-manager-who-doesnt-use-ai-has-already-lost-soft-skills-8h4",
+          "minutes": 14
+        },
+        {
+          "title": "Debugging SQL Should Be Just Like Debugging Code",
+          "url": "https://dev.to/esproc_spl/debugging-sql-should-be-just-like-debugging-code-49d1",
+          "minutes": 5
         }
       ]
     }
