@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-17.md)
+[Open today's full issue →](digests/2026/11/2026-11-18.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [pruebaRep](https://github.com/Mr-Amir-Al-Rashayda/pruebaRep)
+### [Shell-Medical-Test-Management-System](https://github.com/Mr-Amir-Al-Rashayda/Shell-Medical-Test-Management-System)
 
-Explore the source and documentation for this project.
+Shell-based coursework for storing, searching and managing laboratory test records from the command line.
 
-**Stack:** Java · **Stars:** 1
+**Stack:** Shell · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Course-Prerequisite-Planner-and-Campus-Route-Finder](https://github.com/Mr-Amir-Al-Rashayda/Course-Prerequisite-Planner-and-Campus-Route-Finder). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [CPU-Scheduler-Simulation](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [In 27,280 coding agent runs, 64% of inference spend went to runs that failed](https://runta.com/blog/introducing-frontierharness-eval-v1-1/) — 93 points · [33 comments](https://news.ycombinator.com/item?id=50532191)
-- [New Evidence Shows School Phone Bans Are Gradually Improving Test Scores](https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html) — 723 points · [371 comments](https://news.ycombinator.com/item?id=50530163)
-- [Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off](https://alloyhtml.com/example.html) — 56 points · [11 comments](https://news.ycombinator.com/item?id=50532385)
-- [First Photos of the Poles of a Rod-Shaped Bacterium](https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664) — 63 points · [15 comments](https://news.ycombinator.com/item?id=50518328)
-- [Carnegie Mellon is putting computer science courses on YouTube for free](https://www.cs.cmu.edu/learn/) — 2058 points · [276 comments](https://news.ycombinator.com/item?id=50522980)
+- [Pre-auth RCE in Nginx HTTP/2 handling](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities) — 135 points · [37 comments](https://news.ycombinator.com/item?id=50547374)
+- [Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy](https://techstackups.com/articles/quad9-leaves-france-dns-blocking/) — 292 points · [78 comments](https://news.ycombinator.com/item?id=50545958)
+- [Deutsche Bank](https://www.inside-db.com/) — 71 points · [18 comments](https://news.ycombinator.com/item?id=50547620)
+- ['Human' Is Cambridge Dictionary's Word of the Year 2026](https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026) — 85 points · [62 comments](https://news.ycombinator.com/item?id=50546914)
+- [U.S. AirForce is looking for old storage Media (CF or PC cards)](https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view) — 34 points · [8 comments](https://news.ycombinator.com/item?id=50547583)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Could I Still Do This From Scratch?](https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h) · 3 min read
-- [Git 2.56's git add --resolved only checks conflict markers while git still calls a file unmerged](https://dev.to/alexgeorgiev17/git-256s-git-add-resolved-only-checks-conflict-markers-while-git-still-calls-a-file-unmerged-jgm) · 6 min read
-- [Which one have you blamed too?](https://dev.to/canro91/which-one-have-you-blamed-too-5156) · 1 min read
-- [The Manager Who Doesn't Use AI Has Already Lost: Soft Skills](https://dev.to/mcsee/the-manager-who-doesnt-use-ai-has-already-lost-soft-skills-8h4) · 14 min read
-- [Debugging SQL Should Be Just Like Debugging Code](https://dev.to/esproc_spl/debugging-sql-should-be-just-like-debugging-code-49d1) · 5 min read
+- [Is Coding with AI Actually Faster and Cheaper?](https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810) · 6 min read
+- [Rust Doesn't Have a Garbage Collector. It Has Something Stranger.](https://dev.to/smtahosin/rust-doesnt-have-a-garbage-collector-it-has-something-stranger-2oan) · 7 min read
+- [Part 6: The Walkthrough That Only Worked on My Machine](https://dev.to/ndcodes/part-6-the-walkthrough-that-only-worked-on-my-machine-15e8) · 12 min read
+- [What would you add to the list?](https://dev.to/canro91/what-would-you-add-to-the-list-3fbh) · 1 min read
+- [How is AI making your life easier?](https://dev.to/rasheedmozaffar/how-is-ai-making-your-life-easier-2mcg) · 3 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-17 16:52 UTC |
-| hacker_news | live | 2026-11-17 16:52 UTC |
-| dev | live | 2026-11-17 16:52 UTC |
+| github | live | 2026-11-18 16:26 UTC |
+| hacker_news | live | 2026-11-18 16:26 UTC |
+| dev | live | 2026-11-18 16:26 UTC |
 
 ## How it works
 

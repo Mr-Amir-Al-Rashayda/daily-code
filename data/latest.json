@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-17 16:52 UTC",
+      "fetched_at": "2026-11-18 16:26 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-16T21:57:07Z"
+          "pushed_at": "2026-11-17T20:59:59Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-17 16:52 UTC",
+      "fetched_at": "2026-11-18 16:26 UTC",
       "data": [
         {
-          "title": "In 27,280 coding agent runs, 64% of inference spend went to runs that failed",
-          "url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1/",
-          "discussion": "https://news.ycombinator.com/item?id=50532191",
-          "score": 93,
-          "comments": 33
+          "title": "Pre-auth RCE in Nginx HTTP/2 handling",
+          "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+          "discussion": "https://news.ycombinator.com/item?id=50547374",
+          "score": 135,
+          "comments": 37
         },
         {
-          "title": "New Evidence Shows School Phone Bans Are Gradually Improving Test Scores",
-          "url": "https://www.nytimes.com/2026/11/17/upshot/school-phone-bans-study-scores.html",
-          "discussion": "https://news.ycombinator.com/item?id=50530163",
-          "score": 723,
-          "comments": 371
+          "title": "Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy",
+          "url": "https://techstackups.com/articles/quad9-leaves-france-dns-blocking/",
+          "discussion": "https://news.ycombinator.com/item?id=50545958",
+          "score": 292,
+          "comments": 78
         },
         {
-          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
-          "url": "https://alloyhtml.com/example.html",
-          "discussion": "https://news.ycombinator.com/item?id=50532385",
-          "score": 56,
-          "comments": 11
+          "title": "Deutsche Bank",
+          "url": "https://www.inside-db.com/",
+          "discussion": "https://news.ycombinator.com/item?id=50547620",
+          "score": 71,
+          "comments": 18
         },
         {
-          "title": "First Photos of the Poles of a Rod-Shaped Bacterium",
-          "url": "https://nautil.us/check-out-the-first-photos-of-the-poles-of-a-rod-shaped-bacterium-1286664",
-          "discussion": "https://news.ycombinator.com/item?id=50518328",
-          "score": 63,
-          "comments": 15
+          "title": "'Human' Is Cambridge Dictionary's Word of the Year 2026",
+          "url": "https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026",
+          "discussion": "https://news.ycombinator.com/item?id=50546914",
+          "score": 85,
+          "comments": 62
         },
         {
-          "title": "Carnegie Mellon is putting computer science courses on YouTube for free",
-          "url": "https://www.cs.cmu.edu/learn/",
-          "discussion": "https://news.ycombinator.com/item?id=50522980",
-          "score": 2058,
-          "comments": 276
+          "title": "U.S. AirForce is looking for old storage Media (CF or PC cards)",
+          "url": "https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view",
+          "discussion": "https://news.ycombinator.com/item?id=50547583",
+          "score": 34,
+          "comments": 8
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-17 16:52 UTC",
+      "fetched_at": "2026-11-18 16:26 UTC",
       "data": [
         {
-          "title": "Could I Still Do This From Scratch?",
-          "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
-          "minutes": 3
-        },
-        {
-          "title": "Git 2.56's git add --resolved only checks conflict markers while git still calls a file unmerged",
-          "url": "https://dev.to/alexgeorgiev17/git-256s-git-add-resolved-only-checks-conflict-markers-while-git-still-calls-a-file-unmerged-jgm",
+          "title": "Is Coding with AI Actually Faster and Cheaper?",
+          "url": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
           "minutes": 6
         },
         {
-          "title": "Which one have you blamed too?",
-          "url": "https://dev.to/canro91/which-one-have-you-blamed-too-5156",
+          "title": "Rust Doesn't Have a Garbage Collector. It Has Something Stranger.",
+          "url": "https://dev.to/smtahosin/rust-doesnt-have-a-garbage-collector-it-has-something-stranger-2oan",
+          "minutes": 7
+        },
+        {
+          "title": "Part 6: The Walkthrough That Only Worked on My Machine",
+          "url": "https://dev.to/ndcodes/part-6-the-walkthrough-that-only-worked-on-my-machine-15e8",
+          "minutes": 12
+        },
+        {
+          "title": "What would you add to the list?",
+          "url": "https://dev.to/canro91/what-would-you-add-to-the-list-3fbh",
           "minutes": 1
         },
         {
-          "title": "The Manager Who Doesn't Use AI Has Already Lost: Soft Skills",
-          "url": "https://dev.to/mcsee/the-manager-who-doesnt-use-ai-has-already-lost-soft-skills-8h4",
-          "minutes": 14
-        },
-        {
-          "title": "Debugging SQL Should Be Just Like Debugging Code",
-          "url": "https://dev.to/esproc_spl/debugging-sql-should-be-just-like-debugging-code-49d1",
-          "minutes": 5
+          "title": "How is AI making your life easier?",
+          "url": "https://dev.to/rasheedmozaffar/how-is-ai-making-your-life-easier-2mcg",
+          "minutes": 3
         }
       ]
     }
