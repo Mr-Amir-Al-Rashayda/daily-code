@@ -7,7 +7,7 @@
 
 ## AI next move
 
-**Reviewed 2026-11-17 by local Codex · Proposed, not implemented**
+**Reviewed 2026-11-19 by local Codex · Proposed, not implemented**
 
 ### Make the backup transport send bytes, with a real socket test
 
@@ -15,7 +15,7 @@
 
 Turn one foundational networking stub into a working, verifiable transport primitive. A reliable send-all function is reusable by both file transfers and protocol headers, and gives the backup project an honest first end-to-end byte-transfer demonstration.
 
-**Why this next:** Fresh November 17 inspection compared three projects and their current READMEs and source. The backup head is still adf40a00b1c806972c8dbd28acc7284f3ba19749: network\_send\_all ignores all arguments and returns success, and its network test only checks buffer initialization. The November 13-15 catch-up packets are proposals, not evidence that byte transmission, failure testing or formatted lines were implemented. Completing the prerequisite send-all primitive remains more foundational than moving to its dependent formatted-line helper. The channel solver at 7de3a92172110be2615dc561abd009f13610f7de still assumes valid matrices, while scheduler main at e2f991f07db966acf75ec861efc617d0478a7327 still fixes the input and always plots. Both alternatives are useful, but the transport contract is smaller and directly verifiable. These are documented coursework stubs, not a claimed production regression. No backup, numerical or scheduler tests were run in this source review.
+**Why this next:** Reviewed November 19 in Asia/Hebron after the November 18 22:06 UTC trigger. Fresh READMEs and source inspection confirm all three candidate heads are unchanged. The backup network\_send\_all still discards its arguments and returns success; its test checks only buffer initialization. This is an explicitly documented coursework stub, not a newly claimed production regression. Earlier send-all, failure-testing and formatted-line proposals are not evidence of completed implementation. A real, verified byte-transfer primitive remains the prerequisite with the strongest immediate functional value and a bounded contract. The validated channel runner and a headless scheduler CLI remain useful alternatives at similar effort, but neither unblocks backup transport. No numerical, scheduler or C project suites were run during this source review. The public API snapshot remains dated November 18; this review does not relabel its collection time.
 
 *Carried forward after reviewing the previous recommendation.*
 
@@ -35,18 +35,18 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 **Evidence inspected**
 
-- [Source 1](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c): Read November 17 at unchanged backup head: network\_send\_all discards sockfd, data and count and returns zero unconditionally; network\_send\_line and other transport helpers also remain explicit stubs.
-- [Source 2](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c): Read November 17: the network test initializes recv\_buf\_t and checks zero len/start. It does not open sockets or invoke network\_send\_all.
-- [Source 3](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py): Read November 17 at unchanged solver head: blahut\_arimoto converts W, unpacks W.shape and starts probability calculations without explicit channel-matrix validation.
-- [Source 4](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py): Read November 17 at unchanged scheduler head: main hardcodes Processes.txt and a quantum of 10, prints metrics, then unconditionally calls generate\_gantt\_chart.
-- [Source 5](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/README.md): Read November 17: the README describes a file-driven interactive scheduler workflow with console metrics and a Matplotlib Gantt window.
-- [Source 6](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md): Read November 17: the README explicitly labels src as implementation skeletons and stubs and documents reliable framing, make all and make test as part of the coursework project.
-- [Source 7](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md): Read November 17: the README explicitly says the supplied solvers assume valid matrices, documents natural-log gap units, and warns that reaching the iteration limit does not ensure convergence.
+- [Source 1](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c): Read November 19 at unchanged backup head: network\_send\_all discards sockfd, data and count and returns zero unconditionally; network\_send\_line and other transport helpers also remain explicit stubs.
+- [Source 2](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c): Read November 19: the network test initializes recv\_buf\_t and checks zero len/start. It does not open sockets or invoke network\_send\_all.
+- [Source 3](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py): Read November 19 at unchanged solver head: blahut\_arimoto converts W, unpacks W.shape and starts probability calculations without explicit channel-matrix validation.
+- [Source 4](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py): Read November 19 at unchanged scheduler head: main hardcodes Processes.txt and a quantum of 10, prints metrics, then unconditionally calls generate\_gantt\_chart.
+- [Source 5](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/README.md): Read November 19: the README describes a file-driven interactive scheduler workflow with console metrics and a Matplotlib Gantt window.
+- [Source 6](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md): Read November 19: the README explicitly labels src as implementation skeletons and stubs and documents reliable framing, make all and make test as part of the coursework project.
+- [Source 7](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md): Read November 19: the README explicitly says the supplied solvers assume valid matrices, documents natural-log gap units, and warns that reaching the iteration limit does not ensure convergence.
 
 **Other ideas considered**
 
-- **accelerated-blahut-arimoto — Build the previously proposed validated custom-channel runner:** Still useful and supported by the unchanged source and README. However, replacing a backup transport no-op with an actual byte-transfer primitive provides a more foundational functional gain at a similar or smaller estimated effort. The earlier proposal is not marked completed.
-- **CPU-Scheduler-Simulation — Add configurable input and a headless metrics mode:** The hardcoded input path and unconditional plotting in main make this a credible usability task. A reliable metrics-output contract needs more examination of scheduler behavior and expected results; the backup send contract and missing test are already precise.
+- **accelerated-blahut-arimoto — Build the previously proposed validated custom-channel runner:** A validated custom-channel runner would help students supply safe inputs, at an estimated 2-4 hours. Current README and ba\_core.py provide strong evidence, but this repeats an existing unimplemented usability proposal; making the backup transport actually send bytes offers a more foundational functional gain with a precise receiver-based check.
+- **CPU-Scheduler-Simulation — Add configurable input and a headless metrics mode:** A configurable headless scheduler would improve repeatable classroom runs, at an estimated 2-4 hours plus metrics verification. Current main and README confirm fixed input and interactive plotting. Its usability benefit is credible, but transport behavior has a narrower directly observable acceptance boundary and remains an unmet prerequisite.
 
 
 ## Project spotlight

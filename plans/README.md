@@ -2,6 +2,7 @@
 
 Plans are proposals, not records of completed work. Catch-up entries show their actual review date.
 
+- [2026-11-19](2026-11-19.md)
 - [2026-11-17](2026-11-17.md)
 - [2026-11-16](2026-11-16.md)
 - [2026-11-15](2026-11-15.md) — catch-up reviewed 2026-11-16
