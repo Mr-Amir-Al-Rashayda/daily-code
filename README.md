@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-18.md)
+[Open today's full issue →](digests/2026/11/2026-11-19.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [Shell-Medical-Test-Management-System](https://github.com/Mr-Amir-Al-Rashayda/Shell-Medical-Test-Management-System)
+### [Text-Editor-with-Undo-Redo](https://github.com/Mr-Amir-Al-Rashayda/Text-Editor-with-Undo-Redo)
 
-Shell-based coursework for storing, searching and managing laboratory test records from the command line.
+C text editor using two stacks and a queue for insertion, removal, undo/redo and file persistence.
 
-**Stack:** Shell · **Stars:** 0
+**Stack:** C · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [CPU-Scheduler-Simulation](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Pre-auth RCE in Nginx HTTP/2 handling](https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities) — 135 points · [37 comments](https://news.ycombinator.com/item?id=50547374)
-- [Quad9 Is Leaving France: Why DNS Resolvers Are the Wrong Place to Fight Piracy](https://techstackups.com/articles/quad9-leaves-france-dns-blocking/) — 292 points · [78 comments](https://news.ycombinator.com/item?id=50545958)
-- [Deutsche Bank](https://www.inside-db.com/) — 71 points · [18 comments](https://news.ycombinator.com/item?id=50547620)
-- ['Human' Is Cambridge Dictionary's Word of the Year 2026](https://www.cam.ac.uk/news/cambridge-dictionary-reveals-word-of-the-year-2026) — 85 points · [62 comments](https://news.ycombinator.com/item?id=50546914)
-- [U.S. AirForce is looking for old storage Media (CF or PC cards)](https://sam.gov/workspace/contract/opp/8948e8601e964c6aba9c801eee16b1be/view) — 34 points · [8 comments](https://news.ycombinator.com/item?id=50547583)
+- [How the European Commission rolled out Matrix to more than 40k staff](https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/) — 476 points · [246 comments](https://news.ycombinator.com/item?id=50558533)
+- [Why AI Wants to Be Local – With Pete Warden (Creator of Moonshine Voice)](https://thedataexchange.media/pete-warden-moonshine/) — 38 points · [19 comments](https://news.ycombinator.com/item?id=50561508)
+- [Everything you need to survive and rebuild society](https://lastbook.org/) — 99 points · [53 comments](https://news.ycombinator.com/item?id=50560822)
+- [Garage Door Spam](https://blog.harrison.page/garage-door-spam/) — 399 points · [178 comments](https://news.ycombinator.com/item?id=50519231)
+- [Cooling buildings is overtaking heating them as an energy need, IEA says](https://maccus.fr/en/cooling-overtaking-heating/) — 38 points · [24 comments](https://news.ycombinator.com/item?id=50560955)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Is Coding with AI Actually Faster and Cheaper?](https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810) · 6 min read
-- [Rust Doesn't Have a Garbage Collector. It Has Something Stranger.](https://dev.to/smtahosin/rust-doesnt-have-a-garbage-collector-it-has-something-stranger-2oan) · 7 min read
-- [Part 6: The Walkthrough That Only Worked on My Machine](https://dev.to/ndcodes/part-6-the-walkthrough-that-only-worked-on-my-machine-15e8) · 12 min read
-- [What would you add to the list?](https://dev.to/canro91/what-would-you-add-to-the-list-3fbh) · 1 min read
-- [How is AI making your life easier?](https://dev.to/rasheedmozaffar/how-is-ai-making-your-life-easier-2mcg) · 3 min read
+- [Stratagems #36: They Finished Their Coffee. The AI Still Has No Answer.](https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh) · 11 min read
+- [Why I Rewrote type-tune from TypeScript to Rust 🦀](https://dev.to/necoz/why-i-rewrote-type-tune-from-typescript-to-rust-1egg) · 6 min read
+- [\[Herdr in Practice\] Build Your Own Herdr Mod: Create a "Pending Review" Queue with Labels to Instantly Track Unread Reports](https://dev.to/gde/herdr-in-practice-build-your-own-herdr-mod-create-a-pending-review-queue-with-labels-to-5b83) · 8 min read
+- [Have you also blamed #8?](https://dev.to/canro91/have-you-also-blamed-8-21ll) · 1 min read
+- [El programa que se muestra a sí mismo.](https://dev.to/baltasarq/el-programa-que-se-muestra-a-si-mismo-11ig) · 3 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-18 16:26 UTC |
-| hacker_news | live | 2026-11-18 16:26 UTC |
-| dev | live | 2026-11-18 16:26 UTC |
+| github | live | 2026-11-19 16:33 UTC |
+| hacker_news | live | 2026-11-19 16:33 UTC |
+| dev | live | 2026-11-19 16:33 UTC |
 
 ## How it works
 
