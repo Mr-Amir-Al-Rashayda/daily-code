@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-19.md)
+[Open today's full issue →](digests/2026/11/2026-11-20.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [Text-Editor-with-Undo-Redo](https://github.com/Mr-Amir-Al-Rashayda/Text-Editor-with-Undo-Redo)
+### [-6-bit-Signed-Unsigned-Comparator-in-Verilog](https://github.com/Mr-Amir-Al-Rashayda/-6-bit-Signed-Unsigned-Comparator-in-Verilog)
 
-C text editor using two stacks and a queue for insertion, removal, undo/redo and file persistence.
+Explore the source and documentation for this project.
 
-**Stack:** C · **Stars:** 0
+**Stack:** Not reported · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [gsg\_level\_3\_codes](https://github.com/Mr-Amir-Al-Rashayda/gsg_level_3_codes). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [How the European Commission rolled out Matrix to more than 40k staff](https://element.io/blog/how-the-european-commission-rolled-out-matrix-to-more-than-40-000-staff/) — 476 points · [246 comments](https://news.ycombinator.com/item?id=50558533)
-- [Why AI Wants to Be Local – With Pete Warden (Creator of Moonshine Voice)](https://thedataexchange.media/pete-warden-moonshine/) — 38 points · [19 comments](https://news.ycombinator.com/item?id=50561508)
-- [Everything you need to survive and rebuild society](https://lastbook.org/) — 99 points · [53 comments](https://news.ycombinator.com/item?id=50560822)
-- [Garage Door Spam](https://blog.harrison.page/garage-door-spam/) — 399 points · [178 comments](https://news.ycombinator.com/item?id=50519231)
-- [Cooling buildings is overtaking heating them as an energy need, IEA says](https://maccus.fr/en/cooling-overtaking-heating/) — 38 points · [24 comments](https://news.ycombinator.com/item?id=50560955)
+- [Anthropic employee claims general proof of the Riemann Hypothesis \[pdf\]](https://alpo.ge/remark.pdf) — 848 points · [503 comments](https://news.ycombinator.com/item?id=50574968)
+- [If you can't explain something in simple terms, you don't understand it (2017)](https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it) — 341 points · [191 comments](https://news.ycombinator.com/item?id=50572355)
+- [Frostbite: A new CPU architecture discovered, designed and verified by AI](https://architectlabs.com/blog/frostbite) — 407 points · [254 comments](https://news.ycombinator.com/item?id=50572503)
+- [Show HN: I made an audio-to-MIDI model 60x more efficient](https://kobi.music/research/dettato) — 96 points · [19 comments](https://news.ycombinator.com/item?id=50526023)
+- [Signal Is Serious About Protecting Your Privacy](https://signal.org/blog/protecting-your-privacy/) — 174 points · [76 comments](https://news.ycombinator.com/item?id=50572348)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Stratagems #36: They Finished Their Coffee. The AI Still Has No Answer.](https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh) · 11 min read
-- [Why I Rewrote type-tune from TypeScript to Rust 🦀](https://dev.to/necoz/why-i-rewrote-type-tune-from-typescript-to-rust-1egg) · 6 min read
-- [\[Herdr in Practice\] Build Your Own Herdr Mod: Create a "Pending Review" Queue with Labels to Instantly Track Unread Reports](https://dev.to/gde/herdr-in-practice-build-your-own-herdr-mod-create-a-pending-review-queue-with-labels-to-5b83) · 8 min read
-- [Have you also blamed #8?](https://dev.to/canro91/have-you-also-blamed-8-21ll) · 1 min read
-- [El programa que se muestra a sí mismo.](https://dev.to/baltasarq/el-programa-que-se-muestra-a-si-mismo-11ig) · 3 min read
+- [Everybody Has an AI Apocalypse Story. Almost Nobody Reads the Fine Print.](https://dev.to/kenielzep97/everybody-has-an-ai-apocalypse-story-almost-nobody-reads-the-fine-print-43hm) · 21 min read
+- [C# 15 Unpacked: Unions Have Arrived. Here's Why They Matter](https://dev.to/georgekobaidze/c-15-unpacked-unions-have-arrived-heres-why-they-matter-48je) · 10 min read
+- [Anthropic IPO: what the prospectus says about rate limits and compute](https://dev.to/axrisi/anthropic-ipo-what-the-prospectus-says-about-rate-limits-and-compute-1loa) · 9 min read
+- [One VM, 15 Million Web Servers: The Per-Socket Tax Your Kernel Charges](https://dev.to/chenyuan20509/one-vm-15-million-web-servers-the-per-socket-tax-your-kernel-charges-2jck) · 7 min read
+- [10 Things Every Coder Has Blamed at Least Once (at least I have)](https://dev.to/jaideepparashar/10-things-every-coder-has-blamed-at-least-once-at-least-i-have-i2k) · 6 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-19 16:33 UTC |
-| hacker_news | live | 2026-11-19 16:33 UTC |
-| dev | live | 2026-11-19 16:33 UTC |
+| github | live | 2026-11-20 16:08 UTC |
+| hacker_news | live | 2026-11-20 16:08 UTC |
+| dev | live | 2026-11-20 16:08 UTC |
 
 ## How it works
 
