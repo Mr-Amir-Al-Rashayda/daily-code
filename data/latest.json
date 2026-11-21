@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-20 16:08 UTC",
+      "fetched_at": "2026-11-21 15:21 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-19T16:33:25Z"
+          "pushed_at": "2026-11-20T21:03:46Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-20 16:08 UTC",
+      "fetched_at": "2026-11-21 15:21 UTC",
       "data": [
         {
-          "title": "Anthropic employee claims general proof of the Riemann Hypothesis [pdf]",
-          "url": "https://alpo.ge/remark.pdf",
-          "discussion": "https://news.ycombinator.com/item?id=50574968",
-          "score": 848,
-          "comments": 503
+          "title": "Derek Lowe: Detonating a Pile of Lead Azide",
+          "url": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
+          "discussion": "https://news.ycombinator.com/item?id=50588982",
+          "score": 125,
+          "comments": 77
         },
         {
-          "title": "If you can't explain something in simple terms, you don't understand it (2017)",
-          "url": "https://kottke.org/17/06/if-you-cant-explain-something-in-simple-terms-you-dont-understand-it",
-          "discussion": "https://news.ycombinator.com/item?id=50572355",
-          "score": 341,
-          "comments": 191
+          "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+          "discussion": "https://news.ycombinator.com/item?id=50532613",
+          "score": 314,
+          "comments": 103
         },
         {
-          "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
-          "url": "https://architectlabs.com/blog/frostbite",
-          "discussion": "https://news.ycombinator.com/item?id=50572503",
-          "score": 407,
-          "comments": 254
+          "title": "Lean Verification of the Riemann Hypothesis - Joint statement by...",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "discussion": "https://news.ycombinator.com/item?id=50589618",
+          "score": 21,
+          "comments": 12
         },
         {
-          "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
-          "url": "https://kobi.music/research/dettato",
-          "discussion": "https://news.ycombinator.com/item?id=50526023",
-          "score": 96,
-          "comments": 19
+          "title": "Astra 6.2 and Sol 6.2 flop at Simple Bench",
+          "url": "https://simple-bench.com/",
+          "discussion": "https://news.ycombinator.com/item?id=50588916",
+          "score": 52,
+          "comments": 33
         },
         {
-          "title": "Signal Is Serious About Protecting Your Privacy",
-          "url": "https://signal.org/blog/protecting-your-privacy/",
-          "discussion": "https://news.ycombinator.com/item?id=50572348",
-          "score": 174,
-          "comments": 76
+          "title": "My Monitor Was Cutting My Download Speed by 75%",
+          "url": "https://blog.tymscar.com/posts/studiodisplayethernet/",
+          "discussion": "https://news.ycombinator.com/item?id=50587875",
+          "score": 155,
+          "comments": 63
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-20 16:08 UTC",
+      "fetched_at": "2026-11-21 15:21 UTC",
       "data": [
         {
-          "title": "Everybody Has an AI Apocalypse Story. Almost Nobody Reads the Fine Print.",
-          "url": "https://dev.to/kenielzep97/everybody-has-an-ai-apocalypse-story-almost-nobody-reads-the-fine-print-43hm",
-          "minutes": 21
+          "title": "Cozy Bytes 🍺 | Rust::Who Owns the Cat? 🐈🦀",
+          "url": "https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch",
+          "minutes": 2
         },
         {
-          "title": "C# 15 Unpacked: Unions Have Arrived. Here's Why They Matter",
-          "url": "https://dev.to/georgekobaidze/c-15-unpacked-unions-have-arrived-heres-why-they-matter-48je",
+          "title": "I Haven't Written a Line of Code in Months. And I Don't Know How to Feel About It.",
+          "url": "https://dev.to/damcosset/on-finding-purpose-kk6",
+          "minutes": 3
+        },
+        {
+          "title": "We Tried Automating Notifications with Make. Here's What We Learned.",
+          "url": "https://dev.to/notifizz/we-tried-automating-notifications-with-make-heres-what-we-learned-1nhp",
+          "minutes": 5
+        },
+        {
+          "title": "The Best Cyberdeck Is Not the Most Powerful One. It Is the One You Actually Carry",
+          "url": "https://dev.to/numbpill3d/the-best-cyberdeck-is-not-the-most-powerful-one-it-is-the-one-you-actually-carry-22o5",
           "minutes": 10
         },
         {
-          "title": "Anthropic IPO: what the prospectus says about rate limits and compute",
-          "url": "https://dev.to/axrisi/anthropic-ipo-what-the-prospectus-says-about-rate-limits-and-compute-1loa",
-          "minutes": 9
-        },
-        {
-          "title": "One VM, 15 Million Web Servers: The Per-Socket Tax Your Kernel Charges",
-          "url": "https://dev.to/chenyuan20509/one-vm-15-million-web-servers-the-per-socket-tax-your-kernel-charges-2jck",
+          "title": "A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)",
+          "url": "https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21",
           "minutes": 7
-        },
-        {
-          "title": "10 Things Every Coder Has Blamed at Least Once (at least I have)",
-          "url": "https://dev.to/jaideepparashar/10-things-every-coder-has-blamed-at-least-once-at-least-i-have-i2k",
-          "minutes": 6
         }
       ]
     }
