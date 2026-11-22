@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-21.md)
+[Open today's full issue →](digests/2026/11/2026-11-22.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [accelerated-blahut-arimoto](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto)
+### [Asal-Backend-Tasks](https://github.com/Mr-Amir-Al-Rashayda/Asal-Backend-Tasks)
 
-Channel-capacity estimation in Python: Blahut-Arimoto, relaxed updates, analytic validation and the accompanying research paper.
+Explore the source and documentation for this project.
 
 **Stack:** Python · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Medical-Test-Management-System](https://github.com/Mr-Amir-Al-Rashayda/Medical-Test-Management-System). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [MIPS-Assembly-Project-Linear-Equations-Solver](https://github.com/Mr-Amir-Al-Rashayda/MIPS-Assembly-Project-Linear-Equations-Solver). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Derek Lowe: Detonating a Pile of Lead Azide](https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really) — 125 points · [77 comments](https://news.ycombinator.com/item?id=50588982)
-- [Brazil's tax authority open-sources its tax calculator on GitHub under MIT](https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria) — 314 points · [103 comments](https://news.ycombinator.com/item?id=50532613)
-- [Lean Verification of the Riemann Hypothesis - Joint statement by...](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/) — 21 points · [12 comments](https://news.ycombinator.com/item?id=50589618)
-- [Astra 6.2 and Sol 6.2 flop at Simple Bench](https://simple-bench.com/) — 52 points · [33 comments](https://news.ycombinator.com/item?id=50588916)
-- [My Monitor Was Cutting My Download Speed by 75%](https://blog.tymscar.com/posts/studiodisplayethernet/) — 155 points · [63 comments](https://news.ycombinator.com/item?id=50587875)
+- [Toyota, Nissan, and Honda to standardize parts to lower costs](https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/) — 814 points · [479 comments](https://news.ycombinator.com/item?id=50596133)
+- [Show HN: I built a game where you are an LLM's subagent](https://github.com/gulivan/worker755) — 24 points · [8 comments](https://news.ycombinator.com/item?id=50599762)
+- [A real Linux kernel, compiled to WebAssembly](https://github.com/pithings/unkernel) — 180 points · [58 comments](https://news.ycombinator.com/item?id=50533945)
+- [Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'](https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib) — 1182 points · [251 comments](https://news.ycombinator.com/item?id=50582069)
+- [Lean verification of the Riemann Hypothesis](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/) — 1126 points · [939 comments](https://news.ycombinator.com/item?id=50589618)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Cozy Bytes 🍺 \| Rust::Who Owns the Cat? 🐈🦀](https://dev.to/_yourbrainbuffer_/cozy-bytes-rustwho-owns-the-cat-13ch) · 2 min read
-- [I Haven't Written a Line of Code in Months. And I Don't Know How to Feel About It.](https://dev.to/damcosset/on-finding-purpose-kk6) · 3 min read
-- [We Tried Automating Notifications with Make. Here's What We Learned.](https://dev.to/notifizz/we-tried-automating-notifications-with-make-heres-what-we-learned-1nhp) · 5 min read
-- [The Best Cyberdeck Is Not the Most Powerful One. It Is the One You Actually Carry](https://dev.to/numbpill3d/the-best-cyberdeck-is-not-the-most-powerful-one-it-is-the-one-you-actually-carry-22o5) · 10 min read
-- [A VS Code extension to turn ANY free chatbot website into an AI agent (kind of)](https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21) · 7 min read
+- [The Third Cup: Five Elements, One IT Company](https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca) · 7 min read
+- [I turned my GitHub contribution graph into a Bloomberg-style trading terminal](https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh) · 5 min read
+- [Programming at 53: Code Has No Age](https://dev.to/antonioprosperi2svg/programming-at-53-code-has-no-age-3k5f) · 3 min read
+- [I built a breath-hold trainer that does not trust the stopwatch](https://dev.to/chintanonweb/i-built-a-breath-hold-trainer-that-does-not-trust-the-stopwatch-4236) · 6 min read
+- [Local AI Code Review Before a PR: Tools That Catch Bugs Before You Push](https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e) · 10 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-21 15:21 UTC |
-| hacker_news | live | 2026-11-21 15:21 UTC |
-| dev | live | 2026-11-21 15:21 UTC |
+| github | live | 2026-11-22 15:17 UTC |
+| hacker_news | live | 2026-11-22 15:17 UTC |
+| dev | live | 2026-11-22 15:17 UTC |
 
 ## How it works
 
