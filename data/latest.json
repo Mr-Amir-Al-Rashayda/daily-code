@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-22 15:17 UTC",
+      "fetched_at": "2026-11-23 19:13 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-21T21:17:51Z"
+          "pushed_at": "2026-11-22T15:17:13Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-22 15:17 UTC",
+      "fetched_at": "2026-11-23 19:13 UTC",
       "data": [
         {
-          "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
-          "url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
-          "discussion": "https://news.ycombinator.com/item?id=50596133",
-          "score": 814,
-          "comments": 479
+          "title": "Nvidia Reinstates Jensen Huang as CEO",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "discussion": "https://news.ycombinator.com/item?id=50611576",
+          "score": 1214,
+          "comments": 2310
         },
         {
-          "title": "Show HN: I built a game where you are an LLM's subagent",
-          "url": "https://github.com/gulivan/worker755",
-          "discussion": "https://news.ycombinator.com/item?id=50599762",
-          "score": 24,
-          "comments": 8
+          "title": "Ladybird is now in alpha",
+          "url": "https://ladybird.org/posts/alpha/",
+          "discussion": "https://news.ycombinator.com/item?id=50614249",
+          "score": 731,
+          "comments": 210
         },
         {
-          "title": "A real Linux kernel, compiled to WebAssembly",
-          "url": "https://github.com/pithings/unkernel",
-          "discussion": "https://news.ycombinator.com/item?id=50533945",
-          "score": 180,
-          "comments": 58
+          "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+          "url": "https://z.ai/blog/glm-5.4",
+          "discussion": "https://news.ycombinator.com/item?id=50609685",
+          "score": 868,
+          "comments": 307
         },
         {
-          "title": "Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
-          "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-          "discussion": "https://news.ycombinator.com/item?id=50582069",
-          "score": 1182,
-          "comments": 251
+          "title": "Kagi Mail (public beta)",
+          "url": "https://blog.kagi.com/kagi-mail-public-beta",
+          "discussion": "https://news.ycombinator.com/item?id=50615481",
+          "score": 134,
+          "comments": 103
         },
         {
-          "title": "Lean verification of the Riemann Hypothesis",
-          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-          "discussion": "https://news.ycombinator.com/item?id=50589618",
-          "score": 1126,
-          "comments": 939
+          "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
+          "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
+          "discussion": "https://news.ycombinator.com/item?id=50587439",
+          "score": 177,
+          "comments": 64
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-22 15:17 UTC",
+      "fetched_at": "2026-11-23 19:13 UTC",
       "data": [
         {
-          "title": "The Third Cup: Five Elements, One IT Company",
-          "url": "https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca",
-          "minutes": 7
-        },
-        {
-          "title": "I turned my GitHub contribution graph into a Bloomberg-style trading terminal",
-          "url": "https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh",
-          "minutes": 5
-        },
-        {
-          "title": "Programming at 53: Code Has No Age",
-          "url": "https://dev.to/antonioprosperi2svg/programming-at-53-code-has-no-age-3k5f",
-          "minutes": 3
-        },
-        {
-          "title": "I built a breath-hold trainer that does not trust the stopwatch",
-          "url": "https://dev.to/chintanonweb/i-built-a-breath-hold-trainer-that-does-not-trust-the-stopwatch-4236",
+          "title": "The Third Cup: Change Never Sleeps",
+          "url": "https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf",
           "minutes": 6
         },
         {
-          "title": "Local AI Code Review Before a PR: Tools That Catch Bugs Before You Push",
-          "url": "https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e",
-          "minutes": 10
+          "title": "8 Best MCP Gateways",
+          "url": "https://dev.to/varshithvhegde/8-best-mcp-gateways-4ddf",
+          "minutes": 13
+        },
+        {
+          "title": "6 Lessons Every Developer Should Learn",
+          "url": "https://dev.to/hadil/6-lessons-every-developer-should-learn-3d5l",
+          "minutes": 11
+        },
+        {
+          "title": "C# 15 Unpacked: Practical Use Cases for Unions with Real Examples",
+          "url": "https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32",
+          "minutes": 14
+        },
+        {
+          "title": "We Automated the Software Factory. Why Am I Still Clicking Approve on Typo Fixes?",
+          "url": "https://dev.to/therealmrmumba/we-automated-the-software-factory-why-am-i-still-clicking-approve-on-typo-fixes-1fc1",
+          "minutes": 9
         }
       ]
     }

@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-22.md)
+[Open today's full issue →](digests/2026/11/2026-11-23.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [Asal-Backend-Tasks](https://github.com/Mr-Amir-Al-Rashayda/Asal-Backend-Tasks)
+### [AVL-Tree-and-Hash-Table](https://github.com/Mr-Amir-Al-Rashayda/AVL-Tree-and-Hash-Table)
 
 Explore the source and documentation for this project.
 
-**Stack:** Python · **Stars:** 0
+**Stack:** C · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [MIPS-Assembly-Project-Linear-Equations-Solver](https://github.com/Mr-Amir-Al-Rashayda/MIPS-Assembly-Project-Linear-Equations-Solver). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [P2](https://github.com/Mr-Amir-Al-Rashayda/P2). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Toyota, Nissan, and Honda to standardize parts to lower costs](https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/) — 814 points · [479 comments](https://news.ycombinator.com/item?id=50596133)
-- [Show HN: I built a game where you are an LLM's subagent](https://github.com/gulivan/worker755) — 24 points · [8 comments](https://news.ycombinator.com/item?id=50599762)
-- [A real Linux kernel, compiled to WebAssembly](https://github.com/pithings/unkernel) — 180 points · [58 comments](https://news.ycombinator.com/item?id=50533945)
-- [Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'](https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib) — 1182 points · [251 comments](https://news.ycombinator.com/item?id=50582069)
-- [Lean verification of the Riemann Hypothesis](https://leanprover-community.github.io/blog/posts/riemann-hypothesis/) — 1126 points · [939 comments](https://news.ycombinator.com/item?id=50589618)
+- [Nvidia Reinstates Jensen Huang as CEO](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html) — 1214 points · [2310 comments](https://news.ycombinator.com/item?id=50611576)
+- [Ladybird is now in alpha](https://ladybird.org/posts/alpha/) — 731 points · [210 comments](https://news.ycombinator.com/item?id=50614249)
+- [GLM-5.4: Toward generalized coding with our first loop transformer](https://z.ai/blog/glm-5.4) — 868 points · [307 comments](https://news.ycombinator.com/item?id=50609685)
+- [Kagi Mail (public beta)](https://blog.kagi.com/kagi-mail-public-beta) — 134 points · [103 comments](https://news.ycombinator.com/item?id=50615481)
+- [Spacecraft reaches Mercury on second-ever mission to enter its orbit](https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo) — 177 points · [64 comments](https://news.ycombinator.com/item?id=50587439)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [The Third Cup: Five Elements, One IT Company](https://dev.to/thethirdcup/the-third-cup-five-elements-one-it-company-1bca) · 7 min read
-- [I turned my GitHub contribution graph into a Bloomberg-style trading terminal](https://dev.to/necoz/i-turned-my-github-contribution-graph-into-a-bloomberg-style-trading-terminal-31eh) · 5 min read
-- [Programming at 53: Code Has No Age](https://dev.to/antonioprosperi2svg/programming-at-53-code-has-no-age-3k5f) · 3 min read
-- [I built a breath-hold trainer that does not trust the stopwatch](https://dev.to/chintanonweb/i-built-a-breath-hold-trainer-that-does-not-trust-the-stopwatch-4236) · 6 min read
-- [Local AI Code Review Before a PR: Tools That Catch Bugs Before You Push](https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e) · 10 min read
+- [The Third Cup: Change Never Sleeps](https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf) · 6 min read
+- [8 Best MCP Gateways](https://dev.to/varshithvhegde/8-best-mcp-gateways-4ddf) · 13 min read
+- [6 Lessons Every Developer Should Learn](https://dev.to/hadil/6-lessons-every-developer-should-learn-3d5l) · 11 min read
+- [C# 15 Unpacked: Practical Use Cases for Unions with Real Examples](https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32) · 14 min read
+- [We Automated the Software Factory. Why Am I Still Clicking Approve on Typo Fixes?](https://dev.to/therealmrmumba/we-automated-the-software-factory-why-am-i-still-clicking-approve-on-typo-fixes-1fc1) · 9 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-22 15:17 UTC |
-| hacker_news | live | 2026-11-22 15:17 UTC |
-| dev | live | 2026-11-22 15:17 UTC |
+| github | live | 2026-11-23 19:13 UTC |
+| hacker_news | live | 2026-11-23 19:13 UTC |
+| dev | live | 2026-11-23 19:13 UTC |
 
 ## How it works
 
