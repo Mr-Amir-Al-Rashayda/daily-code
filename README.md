@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-23.md)
+[Open today's full issue →](digests/2026/11/2026-11-24.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [AVL-Tree-and-Hash-Table](https://github.com/Mr-Amir-Al-Rashayda/AVL-Tree-and-Hash-Table)
+### [cloud-backup-system](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system)
 
-Explore the source and documentation for this project.
+C/POSIX client-server backup project with a modular networking, synchronization and transfer architecture. Implementation in progress.
 
 **Stack:** C · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [P2](https://github.com/Mr-Amir-Al-Rashayda/P2). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Palestinian-District-Data-Management](https://github.com/Mr-Amir-Al-Rashayda/Palestinian-District-Data-Management). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Nvidia Reinstates Jensen Huang as CEO](https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html) — 1214 points · [2310 comments](https://news.ycombinator.com/item?id=50611576)
-- [Ladybird is now in alpha](https://ladybird.org/posts/alpha/) — 731 points · [210 comments](https://news.ycombinator.com/item?id=50614249)
-- [GLM-5.4: Toward generalized coding with our first loop transformer](https://z.ai/blog/glm-5.4) — 868 points · [307 comments](https://news.ycombinator.com/item?id=50609685)
-- [Kagi Mail (public beta)](https://blog.kagi.com/kagi-mail-public-beta) — 134 points · [103 comments](https://news.ycombinator.com/item?id=50615481)
-- [Spacecraft reaches Mercury on second-ever mission to enter its orbit](https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo) — 177 points · [64 comments](https://news.ycombinator.com/item?id=50587439)
+- [Cyberattack campaign compromising Check Point servers across 22 organizations](https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign) — 165 points · [54 comments](https://news.ycombinator.com/item?id=50630594)
+- [Jetty Pro](https://news.ycombinator.com/item?id=50630462) — 141 points · [50 comments](https://news.ycombinator.com/item?id=50630462)
+- [Mechanical Pencil: Spray Bottle](https://mechanical-pencil.com/products/spray-bottle) — 150 points · [33 comments](https://news.ycombinator.com/item?id=50598555)
+- [How to Make a Lovable City](https://www.worksinprogress.news/p/how-to-make-a-lovable-city) — 73 points · [38 comments](https://news.ycombinator.com/item?id=50630423)
+- [2035 came early](https://fzakaria.com/2026/11/23/2035-came-early) — 833 points · [308 comments](https://news.ycombinator.com/item?id=50624497)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [The Third Cup: Change Never Sleeps](https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf) · 6 min read
-- [8 Best MCP Gateways](https://dev.to/varshithvhegde/8-best-mcp-gateways-4ddf) · 13 min read
-- [6 Lessons Every Developer Should Learn](https://dev.to/hadil/6-lessons-every-developer-should-learn-3d5l) · 11 min read
-- [C# 15 Unpacked: Practical Use Cases for Unions with Real Examples](https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32) · 14 min read
-- [We Automated the Software Factory. Why Am I Still Clicking Approve on Typo Fixes?](https://dev.to/therealmrmumba/we-automated-the-software-factory-why-am-i-still-clicking-approve-on-typo-fixes-1fc1) · 9 min read
+- [The Third Cup: After Everything Has a Name](https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14) · 7 min read
+- [Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition Forever](https://dev.to/smtahosin/why-your-android-app-drops-frames-the-jetpack-compose-architecture-guide-that-fixes-recomposition-3oh3) · 10 min read
+- [Why Your AI Release Notes Hallucinate: The "Why vs What" Problem in Git History](https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0) · 5 min read
+- [9 Best Agent Gateways](https://dev.to/anthonymax/9-best-agent-gateways-1f21) · 16 min read
+- [JavaScript \`Error.isError()\` Is Coming to V8: What the TC39 Proposal Means for Cross-Realm Error Checking](https://dev.to/jsmanifest/javascript-erroriserror-is-coming-to-v8-what-the-tc39-proposal-means-for-cross-realm-error-4am7) · 13 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-23 19:13 UTC |
-| hacker_news | live | 2026-11-23 19:13 UTC |
-| dev | live | 2026-11-23 19:13 UTC |
+| github | live | 2026-11-24 18:53 UTC |
+| hacker_news | live | 2026-11-24 18:53 UTC |
+| dev | live | 2026-11-24 18:53 UTC |
 
 ## How it works
 

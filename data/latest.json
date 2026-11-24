@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-23 19:13 UTC",
+      "fetched_at": "2026-11-24 18:53 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-22T15:17:13Z"
+          "pushed_at": "2026-11-23T19:13:56Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-23 19:13 UTC",
+      "fetched_at": "2026-11-24 18:53 UTC",
       "data": [
         {
-          "title": "Nvidia Reinstates Jensen Huang as CEO",
-          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
-          "discussion": "https://news.ycombinator.com/item?id=50611576",
-          "score": 1214,
-          "comments": 2310
+          "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
+          "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+          "discussion": "https://news.ycombinator.com/item?id=50630594",
+          "score": 165,
+          "comments": 54
         },
         {
-          "title": "Ladybird is now in alpha",
-          "url": "https://ladybird.org/posts/alpha/",
-          "discussion": "https://news.ycombinator.com/item?id=50614249",
-          "score": 731,
-          "comments": 210
+          "title": "Jetty Pro",
+          "url": "https://news.ycombinator.com/item?id=50630462",
+          "discussion": "https://news.ycombinator.com/item?id=50630462",
+          "score": 141,
+          "comments": 50
         },
         {
-          "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
-          "url": "https://z.ai/blog/glm-5.4",
-          "discussion": "https://news.ycombinator.com/item?id=50609685",
-          "score": 868,
-          "comments": 307
+          "title": "Mechanical Pencil: Spray Bottle",
+          "url": "https://mechanical-pencil.com/products/spray-bottle",
+          "discussion": "https://news.ycombinator.com/item?id=50598555",
+          "score": 150,
+          "comments": 33
         },
         {
-          "title": "Kagi Mail (public beta)",
-          "url": "https://blog.kagi.com/kagi-mail-public-beta",
-          "discussion": "https://news.ycombinator.com/item?id=50615481",
-          "score": 134,
-          "comments": 103
+          "title": "How to Make a Lovable City",
+          "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
+          "discussion": "https://news.ycombinator.com/item?id=50630423",
+          "score": 73,
+          "comments": 38
         },
         {
-          "title": "Spacecraft reaches Mercury on second-ever mission to enter its orbit",
-          "url": "https://www.theguardian.com/science/2026/nov/20/spacecraft-mercury-second-ever-mission-orbit-bepicolombo",
-          "discussion": "https://news.ycombinator.com/item?id=50587439",
-          "score": 177,
-          "comments": 64
+          "title": "2035 came early",
+          "url": "https://fzakaria.com/2026/11/23/2035-came-early",
+          "discussion": "https://news.ycombinator.com/item?id=50624497",
+          "score": 833,
+          "comments": 308
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-23 19:13 UTC",
+      "fetched_at": "2026-11-24 18:53 UTC",
       "data": [
         {
-          "title": "The Third Cup: Change Never Sleeps",
-          "url": "https://dev.to/thethirdcup/the-third-cup-change-never-sleeps-2ldf",
-          "minutes": 6
+          "title": "The Third Cup: After Everything Has a Name",
+          "url": "https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14",
+          "minutes": 7
         },
         {
-          "title": "8 Best MCP Gateways",
-          "url": "https://dev.to/varshithvhegde/8-best-mcp-gateways-4ddf",
+          "title": "Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition Forever",
+          "url": "https://dev.to/smtahosin/why-your-android-app-drops-frames-the-jetpack-compose-architecture-guide-that-fixes-recomposition-3oh3",
+          "minutes": 10
+        },
+        {
+          "title": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History",
+          "url": "https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0",
+          "minutes": 5
+        },
+        {
+          "title": "9 Best Agent Gateways",
+          "url": "https://dev.to/anthonymax/9-best-agent-gateways-1f21",
+          "minutes": 16
+        },
+        {
+          "title": "JavaScript `Error.isError()` Is Coming to V8: What the TC39 Proposal Means for Cross-Realm Error Checking",
+          "url": "https://dev.to/jsmanifest/javascript-erroriserror-is-coming-to-v8-what-the-tc39-proposal-means-for-cross-realm-error-4am7",
           "minutes": 13
-        },
-        {
-          "title": "6 Lessons Every Developer Should Learn",
-          "url": "https://dev.to/hadil/6-lessons-every-developer-should-learn-3d5l",
-          "minutes": 11
-        },
-        {
-          "title": "C# 15 Unpacked: Practical Use Cases for Unions with Real Examples",
-          "url": "https://dev.to/georgekobaidze/c-15-unpacked-practical-use-cases-for-unions-with-real-examples-e32",
-          "minutes": 14
-        },
-        {
-          "title": "We Automated the Software Factory. Why Am I Still Clicking Approve on Typo Fixes?",
-          "url": "https://dev.to/therealmrmumba/we-automated-the-software-factory-why-am-i-still-clicking-approve-on-typo-fixes-1fc1",
-          "minutes": 9
         }
       ]
     }
