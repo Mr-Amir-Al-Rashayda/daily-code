@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-24 18:53 UTC",
+      "fetched_at": "2026-11-25 17:57 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-23T19:13:56Z"
+          "pushed_at": "2026-11-24T18:53:25Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-24 18:53 UTC",
+      "fetched_at": "2026-11-25 17:57 UTC",
       "data": [
         {
-          "title": "Cyberattack campaign compromising Check Point servers across 22 organizations",
-          "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
-          "discussion": "https://news.ycombinator.com/item?id=50630594",
-          "score": 165,
-          "comments": 54
+          "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
+          "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
+          "discussion": "https://news.ycombinator.com/item?id=50643129",
+          "score": 257,
+          "comments": 73
         },
         {
-          "title": "Jetty Pro",
-          "url": "https://news.ycombinator.com/item?id=50630462",
-          "discussion": "https://news.ycombinator.com/item?id=50630462",
-          "score": 141,
-          "comments": 50
+          "title": "Investigating degraded experiences across GitHub products",
+          "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
+          "discussion": "https://news.ycombinator.com/item?id=50643720",
+          "score": 126,
+          "comments": 62
         },
         {
-          "title": "Mechanical Pencil: Spray Bottle",
-          "url": "https://mechanical-pencil.com/products/spray-bottle",
-          "discussion": "https://news.ycombinator.com/item?id=50598555",
-          "score": 150,
-          "comments": 33
+          "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
+          "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+          "discussion": "https://news.ycombinator.com/item?id=50642086",
+          "score": 289,
+          "comments": 230
         },
         {
-          "title": "How to Make a Lovable City",
-          "url": "https://www.worksinprogress.news/p/how-to-make-a-lovable-city",
-          "discussion": "https://news.ycombinator.com/item?id=50630423",
-          "score": 73,
-          "comments": 38
+          "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
+          "url": "https://github.com/xoxorwr/pw-loudness-eq",
+          "discussion": "https://news.ycombinator.com/item?id=50641171",
+          "score": 244,
+          "comments": 138
         },
         {
-          "title": "2035 came early",
-          "url": "https://fzakaria.com/2026/11/23/2035-came-early",
-          "discussion": "https://news.ycombinator.com/item?id=50624497",
-          "score": 833,
-          "comments": 308
+          "title": "Predicting LoRA size for any dataset",
+          "url": "https://engram.com/blog/lora-size",
+          "discussion": "https://news.ycombinator.com/item?id=50635783",
+          "score": 44,
+          "comments": 1
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-24 18:53 UTC",
+      "fetched_at": "2026-11-25 17:57 UTC",
       "data": [
         {
-          "title": "The Third Cup: After Everything Has a Name",
-          "url": "https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14",
-          "minutes": 7
-        },
-        {
-          "title": "Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition Forever",
-          "url": "https://dev.to/smtahosin/why-your-android-app-drops-frames-the-jetpack-compose-architecture-guide-that-fixes-recomposition-3oh3",
+          "title": "The Third Cup: You Don't Have to Fly That High",
+          "url": "https://dev.to/thethirdcup/the-third-cup-you-dont-have-to-fly-that-high-3ehd",
           "minutes": 10
         },
         {
-          "title": "Why Your AI Release Notes Hallucinate: The \"Why vs What\" Problem in Git History",
-          "url": "https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0",
-          "minutes": 5
+          "title": "Part 7: What Reading the Code Could Never Find",
+          "url": "https://dev.to/ndcodes/part-7-what-reading-the-code-could-never-find-8c1",
+          "minutes": 12
         },
         {
-          "title": "9 Best Agent Gateways",
-          "url": "https://dev.to/anthonymax/9-best-agent-gateways-1f21",
-          "minutes": 16
+          "title": "How to Auto-Approve Pull Requests Safely: Testing It on a Real Repo",
+          "url": "https://dev.to/anthonymax/how-to-auto-approve-pull-requests-safely-testing-it-on-a-real-repo-3do",
+          "minutes": 8
         },
         {
-          "title": "JavaScript `Error.isError()` Is Coming to V8: What the TC39 Proposal Means for Cross-Realm Error Checking",
-          "url": "https://dev.to/jsmanifest/javascript-erroriserror-is-coming-to-v8-what-the-tc39-proposal-means-for-cross-realm-error-4am7",
-          "minutes": 13
+          "title": "10 Rejections. No LinkedIn Premium. 1 Offer. Here's how 👇",
+          "url": "https://dev.to/taqui/10-rejections-no-linkedin-premium-1-offer-heres-how-49mh",
+          "minutes": 7
+        },
+        {
+          "title": "My AI memory marked 471 notes as verified. Nothing had verified them.",
+          "url": "https://dev.to/heinrichneb/my-ai-memory-marked-471-notes-as-verified-nothing-had-verified-them-3m87",
+          "minutes": 6
         }
       ]
     }

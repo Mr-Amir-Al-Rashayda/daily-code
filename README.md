@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-24.md)
+[Open today's full issue →](digests/2026/11/2026-11-25.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [cloud-backup-system](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system)
+### [Course-Prerequisite-Planner-and-Campus-Route-Finder](https://github.com/Mr-Amir-Al-Rashayda/Course-Prerequisite-Planner-and-Campus-Route-Finder)
 
-C/POSIX client-server backup project with a modular networking, synchronization and transfer architecture. Implementation in progress.
+Explore the source and documentation for this project.
 
 **Stack:** C · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Palestinian-District-Data-Management](https://github.com/Mr-Amir-Al-Rashayda/Palestinian-District-Data-Management). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Parallel-Word-Frequency-Analysis](https://github.com/Mr-Amir-Al-Rashayda/Parallel-Word-Frequency-Analysis). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Cyberattack campaign compromising Check Point servers across 22 organizations](https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign) — 165 points · [54 comments](https://news.ycombinator.com/item?id=50630594)
-- [Jetty Pro](https://news.ycombinator.com/item?id=50630462) — 141 points · [50 comments](https://news.ycombinator.com/item?id=50630462)
-- [Mechanical Pencil: Spray Bottle](https://mechanical-pencil.com/products/spray-bottle) — 150 points · [33 comments](https://news.ycombinator.com/item?id=50598555)
-- [How to Make a Lovable City](https://www.worksinprogress.news/p/how-to-make-a-lovable-city) — 73 points · [38 comments](https://news.ycombinator.com/item?id=50630423)
-- [2035 came early](https://fzakaria.com/2026/11/23/2035-came-early) — 833 points · [308 comments](https://news.ycombinator.com/item?id=50624497)
+- [A few questions for the guy who went snorkeling in a Home Depot retention pond](https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts) — 257 points · [73 comments](https://news.ycombinator.com/item?id=50643129)
+- [Investigating degraded experiences across GitHub products](https://www.githubstatus.com/incidents/qn8mfv6q5hlx) — 126 points · [62 comments](https://news.ycombinator.com/item?id=50643720)
+- [Google releases Cogentic papers on integer factorization, discrete logs and more](https://github.com/google-research/google-research/tree/master/cogentic_research_papers) — 289 points · [230 comments](https://news.ycombinator.com/item?id=50642086)
+- [Windows Loudness Equalization, reverse-engineered and ported to PipeWire](https://github.com/xoxorwr/pw-loudness-eq) — 244 points · [138 comments](https://news.ycombinator.com/item?id=50641171)
+- [Predicting LoRA size for any dataset](https://engram.com/blog/lora-size) — 44 points · [1 comments](https://news.ycombinator.com/item?id=50635783)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [The Third Cup: After Everything Has a Name](https://dev.to/thethirdcup/the-third-cup-after-everything-has-a-name-2b14) · 7 min read
-- [Why Your Android App Drops Frames: The Jetpack Compose Architecture Guide That Fixes Recomposition Forever](https://dev.to/smtahosin/why-your-android-app-drops-frames-the-jetpack-compose-architecture-guide-that-fixes-recomposition-3oh3) · 10 min read
-- [Why Your AI Release Notes Hallucinate: The "Why vs What" Problem in Git History](https://dev.to/necoz/why-your-ai-release-notes-hallucinate-the-why-vs-what-problem-in-git-history-5ch0) · 5 min read
-- [9 Best Agent Gateways](https://dev.to/anthonymax/9-best-agent-gateways-1f21) · 16 min read
-- [JavaScript \`Error.isError()\` Is Coming to V8: What the TC39 Proposal Means for Cross-Realm Error Checking](https://dev.to/jsmanifest/javascript-erroriserror-is-coming-to-v8-what-the-tc39-proposal-means-for-cross-realm-error-4am7) · 13 min read
+- [The Third Cup: You Don't Have to Fly That High](https://dev.to/thethirdcup/the-third-cup-you-dont-have-to-fly-that-high-3ehd) · 10 min read
+- [Part 7: What Reading the Code Could Never Find](https://dev.to/ndcodes/part-7-what-reading-the-code-could-never-find-8c1) · 12 min read
+- [How to Auto-Approve Pull Requests Safely: Testing It on a Real Repo](https://dev.to/anthonymax/how-to-auto-approve-pull-requests-safely-testing-it-on-a-real-repo-3do) · 8 min read
+- [10 Rejections. No LinkedIn Premium. 1 Offer. Here's how 👇](https://dev.to/taqui/10-rejections-no-linkedin-premium-1-offer-heres-how-49mh) · 7 min read
+- [My AI memory marked 471 notes as verified. Nothing had verified them.](https://dev.to/heinrichneb/my-ai-memory-marked-471-notes-as-verified-nothing-had-verified-them-3m87) · 6 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-24 18:53 UTC |
-| hacker_news | live | 2026-11-24 18:53 UTC |
-| dev | live | 2026-11-24 18:53 UTC |
+| github | live | 2026-11-25 17:57 UTC |
+| hacker_news | live | 2026-11-25 17:57 UTC |
+| dev | live | 2026-11-25 17:57 UTC |
 
 ## How it works
 
