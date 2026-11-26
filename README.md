@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-25.md)
+[Open today's full issue →](digests/2026/11/2026-11-26.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [Course-Prerequisite-Planner-and-Campus-Route-Finder](https://github.com/Mr-Amir-Al-Rashayda/Course-Prerequisite-Planner-and-Campus-Route-Finder)
+### [CPU-Scheduler-Simulation](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation)
 
 Explore the source and documentation for this project.
 
-**Stack:** C · **Stars:** 0
+**Stack:** Python · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [Parallel-Word-Frequency-Analysis](https://github.com/Mr-Amir-Al-Rashayda/Parallel-Word-Frequency-Analysis). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [pruebaRep](https://github.com/Mr-Amir-Al-Rashayda/pruebaRep). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [A few questions for the guy who went snorkeling in a Home Depot retention pond](https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts) — 257 points · [73 comments](https://news.ycombinator.com/item?id=50643129)
-- [Investigating degraded experiences across GitHub products](https://www.githubstatus.com/incidents/qn8mfv6q5hlx) — 126 points · [62 comments](https://news.ycombinator.com/item?id=50643720)
-- [Google releases Cogentic papers on integer factorization, discrete logs and more](https://github.com/google-research/google-research/tree/master/cogentic_research_papers) — 289 points · [230 comments](https://news.ycombinator.com/item?id=50642086)
-- [Windows Loudness Equalization, reverse-engineered and ported to PipeWire](https://github.com/xoxorwr/pw-loudness-eq) — 244 points · [138 comments](https://news.ycombinator.com/item?id=50641171)
-- [Predicting LoRA size for any dataset](https://engram.com/blog/lora-size) — 44 points · [1 comments](https://news.ycombinator.com/item?id=50635783)
+- [NP\_R ≠ PAR\_R](https://github.com/samueleverett01/bss-permanent-separations) — 57 points · [33 comments](https://news.ycombinator.com/item?id=50657059)
+- [AMD Specific Patches for Llama.cpp](https://devnull.land/amd-specific-llama-cpp) — 36 points · [5 comments](https://news.ycombinator.com/item?id=50657265)
+- [Intel One Mono font](https://github.com/intel/intel-one-mono) — 347 points · [196 comments](https://news.ycombinator.com/item?id=50653667)
+- [Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening](https://scottaaronson.blog/?p=10379) — 1876 points · [1718 comments](https://news.ycombinator.com/item?id=50646108)
+- [Show HN: Three Linux VMs in a browser tab, each running a different browser](https://michidk.github.io/sidebyside/) — 36 points · [11 comments](https://news.ycombinator.com/item?id=50656036)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [The Third Cup: You Don't Have to Fly That High](https://dev.to/thethirdcup/the-third-cup-you-dont-have-to-fly-that-high-3ehd) · 10 min read
-- [Part 7: What Reading the Code Could Never Find](https://dev.to/ndcodes/part-7-what-reading-the-code-could-never-find-8c1) · 12 min read
-- [How to Auto-Approve Pull Requests Safely: Testing It on a Real Repo](https://dev.to/anthonymax/how-to-auto-approve-pull-requests-safely-testing-it-on-a-real-repo-3do) · 8 min read
-- [10 Rejections. No LinkedIn Premium. 1 Offer. Here's how 👇](https://dev.to/taqui/10-rejections-no-linkedin-premium-1-offer-heres-how-49mh) · 7 min read
-- [My AI memory marked 471 notes as verified. Nothing had verified them.](https://dev.to/heinrichneb/my-ai-memory-marked-471-notes-as-verified-nothing-had-verified-them-3m87) · 6 min read
+- [Why Can't We Just #include "functions.c" in "main.c"? 🤔](https://dev.to/necoz/why-cant-we-just-include-functionsc-in-mainc-1a73) · 3 min read
+- [When does a design decision become an architectural decision?](https://dev.to/damcosset/when-does-a-design-decision-become-an-architectural-decision-54c7) · 4 min read
+- [November's worst CVEs weren't clever. They were bad assumptions about state.](https://dev.to/cyclopt_dimitrisk/novembers-worst-cves-werent-clever-they-were-bad-assumptions-about-state-1dpg) · 3 min read
+- [The 3-check rule I use before I accept any AI coding task (free repo inside)](https://dev.to/heinrichneb/i-stopped-trusting-done-from-my-ai-now-i-ask-three-questions-4lab) · 5 min read
+- [Your Agent’s Model Has an Expiration Date—And Silent Upgrades Are Already Changing Your Output](https://dev.to/debashish_ghosal/your-agents-model-has-an-expiration-date-read-what-vendors-actually-promise-3khb) · 3 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-25 17:57 UTC |
-| hacker_news | live | 2026-11-25 17:57 UTC |
-| dev | live | 2026-11-25 17:57 UTC |
+| github | live | 2026-11-26 17:42 UTC |
+| hacker_news | live | 2026-11-26 17:42 UTC |
+| dev | live | 2026-11-26 17:42 UTC |
 
 ## How it works
 

@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-25 17:57 UTC",
+      "fetched_at": "2026-11-26 17:42 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-24T18:53:25Z"
+          "pushed_at": "2026-11-26T11:42:55Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-25 17:57 UTC",
+      "fetched_at": "2026-11-26 17:42 UTC",
       "data": [
         {
-          "title": "A few questions for the guy who went snorkeling in a Home Depot retention pond",
-          "url": "https://www.vox.com/down-to-earth/511999/home-depot-retention-pond-snorkel-joseph-ricketts",
-          "discussion": "https://news.ycombinator.com/item?id=50643129",
-          "score": 257,
-          "comments": 73
+          "title": "NP_R ≠ PAR_R",
+          "url": "https://github.com/samueleverett01/bss-permanent-separations",
+          "discussion": "https://news.ycombinator.com/item?id=50657059",
+          "score": 57,
+          "comments": 33
         },
         {
-          "title": "Investigating degraded experiences across GitHub products",
-          "url": "https://www.githubstatus.com/incidents/qn8mfv6q5hlx",
-          "discussion": "https://news.ycombinator.com/item?id=50643720",
-          "score": 126,
-          "comments": 62
+          "title": "AMD Specific Patches for Llama.cpp",
+          "url": "https://devnull.land/amd-specific-llama-cpp",
+          "discussion": "https://news.ycombinator.com/item?id=50657265",
+          "score": 36,
+          "comments": 5
         },
         {
-          "title": "Google releases Cogentic papers on integer factorization, discrete logs and more",
-          "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
-          "discussion": "https://news.ycombinator.com/item?id=50642086",
-          "score": 289,
-          "comments": 230
+          "title": "Intel One Mono font",
+          "url": "https://github.com/intel/intel-one-mono",
+          "discussion": "https://news.ycombinator.com/item?id=50653667",
+          "score": 347,
+          "comments": 196
         },
         {
-          "title": "Windows Loudness Equalization, reverse-engineered and ported to PipeWire",
-          "url": "https://github.com/xoxorwr/pw-loudness-eq",
-          "discussion": "https://news.ycombinator.com/item?id=50641171",
-          "score": 244,
-          "comments": 138
+          "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+          "url": "https://scottaaronson.blog/?p=10379",
+          "discussion": "https://news.ycombinator.com/item?id=50646108",
+          "score": 1876,
+          "comments": 1718
         },
         {
-          "title": "Predicting LoRA size for any dataset",
-          "url": "https://engram.com/blog/lora-size",
-          "discussion": "https://news.ycombinator.com/item?id=50635783",
-          "score": 44,
-          "comments": 1
+          "title": "Show HN: Three Linux VMs in a browser tab, each running a different browser",
+          "url": "https://michidk.github.io/sidebyside/",
+          "discussion": "https://news.ycombinator.com/item?id=50656036",
+          "score": 36,
+          "comments": 11
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-25 17:57 UTC",
+      "fetched_at": "2026-11-26 17:42 UTC",
       "data": [
         {
-          "title": "The Third Cup: You Don't Have to Fly That High",
-          "url": "https://dev.to/thethirdcup/the-third-cup-you-dont-have-to-fly-that-high-3ehd",
-          "minutes": 10
+          "title": "Why Can't We Just #include \"functions.c\" in \"main.c\"? 🤔",
+          "url": "https://dev.to/necoz/why-cant-we-just-include-functionsc-in-mainc-1a73",
+          "minutes": 3
         },
         {
-          "title": "Part 7: What Reading the Code Could Never Find",
-          "url": "https://dev.to/ndcodes/part-7-what-reading-the-code-could-never-find-8c1",
-          "minutes": 12
+          "title": "When does a design decision become an architectural decision?",
+          "url": "https://dev.to/damcosset/when-does-a-design-decision-become-an-architectural-decision-54c7",
+          "minutes": 4
         },
         {
-          "title": "How to Auto-Approve Pull Requests Safely: Testing It on a Real Repo",
-          "url": "https://dev.to/anthonymax/how-to-auto-approve-pull-requests-safely-testing-it-on-a-real-repo-3do",
-          "minutes": 8
+          "title": "November's worst CVEs weren't clever. They were bad assumptions about state.",
+          "url": "https://dev.to/cyclopt_dimitrisk/novembers-worst-cves-werent-clever-they-were-bad-assumptions-about-state-1dpg",
+          "minutes": 3
         },
         {
-          "title": "10 Rejections. No LinkedIn Premium. 1 Offer. Here's how 👇",
-          "url": "https://dev.to/taqui/10-rejections-no-linkedin-premium-1-offer-heres-how-49mh",
-          "minutes": 7
+          "title": "The 3-check rule I use before I accept any AI coding task (free repo inside)",
+          "url": "https://dev.to/heinrichneb/i-stopped-trusting-done-from-my-ai-now-i-ask-three-questions-4lab",
+          "minutes": 5
         },
         {
-          "title": "My AI memory marked 471 notes as verified. Nothing had verified them.",
-          "url": "https://dev.to/heinrichneb/my-ai-memory-marked-471-notes-as-verified-nothing-had-verified-them-3m87",
-          "minutes": 6
+          "title": "Your Agent’s Model Has an Expiration Date—And Silent Upgrades Are Already Changing Your Output",
+          "url": "https://dev.to/debashish_ghosal/your-agents-model-has-an-expiration-date-read-what-vendors-actually-promise-3khb",
+          "minutes": 3
         }
       ]
     }
