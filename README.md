@@ -7,7 +7,7 @@
 
 ## AI next move
 
-**Reviewed 2026-11-21 by local Codex · Proposed, not implemented**
+**Reviewed 2026-11-26 by local Codex · Proposed, not implemented**
 
 ### Make the backup transport send bytes, with a real socket test
 
@@ -15,7 +15,7 @@
 
 Turn one foundational networking stub into a working, verifiable transport primitive. A reliable send-all function is reusable by both file transfers and protocol headers, and gives the backup project an honest first end-to-end byte-transfer demonstration.
 
-**Why this next:** Fresh November 21 review compared current READMEs and relevant code in three eligible public projects. Backup head adf40a00b1c806972c8dbd28acc7284f3ba19749 still has network\_send\_all ignoring every argument and returning success, and test\_network only checks buffer initialization. These are documented coursework stubs. Channel head 7de3a92172110be2615dc561abd009f13610f7de still assumes valid matrices, and scheduler head e2f991f07db966acf75ec861efc617d0478a7327 still hardcodes input and always plots. The existing backup implementation, test and formatted-line proposals have not become implementations in the inspected source. Retaining a socket-tested byte-transfer primitive remains the most foundational bounded improvement; the numerical CLI and scheduler CLI offer credible usability gains at similar effort but do not unblock transport. Do not advance to dependent formatted-line work yet. This run inspected source only for those projects; their C, numerical and scheduler suites were not executed.
+**Why this next:** Fresh November 26 inspection compared current READMEs and relevant code in three eligible projects. Their heads remain unchanged: backup adf40a00b1c806972c8dbd28acc7284f3ba19749, channel solver 7de3a92172110be2615dc561abd009f13610f7de and scheduler e2f991f07db966acf75ec861efc617d0478a7327. The backup send-all function still ignores all arguments and returns success; its test still only initializes the receive buffer. Existing planning packets do not establish implementation or completion. Retain the bounded socket-tested send-all task rather than moving to its dependent formatted-line helper or forcing novelty. The channel CLI and scheduler CLI still offer useful usability improvements at similar estimated effort, but verified byte transmission is the more foundational prerequisite. The backup README explicitly labels skeletons and stubs, so this is not a newly alleged production regression. No C, numerical or scheduler suites ran in this source review. The API digest remains dated November 25; its collection timestamp is preserved.
 
 *Carried forward after reviewing the previous recommendation.*
 
@@ -35,13 +35,13 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 **Evidence inspected**
 
-- [Source 1](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c): Read November 21 at unchanged backup head: network\_send\_all discards sockfd, data and count and returns zero unconditionally; network\_send\_line and other transport helpers also remain explicit stubs.
-- [Source 2](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c): Read November 21: the network test initializes recv\_buf\_t and checks zero len/start. It does not open sockets or invoke network\_send\_all.
-- [Source 3](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py): Read November 21 at unchanged solver head: blahut\_arimoto converts W, unpacks W.shape and starts probability calculations without explicit channel-matrix validation.
-- [Source 4](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py): Read November 21 at unchanged scheduler head: main hardcodes Processes.txt and a quantum of 10, prints metrics, then unconditionally calls generate\_gantt\_chart.
-- [Source 5](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/README.md): Read November 21: the README describes a file-driven interactive scheduler workflow with console metrics and a Matplotlib Gantt window.
-- [Source 6](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md): Read November 21: the README explicitly labels src as implementation skeletons and stubs and documents reliable framing, make all and make test as part of the coursework project.
-- [Source 7](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md): Read November 21: the README explicitly says the supplied solvers assume valid matrices, documents natural-log gap units, and warns that reaching the iteration limit does not ensure convergence.
+- [Source 1](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c): Read November 26 at unchanged backup head: network\_send\_all discards sockfd, data and count and returns zero unconditionally; network\_send\_line and other transport helpers also remain explicit stubs.
+- [Source 2](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c): Read November 26: the network test initializes recv\_buf\_t and checks zero len/start. It does not open sockets or invoke network\_send\_all.
+- [Source 3](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py): Read November 26 at unchanged solver head: blahut\_arimoto converts W, unpacks W.shape and starts probability calculations without explicit channel-matrix validation.
+- [Source 4](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py): Read November 26 at unchanged scheduler head: main hardcodes Processes.txt and a quantum of 10, prints metrics, then unconditionally calls generate\_gantt\_chart.
+- [Source 5](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/README.md): Read November 26: the README describes a file-driven interactive scheduler workflow with console metrics and a Matplotlib Gantt window.
+- [Source 6](https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md): Read November 26: the README explicitly labels src as implementation skeletons and stubs and documents reliable framing, make all and make test as part of the coursework project.
+- [Source 7](https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md): Read November 26: the README explicitly says the supplied solvers assume valid matrices, documents natural-log gap units, and warns that reaching the iteration limit does not ensure convergence.
 
 **Other ideas considered**
 

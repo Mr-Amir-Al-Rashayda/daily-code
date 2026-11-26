@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-26",
   "generated_by": "Codex local",
   "status": "proposed",
   "project": "cloud-backup-system",
   "title": "Make the backup transport send bytes, with a real socket test",
   "value": "Turn one foundational networking stub into a working, verifiable transport primitive. A reliable send-all function is reusable by both file transfers and protocol headers, and gives the backup project an honest first end-to-end byte-transfer demonstration.",
-  "why_now": "Fresh November 21 review compared current READMEs and relevant code in three eligible public projects. Backup head adf40a00b1c806972c8dbd28acc7284f3ba19749 still has network_send_all ignoring every argument and returning success, and test_network only checks buffer initialization. These are documented coursework stubs. Channel head 7de3a92172110be2615dc561abd009f13610f7de still assumes valid matrices, and scheduler head e2f991f07db966acf75ec861efc617d0478a7327 still hardcodes input and always plots. The existing backup implementation, test and formatted-line proposals have not become implementations in the inspected source. Retaining a socket-tested byte-transfer primitive remains the most foundational bounded improvement; the numerical CLI and scheduler CLI offer credible usability gains at similar effort but do not unblock transport. Do not advance to dependent formatted-line work yet. This run inspected source only for those projects; their C, numerical and scheduler suites were not executed.",
+  "why_now": "Fresh November 26 inspection compared current READMEs and relevant code in three eligible projects. Their heads remain unchanged: backup adf40a00b1c806972c8dbd28acc7284f3ba19749, channel solver 7de3a92172110be2615dc561abd009f13610f7de and scheduler e2f991f07db966acf75ec861efc617d0478a7327. The backup send-all function still ignores all arguments and returns success; its test still only initializes the receive buffer. Existing planning packets do not establish implementation or completion. Retain the bounded socket-tested send-all task rather than moving to its dependent formatted-line helper or forcing novelty. The channel CLI and scheduler CLI still offer useful usability improvements at similar estimated effort, but verified byte transmission is the more foundational prerequisite. The backup README explicitly labels skeletons and stubs, so this is not a newly alleged production regression. No C, numerical or scheduler suites ran in this source review. The API digest remains dated November 25; its collection timestamp is preserved.",
   "effort": "About 2-3 hours on Linux or WSL, including focused socket tests",
   "carry_forward": true,
   "steps": [
@@ -23,31 +23,31 @@
   "evidence": [
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c",
-      "observation": "Read November 21 at unchanged backup head: network_send_all discards sockfd, data and count and returns zero unconditionally; network_send_line and other transport helpers also remain explicit stubs."
+      "observation": "Read November 26 at unchanged backup head: network_send_all discards sockfd, data and count and returns zero unconditionally; network_send_line and other transport helpers also remain explicit stubs."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c",
-      "observation": "Read November 21: the network test initializes recv_buf_t and checks zero len/start. It does not open sockets or invoke network_send_all."
+      "observation": "Read November 26: the network test initializes recv_buf_t and checks zero len/start. It does not open sockets or invoke network_send_all."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py",
-      "observation": "Read November 21 at unchanged solver head: blahut_arimoto converts W, unpacks W.shape and starts probability calculations without explicit channel-matrix validation."
+      "observation": "Read November 26 at unchanged solver head: blahut_arimoto converts W, unpacks W.shape and starts probability calculations without explicit channel-matrix validation."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py",
-      "observation": "Read November 21 at unchanged scheduler head: main hardcodes Processes.txt and a quantum of 10, prints metrics, then unconditionally calls generate_gantt_chart."
+      "observation": "Read November 26 at unchanged scheduler head: main hardcodes Processes.txt and a quantum of 10, prints metrics, then unconditionally calls generate_gantt_chart."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/README.md",
-      "observation": "Read November 21: the README describes a file-driven interactive scheduler workflow with console metrics and a Matplotlib Gantt window."
+      "observation": "Read November 26: the README describes a file-driven interactive scheduler workflow with console metrics and a Matplotlib Gantt window."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md",
-      "observation": "Read November 21: the README explicitly labels src as implementation skeletons and stubs and documents reliable framing, make all and make test as part of the coursework project."
+      "observation": "Read November 26: the README explicitly labels src as implementation skeletons and stubs and documents reliable framing, make all and make test as part of the coursework project."
     },
     {
       "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md",
-      "observation": "Read November 21: the README explicitly says the supplied solvers assume valid matrices, documents natural-log gap units, and warns that reaching the iteration limit does not ensure convergence."
+      "observation": "Read November 26: the README explicitly says the supplied solvers assume valid matrices, documents natural-log gap units, and warns that reaching the iteration limit does not ensure convergence."
     }
   ],
   "alternatives": [
