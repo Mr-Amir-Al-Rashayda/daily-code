@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-28",
+  "generated_by": "Codex local",
+  "status": "proposed",
+  "project": "cloud-backup-system",
+  "title": "Make the backup transport send bytes, with a real socket test",
+  "value": "Turn one foundational networking stub into a working, verifiable transport primitive. A reliable send-all function is reusable by both file transfers and protocol headers, and gives the backup project an honest first end-to-end byte-transfer demonstration.",
+  "why_now": "Fresh November 28 inspection compared current READMEs and code across three eligible projects. Backup head adf40a00b1c806972c8dbd28acc7284f3ba19749 still has a success-only network_send_all stub, and test_network only checks receive-buffer initialization. Channel head 7de3a92172110be2615dc561abd009f13610f7de still assumes valid input matrices; scheduler head e2f991f07db966acf75ec861efc617d0478a7327 still fixes its input and always plots. All inspected heads are unchanged. Carry forward the bounded send-all implementation with a real independent socket receiver: it unlocks later file/protocol work and has a clearer functional payoff than the numerical or scheduler CLI alternatives at similar effort. Prior planning entries are not completed code. The backup README labels implementation skeletons and stubs, so this is unfinished coursework rather than a newly alleged regression. No C, numerical or scheduler suites ran during this source review. The latest API snapshot remains dated November 27; its collection timestamp is preserved.",
+  "effort": "About 2-3 hours on Linux or WSL, including focused socket tests",
+  "carry_forward": true,
+  "steps": [
+    "Implement only network_send_all against its existing header contract: advance through short writes, retry interrupted sends, and return an error on actual failure or a zero-progress send instead of looping forever or reporting success.",
+    "Define and document edge cases for zero-length input and invalid arguments. Choose a platform-appropriate SIGPIPE policy so sending to a disconnected peer returns an error instead of unexpectedly terminating the process; retain the project's stated Linux/macOS portability where supported.",
+    "Extend test_network with an actual socketpair transfer and an independent receiver, comparing an exact binary payload including zero bytes. Drain large payloads concurrently so the test cannot deadlock on socket-buffer capacity.",
+    "Add focused short-write and EINTR coverage through a controlled test seam or equivalent deterministic technique, plus disconnected-peer and zero-length cases. Run the existing make test and CI workflow and document that other networking functions remain stubs."
+  ],
+  "acceptance_checks": [
+    "A local socketpair receiver obtains the exact payload and byte count for both a small binary buffer and a payload larger than normal socket-buffer capacity.",
+    "Deterministic short writes and interrupted calls complete correctly without dropped or duplicated bytes; zero-progress and permanent errors terminate with the documented error result.",
+    "A disconnected peer does not produce a false success or unexpected SIGPIPE process termination, and the zero-length case behaves as documented.",
+    "Existing project tests still pass, the new transport tests actually exercise network_send_all, and documentation does not claim the remaining listener, receive, or connection stubs are complete."
+  ],
+  "evidence": [
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/src/common/network.c",
+      "observation": "Read November 28 at unchanged backup head: network_send_all discards sockfd, data and count and returns zero unconditionally; network_send_line and other transport helpers also remain explicit stubs."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/tests/test_network.c",
+      "observation": "Read November 28: the network test initializes recv_buf_t and checks zero len/start. It does not open sockets or invoke network_send_all."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/Code/ba_core.py",
+      "observation": "Read November 28 at unchanged solver head: blahut_arimoto converts W, unpacks W.shape and starts probability calculations without explicit channel-matrix validation."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/OS_Amir.py",
+      "observation": "Read November 28 at unchanged scheduler head: main hardcodes Processes.txt and a quantum of 10, prints metrics, then unconditionally calls generate_gantt_chart."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation/blob/e2f991f07db966acf75ec861efc617d0478a7327/README.md",
+      "observation": "Read November 28: the README describes a file-driven interactive scheduler workflow with console metrics and a Matplotlib Gantt window."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/cloud-backup-system/blob/adf40a00b1c806972c8dbd28acc7284f3ba19749/README.md",
+      "observation": "Read November 28: the README explicitly labels src as implementation skeletons and stubs and documents reliable framing, make all and make test as part of the coursework project."
+    },
+    {
+      "url": "https://github.com/Mr-Amir-Al-Rashayda/accelerated-blahut-arimoto/blob/7de3a92172110be2615dc561abd009f13610f7de/README.md",
+      "observation": "Read November 28: the README explicitly says the supplied solvers assume valid matrices, documents natural-log gap units, and warns that reaching the iteration limit does not ensure convergence."
+    }
+  ],
+  "alternatives": [
+    {
+      "project": "accelerated-blahut-arimoto",
+      "title": "Build the previously proposed validated custom-channel runner",
+      "reason_not_selected": "A validated custom-channel runner would help students supply safe inputs, at an estimated 2-4 hours. Current README and ba_core.py provide strong evidence, but this repeats an existing unimplemented usability proposal; making the backup transport actually send bytes offers a more foundational functional gain with a precise receiver-based check."
+    },
+    {
+      "project": "CPU-Scheduler-Simulation",
+      "title": "Add configurable input and a headless metrics mode",
+      "reason_not_selected": "A configurable headless scheduler would improve repeatable classroom runs, at an estimated 2-4 hours plus metrics verification. Current main and README confirm fixed input and interactive plotting. Its usability benefit is credible, but transport behavior has a narrower directly observable acceptance boundary and remains an unmet prerequisite."
+    }
+  ]
+}
