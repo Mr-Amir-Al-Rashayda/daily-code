@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-26.md)
+[Open today's full issue →](digests/2026/11/2026-11-27.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [CPU-Scheduler-Simulation](https://github.com/Mr-Amir-Al-Rashayda/CPU-Scheduler-Simulation)
+### [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-)
 
 Explore the source and documentation for this project.
 
-**Stack:** Python · **Stars:** 0
+**Stack:** Jupyter Notebook · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [pruebaRep](https://github.com/Mr-Amir-Al-Rashayda/pruebaRep). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [-6-bit-Signed-Unsigned-Comparator-in-Verilog](https://github.com/Mr-Amir-Al-Rashayda/-6-bit-Signed-Unsigned-Comparator-in-Verilog). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [NP\_R ≠ PAR\_R](https://github.com/samueleverett01/bss-permanent-separations) — 57 points · [33 comments](https://news.ycombinator.com/item?id=50657059)
-- [AMD Specific Patches for Llama.cpp](https://devnull.land/amd-specific-llama-cpp) — 36 points · [5 comments](https://news.ycombinator.com/item?id=50657265)
-- [Intel One Mono font](https://github.com/intel/intel-one-mono) — 347 points · [196 comments](https://news.ycombinator.com/item?id=50653667)
-- [Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening](https://scottaaronson.blog/?p=10379) — 1876 points · [1718 comments](https://news.ycombinator.com/item?id=50646108)
-- [Show HN: Three Linux VMs in a browser tab, each running a different browser](https://michidk.github.io/sidebyside/) — 36 points · [11 comments](https://news.ycombinator.com/item?id=50656036)
+- [Show HN: bouncemarket – a live prediction market game for a bouncing ball](https://bouncemarket.minhanhday.com/) — 187 points · [49 comments](https://news.ycombinator.com/item?id=50667726)
+- [Credit card skimming scripts using WebRTC found on popular shopping sites](https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer) — 83 points · [34 comments](https://news.ycombinator.com/item?id=50668145)
+- [First images of the impact of DART asteroid deflection experiment](https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/) — 108 points · [34 comments](https://news.ycombinator.com/item?id=50657392)
+- [False computer-checked proofs](https://cr.yp.to/proofs/falseccp.html) — 52 points · [21 comments](https://news.ycombinator.com/item?id=50667989)
+- [Group chat where your AI talks behind your back](https://construct22.com/) — 559 points · [243 comments](https://news.ycombinator.com/item?id=50663595)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Why Can't We Just #include "functions.c" in "main.c"? 🤔](https://dev.to/necoz/why-cant-we-just-include-functionsc-in-mainc-1a73) · 3 min read
-- [When does a design decision become an architectural decision?](https://dev.to/damcosset/when-does-a-design-decision-become-an-architectural-decision-54c7) · 4 min read
-- [November's worst CVEs weren't clever. They were bad assumptions about state.](https://dev.to/cyclopt_dimitrisk/novembers-worst-cves-werent-clever-they-were-bad-assumptions-about-state-1dpg) · 3 min read
-- [The 3-check rule I use before I accept any AI coding task (free repo inside)](https://dev.to/heinrichneb/i-stopped-trusting-done-from-my-ai-now-i-ask-three-questions-4lab) · 5 min read
-- [Your Agent’s Model Has an Expiration Date—And Silent Upgrades Are Already Changing Your Output](https://dev.to/debashish_ghosal/your-agents-model-has-an-expiration-date-read-what-vendors-actually-promise-3khb) · 3 min read
+- [Before You Trust the Canary, Plant a Bug](https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a) · 10 min read
+- [Zero Repeat Regressions: The Golden Metric &amp; The Future of Agentic Trust](https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857) · 19 min read
+- [How I built my own OS](https://dev.to/cloudwerx/how-i-built-my-own-os-942) · 30 min read
+- [C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All](https://dev.to/georgekobaidze/c-15-unpacked-popping-the-hood-on-labeled-loops-and-finding-no-labels-at-all-4ci0) · 6 min read
+- [I Built a Programming Language in Bhojpuri from Scratch Using Go](https://dev.to/official_fire/i-built-a-programming-language-in-bhojpuri-from-scratch-using-go-3fcl) · 4 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-26 17:42 UTC |
-| hacker_news | live | 2026-11-26 17:42 UTC |
-| dev | live | 2026-11-26 17:42 UTC |
+| github | live | 2026-11-27 17:27 UTC |
+| hacker_news | live | 2026-11-27 17:27 UTC |
+| dev | live | 2026-11-27 17:27 UTC |
 
 ## How it works
 
