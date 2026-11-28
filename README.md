@@ -3,7 +3,7 @@
 <p align="center"><strong>A living developer journal. Public APIs in, useful daily signals out.</strong></p>
 <p align="center"><a href="digests/README.md">Daily issues</a> · <a href="plans/README.md">AI planning journal</a> · <a href="data/latest.json">Open data</a> · <a href="https://github.com/Mr-Amir-Al-Rashayda">My GitHub</a></p>
 
-[Open today's full issue →](digests/2026/11/2026-11-27.md)
+[Open today's full issue →](digests/2026/11/2026-11-28.md)
 
 ## AI next move
 
@@ -51,35 +51,35 @@ Turn one foundational networking stub into a working, verifiable transport primi
 
 ## Project spotlight
 
-### [Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-](https://github.com/Mr-Amir-Al-Rashayda/Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-)
+### [gsg\_level\_3\_codes](https://github.com/Mr-Amir-Al-Rashayda/gsg_level_3_codes)
 
 Explore the source and documentation for this project.
 
-**Stack:** Jupyter Notebook · **Stars:** 0
+**Stack:** C · **Stars:** 0
 
 ## One small portfolio improvement
 
-Add a one-line description to [-6-bit-Signed-Unsigned-Comparator-in-Verilog](https://github.com/Mr-Amir-Al-Rashayda/-6-bit-Signed-Unsigned-Comparator-in-Verilog). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
+Add a one-line description to [Asal-Backend-Tasks](https://github.com/Mr-Amir-Al-Rashayda/Asal-Backend-Tasks). Explain the problem it solves and its main technology. This is a suggestion; no changes were made to that project.
 
 ## Around the developer community
 
 Top Hacker News stories at collection time. Community links, not endorsements.
 
-- [Show HN: bouncemarket – a live prediction market game for a bouncing ball](https://bouncemarket.minhanhday.com/) — 187 points · [49 comments](https://news.ycombinator.com/item?id=50667726)
-- [Credit card skimming scripts using WebRTC found on popular shopping sites](https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer) — 83 points · [34 comments](https://news.ycombinator.com/item?id=50668145)
-- [First images of the impact of DART asteroid deflection experiment](https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/) — 108 points · [34 comments](https://news.ycombinator.com/item?id=50657392)
-- [False computer-checked proofs](https://cr.yp.to/proofs/falseccp.html) — 52 points · [21 comments](https://news.ycombinator.com/item?id=50667989)
-- [Group chat where your AI talks behind your back](https://construct22.com/) — 559 points · [243 comments](https://news.ycombinator.com/item?id=50663595)
+- [Farewell](https://github.com/p-e-w/heretic/issues/601) — 628 points · [271 comments](https://news.ycombinator.com/item?id=50676672)
+- [Audible removes download option for purchased audiobooks](https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks) — 299 points · [131 comments](https://news.ycombinator.com/item?id=50676723)
+- [Claude Code sabotage: preliminary benchmarking](https://xinyadu.github.io/blog/claude-code-sabotage.html) — 366 points · [133 comments](https://news.ycombinator.com/item?id=50676390)
+- [Physics Breakthrough Simulator](https://pages.ethanmdavidson.com/ai-physics-breakthrough) — 46 points · [8 comments](https://news.ycombinator.com/item?id=50678273)
+- [GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims](https://malspark.com/blog/malicious-gguf-models-hugging-face/) — 101 points · [35 comments](https://news.ycombinator.com/item?id=50676752)
 
 ## Read & learn
 
 Popular programming articles on DEV. Original articles stay with their authors.
 
-- [Before You Trust the Canary, Plant a Bug](https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a) · 10 min read
 - [Zero Repeat Regressions: The Golden Metric &amp; The Future of Agentic Trust](https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857) · 19 min read
-- [How I built my own OS](https://dev.to/cloudwerx/how-i-built-my-own-os-942) · 30 min read
-- [C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All](https://dev.to/georgekobaidze/c-15-unpacked-popping-the-hood-on-labeled-loops-and-finding-no-labels-at-all-4ci0) · 6 min read
-- [I Built a Programming Language in Bhojpuri from Scratch Using Go](https://dev.to/official_fire/i-built-a-programming-language-in-bhojpuri-from-scratch-using-go-3fcl) · 4 min read
+- [Building The Wisp Family: Local Sub-30ms Code-Autocomplete Models Trained on One Mac](https://dev.to/philipjohnbasile/building-the-wisp-family-local-sub-30ms-code-autocomplete-models-trained-on-one-mac-4718) · 8 min read
+- [C# 15 Unpacked: Closed Hierarchies, the Members-Only Club for Your Classes](https://dev.to/georgekobaidze/c-15-unpacked-closed-hierarchies-the-members-only-club-for-your-classes-58dc) · 6 min read
+- [Building More Than Projects: How We Can Grow Together as a Developer Community](https://dev.to/necoz/building-more-than-projects-how-we-can-grow-together-as-a-developer-community-3bgl) · 3 min read
+- [Give me 5 minutes per test and I'll show you if it can fail](https://dev.to/heinrichneb/my-ai-wrote-a-safety-check-it-stayed-green-without-the-feature-1749) · 5 min read
 
 ## My public project mix
 
@@ -89,9 +89,9 @@ Popular programming articles on DEV. Original articles stay with their authors.
 
 | Source | Status | Last successful fetch (UTC) |
 | :-- | :-- | :-- |
-| github | live | 2026-11-27 17:27 UTC |
-| hacker_news | live | 2026-11-27 17:27 UTC |
-| dev | live | 2026-11-27 17:27 UTC |
+| github | live | 2026-11-28 16:10 UTC |
+| hacker_news | live | 2026-11-28 16:10 UTC |
+| dev | live | 2026-11-28 16:10 UTC |
 
 ## How it works
 

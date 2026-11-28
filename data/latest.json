@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "sources": {
     "github": {
       "status": "live",
-      "fetched_at": "2026-11-27 17:27 UTC",
+      "fetched_at": "2026-11-28 16:10 UTC",
       "data": [
         {
           "name": "-6-bit-Signed-Unsigned-Comparator-in-Verilog",
@@ -59,7 +59,7 @@
           "description": "Daily Signal: public API briefings, project spotlights and an evidence-backed AI planning journal.",
           "language": "Python",
           "stargazers_count": 0,
-          "pushed_at": "2026-11-26T17:42:44Z"
+          "pushed_at": "2026-11-27T23:27:44Z"
         },
         {
           "name": "Data-Cleaning-and-Feature-Engineering-for-the-Titanic-Dataset-",
@@ -163,73 +163,73 @@
     },
     "hacker_news": {
       "status": "live",
-      "fetched_at": "2026-11-27 17:27 UTC",
+      "fetched_at": "2026-11-28 16:10 UTC",
       "data": [
         {
-          "title": "Show HN: bouncemarket – a live prediction market game for a bouncing ball",
-          "url": "https://bouncemarket.minhanhday.com/",
-          "discussion": "https://news.ycombinator.com/item?id=50667726",
-          "score": 187,
-          "comments": 49
+          "title": "Farewell",
+          "url": "https://github.com/p-e-w/heretic/issues/601",
+          "discussion": "https://news.ycombinator.com/item?id=50676672",
+          "score": 628,
+          "comments": 271
         },
         {
-          "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
-          "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
-          "discussion": "https://news.ycombinator.com/item?id=50668145",
-          "score": 83,
-          "comments": 34
+          "title": "Audible removes download option for purchased audiobooks",
+          "url": "https://consumerrights.wiki/w/Audible_removes_download_option_for_purchased_audiobooks",
+          "discussion": "https://news.ycombinator.com/item?id=50676723",
+          "score": 299,
+          "comments": 131
         },
         {
-          "title": "First images of the impact of DART asteroid deflection experiment",
-          "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
-          "discussion": "https://news.ycombinator.com/item?id=50657392",
-          "score": 108,
-          "comments": 34
+          "title": "Claude Code sabotage: preliminary benchmarking",
+          "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+          "discussion": "https://news.ycombinator.com/item?id=50676390",
+          "score": 366,
+          "comments": 133
         },
         {
-          "title": "False computer-checked proofs",
-          "url": "https://cr.yp.to/proofs/falseccp.html",
-          "discussion": "https://news.ycombinator.com/item?id=50667989",
-          "score": 52,
-          "comments": 21
+          "title": "Physics Breakthrough Simulator",
+          "url": "https://pages.ethanmdavidson.com/ai-physics-breakthrough",
+          "discussion": "https://news.ycombinator.com/item?id=50678273",
+          "score": 46,
+          "comments": 8
         },
         {
-          "title": "Group chat where your AI talks behind your back",
-          "url": "https://construct22.com/",
-          "discussion": "https://news.ycombinator.com/item?id=50663595",
-          "score": 559,
-          "comments": 243
+          "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+          "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+          "discussion": "https://news.ycombinator.com/item?id=50676752",
+          "score": 101,
+          "comments": 35
         }
       ]
     },
     "dev": {
       "status": "live",
-      "fetched_at": "2026-11-27 17:27 UTC",
+      "fetched_at": "2026-11-28 16:10 UTC",
       "data": [
-        {
-          "title": "Before You Trust the Canary, Plant a Bug",
-          "url": "https://dev.to/copyleftdev/before-you-trust-the-canary-plant-a-bug-1k5a",
-          "minutes": 10
-        },
         {
           "title": "Zero Repeat Regressions: The Golden Metric & The Future of Agentic Trust",
           "url": "https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857",
           "minutes": 19
         },
         {
-          "title": "How I built my own OS",
-          "url": "https://dev.to/cloudwerx/how-i-built-my-own-os-942",
-          "minutes": 30
+          "title": "Building The Wisp Family: Local Sub-30ms Code-Autocomplete Models Trained on One Mac",
+          "url": "https://dev.to/philipjohnbasile/building-the-wisp-family-local-sub-30ms-code-autocomplete-models-trained-on-one-mac-4718",
+          "minutes": 8
         },
         {
-          "title": "C# 15 Unpacked: Popping the Hood on Labeled Loops and Finding No Labels at All",
-          "url": "https://dev.to/georgekobaidze/c-15-unpacked-popping-the-hood-on-labeled-loops-and-finding-no-labels-at-all-4ci0",
+          "title": "C# 15 Unpacked: Closed Hierarchies, the Members-Only Club for Your Classes",
+          "url": "https://dev.to/georgekobaidze/c-15-unpacked-closed-hierarchies-the-members-only-club-for-your-classes-58dc",
           "minutes": 6
         },
         {
-          "title": "I Built a Programming Language in Bhojpuri from Scratch Using Go",
-          "url": "https://dev.to/official_fire/i-built-a-programming-language-in-bhojpuri-from-scratch-using-go-3fcl",
-          "minutes": 4
+          "title": "Building More Than Projects: How We Can Grow Together as a Developer Community",
+          "url": "https://dev.to/necoz/building-more-than-projects-how-we-can-grow-together-as-a-developer-community-3bgl",
+          "minutes": 3
+        },
+        {
+          "title": "Give me 5 minutes per test and I'll show you if it can fail",
+          "url": "https://dev.to/heinrichneb/my-ai-wrote-a-safety-check-it-stayed-green-without-the-feature-1749",
+          "minutes": 5
         }
       ]
     }
